@@ -1,8 +1,11 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
+import ElementTest from "./components/elementTest.vue";
+import BookmarkBlock from "./components/BookmarkBlock.vue";
 </script>
 
 <template>
+  <BookmarkBlock></BookmarkBlock>
   <div>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
@@ -11,6 +14,7 @@ import HelloWorld from './components/HelloWorld.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
+  <element-test></element-test>
   <HelloWorld msg="Vite + Vue" />
 </template>
 
