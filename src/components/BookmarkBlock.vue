@@ -15,6 +15,55 @@ let urlList: UrlBlock = [
     id: nanoid(),
     url: 'https://my.csu.edu.cn/login/index.jsp',
     text: '信息门户'
+  }, {
+    "id": nanoid(),
+    "url": "https://my.csu.edu.cn/login/index.jsp",
+    "text": "信息门户"
+  },
+  {
+    "id": nanoid(),
+    "url": "https://faculty.csu.edu.cn/",
+    "text": "教师信息"
+  },
+  {
+    "id": nanoid(),
+    "url": "https://54sh.csu.edu.cn/tntz/tntz.htm",
+    "text": "升华网通知"
+  },
+  {
+    "id": nanoid(),
+    "url": "https://career.csu.edu.cn/",
+    "text": "就业指导中心"
+  },
+  {
+    "id": nanoid(),
+    "url": "https://portpal.csu.edu.cn/",
+    "text": "上网认证"
+  },
+  {
+    "id": nanoid(),
+    "url": "https://oa.csu.edu.cn/con/ggtz",
+    "text": "校内通知"
+  },
+  {
+    "id": nanoid(),
+    "url": "https://ehall.csu.edu.cn/v2/site/index",
+    "text": "办事大厅"
+  },
+  {
+    "id": nanoid(),
+    "url": "https://oa.csu.edu.cn/mailbox/#",
+    "text": "校长信箱"
+  },
+  {
+    "id": nanoid(),
+    "url": "http://csujwc.its.csu.edu.cn/",
+    "text": "本科生教务"
+  },
+  {
+    "id": nanoid(),
+    "url": "http://gms.csu.edu.cn/",
+    "text": "研究生教务"
   }]
 
 let urlTest: UrlBlock = [
@@ -87,52 +136,46 @@ let urlTest: UrlBlock = [
   <el-container class=".container">
     <el-main>
 
+      <el-space
+          :size="size"
+          alignment="stretch"
+          wrap>
 
-      <el-row :gutter="20"
-              align="middle">
-        <!--                <el-col :span="8">-->
-        <el-col :lg="8" :md="12" :sm="16" :xl="24" :xs="24">
-          <el-card>
-            <p slot="header">常用链接</p>
-            <el-button
-                v-for="url in urlList"
-                :key="url.id"
-                :href="url.url"
-                plain
-                size="large"
-                style="width: 100px; height: 50px;"
-                tag="a"
-                target="_blank"
-                text
-            >
-              {{ url.text }}
-            </el-button>
-          </el-card>
+        <el-card style="width: 380px">
+          <p slot="header">常用链接</p>
+          <el-button
+              v-for="url in urlList"
+              :key="url.id"
+              :href="url.url"
+              plain
+              size="large"
+              style="margin: 10px;padding: 10px;width: 90px"
+              tag="a"
+              target="_blank"
+              text
+          >
+            {{ url.text }}
+          </el-button>
+        </el-card>
 
+        <el-card style="width: 380px">
+          <p slot="header">simple url test</p>
 
-        </el-col>
-        <el-col :lg="8" :md="12" :sm="16" :xl="24" :xs="24">
-
-          <el-card>
-            <p slot="header">simple url test</p>
-
-            <el-button
-                v-for="url in urlTest"
-                :key="url.id"
-                :href="url.url"
-                plain
-                size="large"
-                style="margin: 10px;padding: 10px;width: 90px"
-                tag="a"
-                target="_blank"
-                text
-            >
-              {{ url.text }}
-            </el-button>
-          </el-card>
-
-        </el-col>
-      </el-row>
+          <el-button
+              v-for="url in urlTest"
+              :key="url.id"
+              :href="url.url"
+              plain
+              size="large"
+              style="margin: 10px;padding: 10px;width: 90px"
+              tag="a"
+              target="_blank"
+              text
+          >
+            {{ url.text }}
+          </el-button>
+        </el-card>
+      </el-space>
     </el-main>
   </el-container>
 </template>
