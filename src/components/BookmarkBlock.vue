@@ -1,7 +1,9 @@
 <script lang="ts" setup>
 import {nanoid} from "nanoid";
 import {type UrlBlock} from "../types";
+import {ref} from "vue";
 
+const size = ref(20)
 let urlList: UrlBlock = [
   {
     id: nanoid(),
@@ -84,12 +86,12 @@ let urlTest: UrlBlock = [
 <template>
   <el-container class=".container">
     <el-main>
-      <col>
+
+
       <el-row :gutter="20"
               align="middle">
         <!--                <el-col :span="8">-->
         <el-col :lg="8" :md="12" :sm="16" :xl="24" :xs="24">
-
           <el-card>
             <p slot="header">常用链接</p>
             <el-button
@@ -107,10 +109,9 @@ let urlTest: UrlBlock = [
             </el-button>
           </el-card>
 
-        </el-col>
-        <!--                <el-col :span="8">-->
-        <el-col :lg="8" :md="12" :sm="16" :xl="24" :xs="24">
 
+        </el-col>
+        <el-col :lg="8" :md="12" :sm="16" :xl="24" :xs="24">
 
           <el-card>
             <p slot="header">simple url test</p>
@@ -129,6 +130,7 @@ let urlTest: UrlBlock = [
               {{ url.text }}
             </el-button>
           </el-card>
+
         </el-col>
       </el-row>
     </el-main>

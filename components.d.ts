@@ -15,6 +15,7 @@ declare module 'vue' {
     ElementTest: typeof import('./src/components/elementTest.vue')['default']
     ElMain: typeof import('element-plus/es')['ElMain']
     ElRow: typeof import('element-plus/es')['ElRow']
+    ElSpace: typeof import('element-plus/es')['ElSpace']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
   }
 }
