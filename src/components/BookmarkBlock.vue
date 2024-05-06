@@ -7,7 +7,7 @@ let urlList: UrlBlock = [
     id: nanoid(),
     url: 'https://lib.csu.edu.cn/',
     text: '图书馆',
-    note: ''
+    detail: ''
   },
   {
     id: nanoid(),
@@ -29,7 +29,7 @@ let urlTest: UrlBlock = [
   {
     "id": nanoid(),
     "url": "https://faculty.csu.edu.cn/",
-    "text": "教师信息查询"
+    "text": "教师信息"
   },
   {
     "id": nanoid(),
@@ -75,11 +75,6 @@ let urlTest: UrlBlock = [
     "id": nanoid(),
     "url": "https://lms.csu.edu.cn/login",
     "text": "教学可视化"
-  },
-  {
-    "id": nanoid(),
-    "url": "https://ms.csu.edu.cn/",
-    "text": "正版软件"
   }
 ]
 
@@ -87,50 +82,57 @@ let urlTest: UrlBlock = [
 </script>
 
 <template>
-  <col>
-  <el-row :gutter="20">
-    <el-col :span="8">
+  <el-container class=".container">
+    <el-main>
+      <col>
+      <el-row :gutter="20"
+              align="middle">
+        <!--                <el-col :span="8">-->
+        <el-col :lg="8" :md="12" :sm="16" :xl="24" :xs="24">
 
-      <el-card>
-        <p slot="header">常用链接</p>
-        <el-button
-            v-for="url in urlList"
-            :key="url.id"
-            :href="url.url"
-            plain
-            size="large"
-            style="width: 100px; height: 50px;"
-            tag="a"
-            target="_blank"
-            text
-        >
-          {{ url.text }}
-        </el-button>
-      </el-card>
+          <el-card>
+            <p slot="header">常用链接</p>
+            <el-button
+                v-for="url in urlList"
+                :key="url.id"
+                :href="url.url"
+                plain
+                size="large"
+                style="width: 100px; height: 50px;"
+                tag="a"
+                target="_blank"
+                text
+            >
+              {{ url.text }}
+            </el-button>
+          </el-card>
 
-    </el-col>
-    <el-col :span="8">
+        </el-col>
+        <!--                <el-col :span="8">-->
+        <el-col :lg="8" :md="12" :sm="16" :xl="24" :xs="24">
 
-      <el-card>
-        <p slot="header">simple url test</p>
 
-        <el-button
-            v-for="url in urlTest"
+          <el-card>
+            <p slot="header">simple url test</p>
 
-            :key="url.id"
-            :href="url.url"
-            plain
-            size="large"
-            style="margin: 10px;padding: 10px; border:1px solid orange;"
-            tag="a"
-            target="_blank"
-        >
-          {{ url.text }}
-        </el-button>
-      </el-card>
-    </el-col>
-  </el-row>
-
+            <el-button
+                v-for="url in urlTest"
+                :key="url.id"
+                :href="url.url"
+                plain
+                size="large"
+                style="margin: 10px;padding: 10px;width: 90px"
+                tag="a"
+                target="_blank"
+                text
+            >
+              {{ url.text }}
+            </el-button>
+          </el-card>
+        </el-col>
+      </el-row>
+    </el-main>
+  </el-container>
 </template>
 
 <style lang="scss" scoped>
@@ -155,5 +157,10 @@ let urlTest: UrlBlock = [
 .grid-content {
   border-radius: 4px;
   min-height: 36px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 </style>

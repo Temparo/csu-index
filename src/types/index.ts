@@ -3,7 +3,7 @@ interface UrlInter {
     id: string,
     url: string,
     text: string
-    note?: string
+    detail?: string
 }
 
 export type UrlBlock = Array<UrlInter>
