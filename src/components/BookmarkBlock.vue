@@ -2,7 +2,7 @@
 import {ref} from "vue";
 import useUrlList from "../hooks/useUrlList";
 
-const {urlList1, urlList2} = useUrlList()
+const {urlList1, urlList2, urlList3, urlList4, urlList5, urlList6} = useUrlList()
 const size = ref(20)
 
 
