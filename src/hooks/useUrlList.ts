@@ -1,5 +1,5 @@
 import {nanoid} from "nanoid";
-import {type UrlBlock} from "../types";
+import {FullUrlInfo, type UrlBlock} from "../types";
 
 export default function () {
     let urlList1: UrlBlock = [
@@ -281,5 +281,15 @@ export default function () {
             "detail": "微信小程序搜索也可以找到"
         }
     ]
-    return {urlList1, urlList2, urlList3, urlList4, urlList5, urlList6}
+    let fullUrlBlock: Array<FullUrlInfo> = [
+        {cardName: "中南教务", urlList: urlList1},
+        {cardName: "中南其他", urlList: urlList2},
+        {cardName: "学术", urlList: urlList3},
+        {cardName: "实用工具", urlList: urlList4},
+        {cardName: "是否添加", urlList: urlList5},
+        {cardName: "新生入学", urlList: urlList6}
+    ]
+
+
+    return {fullUrlBlock}
 }

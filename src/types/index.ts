@@ -7,3 +7,8 @@ interface UrlInter {
 }
 
 export type UrlBlock = Array<UrlInter>
+
+export interface FullUrlInfo {
+    cardName: string,
+    urlList: UrlBlock
+}

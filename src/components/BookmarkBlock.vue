@@ -1,10 +1,10 @@
 <script lang="ts" setup>
 import {ref} from "vue";
 import useUrlList from "../hooks/useUrlList";
+import {nanoid} from "nanoid";
 
-const {urlList1, urlList2, urlList3, urlList4, urlList5, urlList6} = useUrlList()
-const size = ref(20)
-
+const {fullUrlBlock} = useUrlList()
+const size = ref(18)
 
 </script>
 
@@ -15,30 +15,24 @@ const size = ref(20)
       <el-space
           :size="size"
           alignment="stretch"
-          wrap>
+          wrap
+      >
 
-        <el-card style="width: 380px">
-          <p slot="header">常用链接</p>
-          <el-button
-              v-for="url in urlList1"
-              :key="url.id"
-              :href="url.url"
-              plain
-              size="large"
-              style="margin: 10px;padding: 10px;width: 90px"
-              tag="a"
-              target="_blank"
-              text
-          >
-            {{ url.text }}
-          </el-button>
-        </el-card>
+        <el-card v-for="{cardName,urlList} in fullUrlBlock "
+                 :key="nanoid()" class="box-card"
+                 style="width: 370px">
 
-        <el-card style="width: 380px">
-          <p slot="header">simple url test</p>
+
+          <p slot="header">{{ cardName }}</p>
+          <!--          <template #header>-->
+          <!--            <div class="card-header">-->
+          <!--              <span>{{ cardName }}</span>-->
+          <!--            </div>-->
+          <!--          </template>-->
+
 
           <el-button
-              v-for="url in urlList2"
+              v-for="url in urlList"
               :key="url.id"
               :href="url.url"
               plain
