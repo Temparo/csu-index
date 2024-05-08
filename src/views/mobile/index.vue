@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import {ref} from "vue";
-import useUrlList from "../hooks/useUrlList";
+import useUrlList from "../../hooks/useUrlList";
 import {nanoid} from "nanoid";
 
 const {fullUrlBlock} = useUrlList()
@@ -19,7 +19,7 @@ const size = ref(18)
       >
         <el-card v-for="{cardName,urlList} in fullUrlBlock "
                  :key="nanoid()" class="box-card"
-                 style="width: 370px">
+                 style="width: 18.5rem">
 
 
           <p slot="header">{{ cardName }}</p>
@@ -36,7 +36,8 @@ const size = ref(18)
               :href="url.url"
               plain
               size="large"
-              style="margin: 10px;padding: 10px;width: 90px"
+              style="margin: 10px 5px;
+              padding: 10px;width: 100px"
               tag="a"
               target="_blank"
               text
@@ -57,20 +58,9 @@ const size = ref(18)
 
 .el-card {
   border-radius: 4px;
+  --el-card-padding: 20px;
 }
 
-
-.el-row {
-  margin-bottom: 20px;
-}
-
-.el-row:last-child {
-  margin-bottom: 0;
-}
-
-.el-col {
-  border-radius: 4px;
-}
 
 .grid-content {
   border-radius: 4px;
@@ -78,7 +68,7 @@ const size = ref(18)
 }
 
 .container {
-  max-width: 1200px;
+  //max-width: 1200px;
   margin: 0 auto;
 }
 </style>

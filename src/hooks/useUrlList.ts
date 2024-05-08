@@ -47,12 +47,12 @@ export default function () {
         {
             "id": nanoid(),
             "url": "http://csujwc.its.csu.edu.cn/",
-            "text": "本科教务管理系统"
+            "text": "本科教务"
         },
         {
             "id": nanoid(),
             "url": "http://gms.csu.edu.cn/",
-            "text": "研究生教育管理系统"
+            "text": "研究生教育"
         },
         {
             "id": nanoid(),
