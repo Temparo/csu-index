@@ -1,0 +1,22 @@
+import {nanoid} from "nanoid";
+import {FullUrlInfo, type UrlBlock} from "../types";
+
+export default function () {
+    let urlList1: UrlBlock = <block1>
+    let urlList2: UrlBlock = <block2>
+    let urlList3: UrlBlock = <block3>
+    let urlList4: UrlBlock = <block4>
+    let urlList5: UrlBlock = <block5>
+    let urlList6: UrlBlock = <block6>
+    let fullUrlBlock: Array<FullUrlInfo> = [
+        {cardName: "中南教务", urlList: urlList1},
+        {cardName: "中南其他", urlList: urlList2},
+        {cardName: "学术", urlList: urlList3},
+        {cardName: "实用工具", urlList: urlList4},
+        {cardName: "是否添加", urlList: urlList5},
+        {cardName: "新生入学", urlList: urlList6}
+    ]
+
+
+    return {fullUrlBlock}
+}

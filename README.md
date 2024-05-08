@@ -1,31 +1,40 @@
-# The [CSU](https://www.csu.edu.cn/) navigation
+# The [CSU](https://www.csu.edu.cn/) Navigation
 
-Because the stupid design of the school official site, I would like to create a navigation for most of the students in
-Chinese.
+Because the stupid design of the school official site, I would like to create a navigation for school websites and other
+common websites.
 
 ---
 
-## Roadmap:
+### Roadmap:
 
-- [x] Add the basic layout
+- [x] Add the Basic Layout
 - [ ] Support the Mobile Devices
 - [ ] Deploy on GitHub Pages
-- [ ] Add the Dark Mode
+- [ ] Add Dark Mode
+- [ ] Add Analysis for the Clicks
+- [ ] Add detailed introduction for each link
 - [ ] Global Language Support
 - [ ] Allow Users to Change the Layout by just Dragging
 - [ ] Add the Search Function(Maybe)
 - [ ] Design the Logo
-- [ ] Add the e-guide for the new students
-- [ ] Add icons for the links
+- [ ] Add E-guide for Newcomers
+- [ ] Add Icons for the links
 
 ---
 
-## Vue 3 + TypeScript + Vite + Element Plus
+### The Project is by Vue 3 + TypeScript + Vite + Element Plus.
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+### Contribution:
 
-### Recommended Setup
+- Contribution is welcome, just fork the project and make a pull request.
+- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+  is recommended.Webstorm is also a good choice.
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+### To Do:
 
-- Use [vue-tsc](https://github.com/vuejs/language-tools/tree/master/packages/tsc) for performing the same type checking from the command line, or for generating d.ts files for SFCs.
+#### 新生入学教程及相关信息电子书
+
+- 包括各种各样的初始密码
+- 奖学金助学金获取
+- 中南的班车和各个校区的分布
+- 哪个食堂好吃

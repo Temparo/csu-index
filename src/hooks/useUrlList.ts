@@ -15,17 +15,12 @@ export default function () {
         },
         {
             "id": nanoid(),
-            "url": "https://faculty.csu.edu.cn/",
-            "text": "教师信息查询"
-        },
-        {
-            "id": nanoid(),
             "url": "https://54sh.csu.edu.cn/tntz/tntz.htm",
             "text": "升华网通知"
         },
         {
             "id": nanoid(),
-            "url": "https://portpal.csu.edu.cn/",
+            "url": "https://portal.csu.edu.cn/",
             "text": "上网认证"
         },
         {
@@ -40,19 +35,13 @@ export default function () {
         },
         {
             "id": nanoid(),
-            "url": "https://oa.csu.edu.cn/mailbox/?tp=01",
-            "text": "校长信箱",
-            "detail": "有可能获得与辅导员单独交流的机会,请谨慎发言"
-        },
-        {
-            "id": nanoid(),
             "url": "http://csujwc.its.csu.edu.cn/",
-            "text": "本科教务"
+            "text": "本科生教务"
         },
         {
             "id": nanoid(),
             "url": "http://gms.csu.edu.cn/",
-            "text": "研究生教育"
+            "text": "研究生教务"
         },
         {
             "id": nanoid(),
@@ -61,11 +50,21 @@ export default function () {
         },
         {
             "id": nanoid(),
+            "url": "https://faculty.csu.edu.cn/",
+            "text": "教师信息查询"
+        },
+        {
+            "id": nanoid(),
             "url": "https://ecard.csu.edu.cn/plat-pc/serviceclassification",
             "text": "校园卡中心"
+        },
+        {
+            "id": nanoid(),
+            "url": "https://oa.csu.edu.cn/mailbox/?tp=01",
+            "text": "校长信箱",
+            "detail": "有可能获得与辅导员单独交流的机会,请谨慎发言"
         }
     ]
-
     let urlList2: UrlBlock = [
         {
             "id": nanoid(),
@@ -101,6 +100,35 @@ export default function () {
             "id": nanoid(),
             "url": "https://career.csu.edu.cn/",
             "text": "就业指导中心"
+        },
+        {
+            "id": nanoid(),
+            "url": "https://pan.csu.edu.cn/#/",
+            "text": "中南云盘"
+        },
+        {
+            "id": nanoid(),
+            "url": "https://www.csu.edu.cn/",
+            "text": "导师评价",
+            "detail": "待添加"
+        },
+        {
+            "id": nanoid(),
+            "url": "https://www.csu.edu.cn/",
+            "text": "本科生选课评价",
+            "detail": "待添加"
+        },
+        {
+            "id": nanoid(),
+            "url": "https://www.csu.edu.cn/",
+            "text": "国外留学信息",
+            "detail": "待添加"
+        },
+        {
+            "id": nanoid(),
+            "url": "https://www.csu.edu.cn/",
+            "text": "暑研信息",
+            "detail": "待添加"
         }
     ]
     let urlList3: UrlBlock = [
@@ -152,12 +180,18 @@ export default function () {
         {
             "id": nanoid(),
             "url": "https://www.nsfc.gov.cn/",
-            "text": "自然科学基金委"
+            "text": "NSFC基金委"
         },
         {
             "id": nanoid(),
             "url": "https://www.sci-hub.ru/",
             "text": "SCI-HUB"
+        },
+        {
+            "id": nanoid(),
+            "url": "https://quillbot.com/",
+            "text": "QuillBot",
+            "detail": "论文降重润色总结,这个工具我没有亲自测试"
         }
     ]
     let urlList4: UrlBlock = [
@@ -165,6 +199,18 @@ export default function () {
             "id": nanoid(),
             "url": "https://ol.woobx.cn/",
             "text": "一个木函"
+        },
+        {
+            "id": nanoid(),
+            "url": "https://github.com/features/copilot",
+            "text": "Github Copilot",
+            "detail": "学生注册可免费使用,写代码和代码讲解极其强大,强烈推荐"
+        },
+        {
+            "id": nanoid(),
+            "url": "https://www.originlab.com/",
+            "text": "OriginLab",
+            "detail": "科研绘图工具"
         },
         {
             "id": nanoid(),
@@ -178,15 +224,41 @@ export default function () {
         },
         {
             "id": nanoid(),
-            "url": "强烈推荐",
-            "text": "Github Copilot(强烈推荐)",
-            "detail": "学生注册可免费使用,写代码和代码讲解极其强大"
+            "url": "https://www.jetbrains.com/",
+            "text": "JetBrains",
+            "detail": "开箱即用编程IDE,如PyCharm,IDEA等,有社区版,专业版学生注册后免费"
         },
         {
             "id": nanoid(),
-            "url": "https://www.originlab.com/",
-            "text": "OriginLab",
-            "detail": "科研绘图工具"
+            "url": "https://mathpix.com/",
+            "text": "Mathpix",
+            "detail": "数学公式识别"
+        },
+        {
+            "id": nanoid(),
+            "url": "https://www.overleaf.com/",
+            "text": "Overleaf",
+            "detail": "在线LaTeX编辑器"
+        },
+        {
+            "id": nanoid(),
+            "url": "https://convertio.co/zh/",
+            "text": "文件格式转换1"
+        },
+        {
+            "id": nanoid(),
+            "url": "https://cdkm.com/cn/",
+            "text": "文件格式转换2"
+        },
+        {
+            "id": nanoid(),
+            "url": "https://www.iloveimg.com/zh-cn",
+            "text": "在线图片编辑"
+        },
+        {
+            "id": nanoid(),
+            "url": "https://www.ilovepdf.com/zh-cn",
+            "text": "在线PDF编辑"
         }
     ]
     let urlList5: UrlBlock = [
@@ -198,7 +270,8 @@ export default function () {
         {
             "id": nanoid(),
             "url": "https://ca.csu.edu.cn/authserver/login?service=http://jgzfpj.csu.edu.cn/sso.aspx",
-            "text": "机关工作作风评价系统"
+            "text": "机关作风评价",
+            "detail": "我也不知道有没有实际效果"
         },
         {
             "id": nanoid(),
@@ -238,21 +311,31 @@ export default function () {
         },
         {
             "id": nanoid(),
-            "url": "https://quillbot.com/",
-            "text": "QuillBot",
-            "detail": "论文降重润色总结"
+            "url": "https://cert.csu.edu.cn/student",
+            "text": "成绩单打印"
+        },
+        {
+            "id": nanoid(),
+            "url": "",
+            "text": "课程评价系统",
+            "detail": "待实现"
+        },
+        {
+            "id": nanoid(),
+            "url": "https://lab.magiconch.com/nbnhhsh/",
+            "text": "首字母还原"
         }
     ]
     let urlList6: UrlBlock = [
         {
             "id": nanoid(),
             "url": "https://www.csu.edu.cn/info/1050/1215.htm",
-            "text": "中南大学作息时间表"
+            "text": "作息时间表"
         },
         {
             "id": nanoid(),
             "url": "https://oa.csu.edu.cn/con/NoticeInfo?JLNM=3894A9FC9A0941FEBD6C2688D4916D36&tableName=ZNDX_ZHBG_GGTZ",
-            "text": "中南大学班车时刻表"
+            "text": "班车时刻表"
         },
         {
             "id": nanoid(),
@@ -267,7 +350,7 @@ export default function () {
         {
             "id": nanoid(),
             "url": "https://nic.csu.edu.cn/bsfw/yhsc.htm",
-            "text": "办事平台用户手册"
+            "text": "办事服务手册"
         },
         {
             "id": nanoid(),
@@ -279,6 +362,22 @@ export default function () {
             "url": "http://www.zanoa.cn/",
             "text": "赞噢集市",
             "detail": "微信小程序搜索也可以找到"
+        },
+        {
+            "id": nanoid(),
+            "url": "https://www.wakeup.fun/",
+            "text": "WakeUp课程表"
+        },
+        {
+            "id": nanoid(),
+            "url": "https://apps.apple.com/cn/app/%E6%9E%81%E7%AE%80%E8%AF%BE%E8%A1%A8-watch%E8%AF%BE%E7%A8%8B%E8%A1%A8/id1581272719",
+            "text": "极简课表ios"
+        },
+        {
+            "id": nanoid(),
+            "url": "https://github.com/",
+            "text": "github",
+            "detail": "暂时置于此处"
         }
     ]
     let fullUrlBlock: Array<FullUrlInfo> = [
