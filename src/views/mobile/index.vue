@@ -15,12 +15,11 @@ const size = ref(18)
       <el-space
           :size="size"
           alignment="stretch"
-          wrap
+          direction="vertical"
       >
         <el-card v-for="{cardName,urlList} in fullUrlBlock "
                  :key="nanoid()" class="box-card"
-                 style="width: 18.5rem">
-
+                 style="width: 20rem">
 
           <p slot="header">{{ cardName }}</p>
           <!--          <template #header>-->
@@ -36,8 +35,8 @@ const size = ref(18)
               :href="url.url"
               plain
               size="large"
-              style="margin: 10px 5px;
-              padding: 10px;width: 100px"
+              style="margin: 5px 5px;
+              padding: 5px;width: 90px"
               tag="a"
               target="_blank"
               text
@@ -49,7 +48,7 @@ const size = ref(18)
     </el-main>
     <el-footer>
       <div class="grid-content bg-purple-dark"></div>
-      <p>Created by Zhuzhu.All rights reserved.</p>
+      <p>Created by Zhuzhu.这是手机.All rights reserved.</p>
     </el-footer>
   </el-container>
 </template>
@@ -58,7 +57,7 @@ const size = ref(18)
 
 .el-card {
   border-radius: 4px;
-  --el-card-padding: 20px;
+  --el-card-padding: 10px;
 }
 
 
@@ -67,8 +66,7 @@ const size = ref(18)
   min-height: 36px;
 }
 
-.container {
-  //max-width: 1200px;
-  margin: 0 auto;
+.el-main {
+  padding: 0;
 }
 </style>

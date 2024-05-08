@@ -49,7 +49,7 @@ const size = ref(18)
     </el-main>
     <el-footer>
       <div class="grid-content bg-purple-dark"></div>
-      <p>Created by Zhuzhu.All rights reserved.</p>
+      <p>Created by Zhuzhu.This is for PC.All rights reserved.</p>
     </el-footer>
   </el-container>
 </template>
