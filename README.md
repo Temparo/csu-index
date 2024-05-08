@@ -7,13 +7,16 @@ Chinese.
 
 ## Roadmap:
 
+- [x] Add the basic layout
+- [ ] Support the Mobile Devices
+- [ ] Deploy on GitHub Pages
+- [ ] Add the Dark Mode
 - [ ] Global Language Support
 - [ ] Allow Users to Change the Layout by just Dragging
-- [ ] Deploy to the GitHub Pages
 - [ ] Add the Search Function(Maybe)
-- [ ] Add the Dark Mode
 - [ ] Design the Logo
 - [ ] Add the e-guide for the new students
+- [ ] Add icons for the links
 
 ---
 

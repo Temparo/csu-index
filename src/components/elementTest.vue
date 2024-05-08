@@ -3,12 +3,12 @@
     <el-card key="banana" class="box-card">
       <template #header>
         <div class="card-header">
-          <span>Card name</span>
+          <span>test button</span>
           <el-button class="button" @click="showAnother">Another Test</el-button>
         </div>
       </template>
       <div v-for="o in 4" :key="o" class="text item">
-        {{ 'List item ' + o }}
+        {{ height + "x" + width }}
       </div>
     </el-card>
     <el-card key="cli" class="box-card">
