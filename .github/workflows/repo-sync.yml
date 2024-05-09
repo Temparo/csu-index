@@ -14,7 +14,7 @@ jobs:
     - name: repo-sync
       uses: repo-sync/github-sync@v2
       with:
-        source_repo: "https://${access_token}@github.com/Temparo/csu-index.git"
+        source_repo: "Temparo/csu-index"
         source_branch: "main"
         destination_branch: "main"
         github_token: ${{ secrets.PAT }}
