@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import {RouterLink, RouterView} from 'vue-router'
-import VueLogo from "./components/VueLogo.vue";
 </script>
 
 <template>
@@ -8,7 +7,7 @@ import VueLogo from "./components/VueLogo.vue";
   <RouterView></RouterView>
   <!--  <element-test></element-test>-->
   <!--    <HelloWorld msg="Vite + Vue" />-->
-  <VueLogo/>
+  <!--  <VueLogo/>-->
 </template>
 
 <style scoped>
