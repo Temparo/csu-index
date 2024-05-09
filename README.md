@@ -13,19 +13,22 @@ All the code is written by myself.
 ### Roadmap:
 
 - [x] Add the Basic Layout
-- [ ] Support the Mobile Devices
-- [ ] Deploy on GitHub Pages
-- [ ] Add Analysis for the Clicks
+- [x] Support the Mobile Devices
+- [x] Deploy on GitHub Pages
+- [ ] Create the Loading Screen
+- [ ] Design the Logo
+- [ ] Add Analytics for the Clicks
 - [ ] Add About Page
+- [ ] Add Issues and Feedback
 - [ ] Allow Users to Change the Background
 - [ ] Add detailed introduction for each link
 - [ ] Beautify the Layout
 - [ ] Add Dark Mode
 - [ ] Allow Users to Change the Layout by just Dragging
-- [ ] Design the Logo
 - [ ] Add E-guide for Newcomers
 - [ ] Add Icons for links
 - [ ] Global Language Support
+- [ ] Deploy on Individual Domain and Server
 - [ ] Add Search Function(Maybe)
 
 ---
