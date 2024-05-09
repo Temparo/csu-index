@@ -4,7 +4,7 @@ on:
   # 监听push操作
   push:
     branches:
-      - master # 这里只配置了main分支，所以只有推送master分支才会触发以下任务
+      - master # 这里只配置了master分支，所以只有推送master分支才会触发以下任务
   pull_request:
 
   # 这个选项可以使你手动在 Action tab 页面触发工作流
@@ -12,7 +12,7 @@ on:
 
 permissions:
   # 允许对仓库的内容进行写操作。包括创建、修改和删除文件、目录以及提交更改等
-  # 这里只配置了push，所以只有推送main分支才会触发以下任务 
+  # 这里只配置了push，所以只有推送master分支才会触发以下任务 
   contents: write
   # 允许管理 GitHub Pages 服务并对其进行写操作
   pages: write
