@@ -15,7 +15,7 @@ const size = ref(18)
       <el-space
           :size="size"
           alignment="stretch"
-          direction="vertical"
+          wrap
       >
         <el-card v-for="{cardName,urlList} in fullUrlBlock "
                  :key="nanoid()" class="box-card"
