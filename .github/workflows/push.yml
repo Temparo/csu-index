@@ -1,15 +1,14 @@
 name: Push to Another Repository
 
 on:
- push:
-   branches:
-     - main
- workflow_dispatch:
+  schedule:
+    - cron: "0 18 * * *"
+  workflow_dispatch:
 
 jobs:
  sync_latest_from_upstream:
    runs-on: ubuntu-latest
-   name: Sync latest commits from Temparo
+   name: Sync latest commits
 
    steps:
      - name: Checkout target repo
