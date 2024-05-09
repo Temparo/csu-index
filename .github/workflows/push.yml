@@ -1,0 +1,28 @@
+name: Push to Another Repository
+
+on:
+ push:
+   branches:
+     - main
+
+jobs:
+ build:
+   runs-on: ubuntu-latest
+
+   steps:
+     - name: Checkout target repo
+       uses: actions/checkout@v4
+       with:
+         ref:  my-branch
+         persist-credentials: false
+
+     - name: Upstream Sync
+       id: sync
+       uses: aormsby/Fork-Sync-With-Upstream-action@v3.4
+       with:
+        target_sync_branch: main
+        # REQUIRED 'target_repo_token' exactly like this!
+        target_repo_token: ${{ secrets.GITHUB_TOKEN }}
+        upstream_sync_branch: main
+        upstream_sync_repo: CSU-Index/CSU-Index.github.io
+        upstream_repo_access_token: ${{ secrets.UPSTREAM_REPO_SECRET }}
