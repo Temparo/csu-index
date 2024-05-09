@@ -3,22 +3,33 @@
 Because the stupid design of the school official site, I would like to create a navigation for school websites and other
 common websites.
 
+Inspired by [ZJUers轻首页](https://zjuers.com/).
+Some ideas of functions are from [ BYR-Navi
+](https://github.com/BYR-Navi/BYR-Navi).
+All the code is written by myself.
+
 ---
 
 ### Roadmap:
 
 - [x] Add the Basic Layout
-- [ ] Support the Mobile Devices
-- [ ] Deploy on GitHub Pages
-- [ ] Add Dark Mode
-- [ ] Add Analysis for the Clicks
-- [ ] Add detailed introduction for each link
-- [ ] Global Language Support
-- [ ] Allow Users to Change the Layout by just Dragging
-- [ ] Add the Search Function(Maybe)
+- [x] Support the Mobile Devices
+- [x] Deploy on GitHub Pages
+- [ ] Create the Loading Screen
 - [ ] Design the Logo
+- [ ] Add Analytics for the Clicks
+- [ ] Add About Page
+- [ ] Add Issues and Feedback
+- [ ] Allow Users to Change the Background
+- [ ] Add detailed introduction for each link
+- [ ] Beautify the Layout
+- [ ] Add Dark Mode
+- [ ] Allow Users to Change the Layout by just Dragging
 - [ ] Add E-guide for Newcomers
-- [ ] Add Icons for the links
+- [ ] Add Icons for links
+- [ ] Global Language Support
+- [ ] Deploy on Individual Domain and Server
+- [ ] Add Search Function(Maybe)
 
 ---
 
@@ -31,7 +42,6 @@ common websites.
   is recommended.Webstorm is also a good choice.
 
 ### To Do:
-
 #### 新生入学教程及相关信息电子书
 
 - 包括各种各样的初始密码

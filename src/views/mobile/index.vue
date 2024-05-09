@@ -15,7 +15,7 @@ const size = ref(18)
       <el-space
           :size="size"
           alignment="stretch"
-          direction="vertical"
+          wrap
       >
         <el-card v-for="{cardName,urlList} in fullUrlBlock "
                  :key="nanoid()" class="box-card"
@@ -48,7 +48,7 @@ const size = ref(18)
     </el-main>
     <el-footer>
       <div class="grid-content bg-purple-dark"></div>
-      <p>Created by Zhuzhu.这是手机.All rights reserved.</p>
+      <p>Created by Zhuzhu.All rights reserved.</p>
     </el-footer>
   </el-container>
 </template>
