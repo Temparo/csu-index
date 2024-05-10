@@ -18,7 +18,6 @@ jobs:
       with:
         ref: ${{ github.head_ref }}
         fetch-depth: 0
-        ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
         persist-credentials: true
 
 
@@ -26,6 +25,7 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         ssh: true
+        ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
         branch: main
         repository: CSU-Index/CSU-Index.github.io
         force: true
