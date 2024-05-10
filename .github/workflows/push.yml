@@ -1,9 +1,5 @@
 name: Push test
 
-permissions:                    # Global permissions configuration starts here
-  contents: read                # 'read' access to repository contents
-  pull-requests: write          # 'write' access to pull requests
-
 on:
   push:
     branches:
@@ -22,7 +18,7 @@ jobs:
       with:
         ref: ${{ github.head_ref }}
         fetch-depth: 0
-        token: ${{ secrets.PAT_TOKEN }}
+        persist-credentials: true
 
 
     - name: Push changes
