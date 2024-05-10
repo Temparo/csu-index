@@ -28,5 +28,5 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.PAT_TOKEN }}
-        branch: ${{ github.ref }}
         repository: CSU-Index/CSU-Index.github.io
+        force: true
