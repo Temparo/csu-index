@@ -22,11 +22,12 @@ jobs:
       with:
         ref: ${{ github.head_ref }}
         fetch-depth: 0
-        persist-credentials: True
+        token: ${{ secrets.PAT_TOKEN }}
 
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.PAT_TOKEN }}
+        branch: main
         repository: CSU-Index/CSU-Index.github.io
         force: true
