@@ -22,7 +22,7 @@ jobs:
       with:
         ref: ${{ github.head_ref }}
         fetch-depth: 0
-        token: ${{ secrets.PAT_TOKEN }}
+        persist-credentials: True
 
     - name: Push changes
       uses: ad-m/github-push-action@master
