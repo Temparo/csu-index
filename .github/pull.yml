@@ -1,8 +1,0 @@
-version: "1"
-rules:
-  - base: main
-    upstream: Temparo:main
-    mergeMethod: hardreset
-  - base: gh-pages
-    upstream: Temparo:gh-pages
-    mergeMethod: hardreset
