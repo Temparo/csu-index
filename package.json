@@ -1,7 +1,7 @@
 {
   "name": "csu-index",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite --port 80 --host 0.0.0.0",

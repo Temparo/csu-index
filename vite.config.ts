@@ -18,6 +18,6 @@ export default defineConfig({
             resolvers: [ElementPlusResolver()],
         }),
     ],
-    base: './',
+    base: '/',
 })
 
