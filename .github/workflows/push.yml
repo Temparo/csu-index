@@ -1,4 +1,4 @@
-name: Push test
+name: Push to another repositories
 
 permissions:                    # Global permissions configuration starts here
   contents: read                # 'read' access to repository contents
