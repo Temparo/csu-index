@@ -22,9 +22,6 @@ jobs:
         ref: ${{ github.head_ref }}
         fetch-depth: 0
         token: ${{ secrets.PAT_TOKEN }}
-    - name: Create local changes
-      run: |
-        ...
     - name: Commit files
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -35,4 +32,4 @@ jobs:
       with:
         github_token: ${{ secrets.PAT_TOKEN }}
         branch: ${{ github.ref }}
-        repository: CSU-Index//test
+        repository: CSU-Index/test
