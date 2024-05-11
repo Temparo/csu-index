@@ -5,7 +5,7 @@ import {RouterLink, RouterView} from 'vue-router'
 <template>
   <RouterLink :to="{path: '/index'}"></RouterLink>
   <RouterView></RouterView>
-  <!--  <element-test></element-test>-->
+  <!--    <element-test></element-test>-->
   <!--    <HelloWorld msg="Vite + Vue" />-->
   <!--  <VueLogo/>-->
 </template>

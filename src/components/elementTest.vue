@@ -19,7 +19,7 @@
         </div>
       </template>
       <div v-for="o in 4" :key="o" class="text item">
-        {{ 'List item ' + o }}
+        {{ anotherHeight + "num" + anotherWidth }}
       </div>
     </el-card>
   </el-space>
@@ -33,6 +33,9 @@ function showAnother() {
   console.log("这是长" + height.value)
   console.log("这是宽" + width.value)
 }
+
+const anotherHeight = window.innerHeight
+const anotherWidth = window.innerWidth
 
 
 </script>
