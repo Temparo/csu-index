@@ -198,16 +198,16 @@ blockquote a {
     background-color: white;
     box-shadow: 0 0 10px white;
     opacity: 0;
-    -webkit-animation: eye-light-animation 2.5s 1s infinite;
-    animation: eye-light-animation 2.5s 1s infinite;
+    -webkit-animation: eye-light-animation 2.5s infinite;
+    animation: eye-light-animation 2.5s infinite;
 }
 
 .cat-head .cat-eye-light:before {
     background-color: white;
     box-shadow: 0 0 10px white;
     opacity: 0;
-    -webkit-animation: eye-light-animation 2.5s 1s infinite;
-    animation: eye-light-animation 2.5s 1s infinite;
+    -webkit-animation: eye-light-animation 2.5s infinite;
+    animation: eye-light-animation 2.5s infinite;
 }
 
 .cat-head .cat-mouth {
@@ -220,8 +220,8 @@ blockquote a {
     border: 2px solid #514E51;
     border-top: 0;
     border-radius: 0 0 10px 10px;
-    -webkit-animation: mouth-animation 2.5s 1s infinite;
-    animation: mouth-animation 2.5s 1s infinite;
+    -webkit-animation: mouth-animation 2.5s infinite;
+    animation: mouth-animation 2.5s infinite;
 }
 
 .cat-head .cat-mouth:before {
@@ -307,8 +307,8 @@ blockquote a {
 .cat-foot .cat-belly {
     position: absolute;
     bottom: 0;
-    right: 0;
-    width: 14px;
+    right: -1px;
+    width: 16px;
     height: 46px;
     background-color: #EBA764;
     border: 5px solid #514E51;
@@ -379,32 +379,32 @@ blockquote a {
 
 .cat-animation-mask {
     transform: rotate(45deg);
-    -webkit-animation: mask-animation 2.5s 1s infinite;
-    animation: mask-animation 2.5s 1s infinite;
+    -webkit-animation: mask-animation 2.5s infinite;
+    animation: mask-animation 2.5s infinite;
 }
 
 .cat-animation-mask:before {
-    -webkit-animation: mask-animation-sub-right 2.5s 1s infinite;
-    animation: mask-animation-sub-right 2.5s 1s infinite;
+    -webkit-animation: mask-animation-sub-right 2.5s infinite;
+    animation: mask-animation-sub-right 2.5s infinite;
 }
 
 .cat-animation-mask:after {
-    -webkit-animation: mask-animation-sub-left 2.5s 1s infinite;
-    animation: mask-animation-sub-left 2.5s 1s infinite;
+    -webkit-animation: mask-animation-sub-left 2.5s infinite;
+    animation: mask-animation-sub-left 2.5s infinite;
 }
 
 .cat-head {
     transform: rotate(70deg);
-    -webkit-animation: head-animation 2.5s 1s infinite;
-    animation: head-animation 2.5s 1s infinite;
+    -webkit-animation: head-animation 2.5s infinite;
+    animation: head-animation 2.5s infinite;
     -webkit-animation-timing-function: cubic-bezier(0.2, 0, 0.09, 1);
     animation-timing-function: cubic-bezier(0.2, 0, 0.09, 1);
 }
 
 .cat-foot {
     transform: rotate(25deg);
-    -webkit-animation: foot-animation 2.5s 1s infinite;
-    animation: foot-animation 2.5s 1s infinite;
+    -webkit-animation: foot-animation 2.5s infinite;
+    animation: foot-animation 2.5s infinite;
     -webkit-animation-timing-function: cubic-bezier(0.2, 0, 0.45, 1);
     animation-timing-function: cubic-bezier(0.2, 0, 0.45, 1);
 }
