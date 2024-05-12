@@ -5,19 +5,6 @@ body {
 
 }
 
-blockquote {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    font-weight: 300;
-    font-size: 15px;
-    color: gray;
-}
-
-blockquote a {
-    color: gray;
-}
-
 .loading-cat {
     position: relative;
     width: 300px;
