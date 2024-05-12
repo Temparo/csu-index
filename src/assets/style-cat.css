@@ -53,7 +53,7 @@ body {
     /*background-color: #E7DFDD;*/
     background-color: #ffffff;
     transform-origin: right bottom;
-    text-align: unset;
+    text-align: justify;
 }
 
 .cat-animation-mask:before {
