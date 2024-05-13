@@ -1,3 +1,4 @@
+![Website](https://img.shields.io/website?url=https%3A%2F%2Fcsu-index.github.io%2F&up_message=CSU-Index&down_message=Timeout)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Temparo/csu-index)
 ![GitHub License](https://img.shields.io/github/license/Temparo/csu-index)
 
