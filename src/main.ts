@@ -6,5 +6,7 @@ import './assets/style-cat.css'
 
 const app = createApp(App)
 app.use(router)
-app.mount('#app')
+setTimeout(() => {
+    app.mount('#app')
+}, 2000)
 
