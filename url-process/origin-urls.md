@@ -7,8 +7,8 @@
 
 {
 
-- [图书馆](https://lib.csu.edu.cn/)
 - [信息门户](https://my.csu.edu.cn/login/index.jsp)
+- [图书馆](https://lib.csu.edu.cn/)
 - [升华网通知](https://54sh.csu.edu.cn/tntz/tntz.htm)
 - [上网认证](https://portal.csu.edu.cn/)
 - [校内通知](https://oa.csu.edu.cn/con/ggtz)
