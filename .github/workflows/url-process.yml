@@ -20,7 +20,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python "url-process/md_format_to_json.py"
+      - run: |
+          cd url-process
+          python "md_format_to_json.py"
 
       # Commit all changed files back to the repository
       - uses: stefanzweifel/git-auto-commit-action@v5
