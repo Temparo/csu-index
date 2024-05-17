@@ -25,11 +25,12 @@ jobs:
       - name: Setup Node.js Environment
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '16'
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - uses: di-sukharev/opencommit@github-action-v1.0.4
+      - name: OpenCommit — improve commits with AI 🧙
+        uses: di-sukharev/opencommit@github-action-v1.0.2
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
