@@ -36,3 +36,14 @@ jobs:
         env:
           # To report GitHub Actions status checks
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          VALIDATE_TYPESCRIPT_ES: true
+          VALIDATE_PYTHON_RUFF: true
+          VALIDATE_NATURAL_LANGUAGE: true
+          VALIDATE_MARKDOWN: true
+          VALIDATE_HTML: true
+          VALIDATE_GITHUB_ACTIONS: true
+          VALIDATE_CSS: true
+
+
+
