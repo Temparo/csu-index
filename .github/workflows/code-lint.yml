@@ -39,11 +39,15 @@ jobs:
         with:
           VALIDATE_TYPESCRIPT_ES: true
           VALIDATE_PYTHON_RUFF: true
-          VALIDATE_NATURAL_LANGUAGE: true
+          #          VALIDATE_NATURAL_LANGUAGE: true
           VALIDATE_MARKDOWN: true
           VALIDATE_HTML: true
           VALIDATE_GITHUB_ACTIONS: true
           VALIDATE_CSS: true
+          VALIDATE_GITLEAKS: true
+          VALIDATE_YAML: true
+          VALIDATE_ALL_CODEBASE: true
+          USE_FIND_ALGORITHM: "true"
 
 
 
