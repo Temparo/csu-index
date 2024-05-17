@@ -10,43 +10,39 @@ const {fullUrlBlock} = useUrlList()
   <el-container class=".container">
     <el-main>
 
-      <el-space
-          :fill-ratio="30"
-          alignment="stretch"
-          wrap
-          size="large">
-        <el-card v-for="{cardName,urlList} in fullUrlBlock "
-                 :key="nanoid()" class="box-card"
-                 style="min-width: 430px;max-width: 30vw"
-        >
+      <el-row :gutter="16" align="middle" justify="space-evenly">
+        <el-col v-for="{cardName,urlList} in fullUrlBlock " :lg="8" :md="12" :sm="12" :v-if="fullUrlBlock" :xl="8" :xs="24"
+                class="card-col">
+          <el-card :key="nanoid()" class="box-card" style="min-width: 21.3em;max-width: 38rem">
 
 
-          <p slot="header">{{ cardName }}</p>
-          <!--                    <template #header>-->
-          <!--                      <div class="card-header">-->
-          <!--                        <span>{{ cardName }}</span>-->
-          <!--                      </div>-->
-          <!--                    </template>-->
+            <p slot="header">{{ cardName }}</p>
+            <!--                    <template #header>-->
+            <!--                      <div class="card-header">-->
+            <!--                        <span>{{ cardName }}</span>-->
+            <!--                      </div>-->
+            <!--                    </template>-->
 
 
-          <el-button
-              class="button"
-              v-for="url in urlList"
-              :key="url.id"
-              :href="url.url"
-              plain
-              size="large"
-              style="margin: 10px 5px;
-              padding: 10px;width: 120px"
-              tag="a"
-              target="_blank"
-              text
+            <el-button
+                v-for="url in urlList"
+                :key="url.id"
+                :href="url.url"
+                class="button"
+                plain
+                size="large"
+                style="margin: 6px 0.4em;
+              padding: 6px 0.4em;width: 7.5em"
+                tag="a"
+                target="_blank"
+                text
 
-          >
-            {{ url.text }}
-          </el-button>
-        </el-card>
-      </el-space>
+            >
+              {{ url.text }}
+            </el-button>
+          </el-card>
+        </el-col>
+      </el-row>
     </el-main>
     <el-footer>
       <div class="grid-content bg-purple-dark"></div>
@@ -59,9 +55,9 @@ const {fullUrlBlock} = useUrlList()
 
 .el-card {
   border-radius: 4px;
-  --el-card-padding: 20px;
+  --el-card-padding: 0.8rem 0.5rem;
+  margin-bottom: 16px;
 }
-
 
 .grid-content {
   border-radius: 4px;
@@ -76,4 +72,7 @@ const {fullUrlBlock} = useUrlList()
   font-size: 16px;
 }
 
+.el-main {
+  padding: 1rem 0.5rem;
+}
 </style>
