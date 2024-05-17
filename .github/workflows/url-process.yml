@@ -1,4 +1,4 @@
-name: url-process.yml
+name: Url process
 on:
   push:
     branches:
