@@ -48,5 +48,5 @@ jobs:
           OCO_EMOJI: false
           OCO_MODEL: gpt-3.5-turbo
           OCO_LANGUAGE: en
-          OCO_PROMPT_MODULE: @commitlint
+          OCO_PROMPT_MODULE: conventional-commit
           OCO_ONE_LINE_COMMIT: true
