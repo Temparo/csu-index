@@ -1,19 +1,15 @@
-![Website](https://img.shields.io/website?url=https%3A%2F%2Fcsu-index.github.io%2F&up_message=CSU-Index&down_message=Timeout)
-![GitHub last commit](https://img.shields.io/github/last-commit/Temparo/csu-index)
-![GitHub License](https://img.shields.io/github/license/Temparo/csu-index)
-
 # The [CSU](https://www.csu.edu.cn/) Navigation
 
-#### Because the stupid design of the school official site, I would like to create a navigation for school websites and other common websites.
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fcsu-index.github.io%2F&up_message=CSU-Index&down_message=Time%20out&style=for-the-badge)](https://csu-index.github.io/)
+![GitHub last commit](https://img.shields.io/github/last-commit/Temparo/csu-index?style=for-the-badge)
+![GitHub License](https://img.shields.io/github/license/Temparo/csu-index?style=for-the-badge)
 
-This project is inspired by [ZJUers轻首页](https://zjuers.com/).
-Some ideas of functions are from [ BYR-Navi
-](https://github.com/BYR-Navi/BYR-Navi).
-All the code is done by myself.
+> Because the stupid design of the school official site, I would like to create a navigation for school websites and
+> other common websites.
 
 ---
 
-### Roadmap:
+## To do:
 
 - [x] Create the Basic Layout
 - [x] Support the Mobile Devices
@@ -36,7 +32,15 @@ All the code is done by myself.
 
 ---
 
-### Quick Start
+## Usage
+
+If you want to create a navigation for your own school, just fork this project and change the "
+/url-process/origin-urls.md" file, then the python script should be run automatically by GitHub Actions to generate the
+ts file.After that, the page will be deployed on GitHub Pages.
+
+---
+
+## Contributing
 
 1. Install [Node.js](https://nodejs.org/en/download/)
 
@@ -71,21 +75,31 @@ All the code is done by myself.
    ```
 8. Browse to [http://localhost:5173](http://localhost:5173) and start contributing !
 
-### Contribution:
+> ### Tips:
+> - Contributing is welcome, just fork the project and create a pull request.
+> - Make your changes on dev branch, **Rather than main**
+> - If you have any questions or suggestions, feel free to open an issue.
 
-- This Project is create by Vue 3 + TypeScript + Vite + Element Plus.
-- Contribution is welcome, just fork the project and make a pull request.
-- Make your changes on dev branch, **Rather than main**
-- If you have any questions or suggestions, feel free to open an issue.
-- If you want to create a navigation for your school, you can fork this project and change the '
-  /url-process/origin-urls.md' file, then run the python script to generate the ts file.After that, you can deploy it on
-  your server.
+---
 
-### To Do:
+## Thanks
 
-#### 新生入学教程及相关信息电子书
+- The Project is created
+  by [Vue 3](https://vuejs.org/) + [TypeScript](https://www.typescriptlang.org/) + [Vite](https://vitejs.dev/) + [Element Plus](https://element-plus.org).
+- The Loading Cat Animation is from [TouNeko](https://codepen.io/touneko).
+- This project is inspired by [ZJUers轻首页](https://zjuers.com/).
+- Some idea of functions is from [ BYR-Navi
+  ](https://github.com/BYR-Navi/BYR-Navi).
+- All the codes are done by myself.
 
-- 包括各种各样的初始密码
-- 奖学金助学金获取
-- 中南的班车和各个校区的分布
-- 哪个食堂好吃
+---
+
+## Contributors
+
+- [Temparo](https://github.com/Temparo)
+
+---
+
+## License
+
+This project is under [Apache-2.0 License](LICENSE).

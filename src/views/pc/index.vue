@@ -11,7 +11,8 @@ const {fullUrlBlock} = useUrlList()
     <el-main>
 
       <el-row :gutter="16" align="middle" justify="space-evenly">
-        <el-col v-for="{cardName,urlList} in fullUrlBlock " :lg="8" :md="12" :sm="12" :v-if="fullUrlBlock" :xl="8" :xs="24"
+        <el-col v-for="{cardName,urlList} in fullUrlBlock " :lg="8" :md="12" :sm="12" :v-if="fullUrlBlock" :xl="8"
+                :xs="24"
                 class="card-col">
           <el-card :key="nanoid()" class="box-card" style="min-width: 21.3em;max-width: 38rem">
 
