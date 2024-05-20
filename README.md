@@ -2,8 +2,9 @@
 
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fcsu-index.github.io%2F&up_message=CSU-Index&down_message=Time%20out&style=for-the-badge)](https://csu-index.github.io/)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Temparo/csu-index?style=for-the-badge)
-![GitHub License](https://img.shields.io/github/license/Temparo/csu-index?style=for-the-badge)
+[![GitHub License](https://img.shields.io/github/license/Temparo/csu-index?style=for-the-badge)](LICENSE)
 
+[简体中文](README.zh-Hans.md)
 > Because the stupid design of the school official site, I would like to create a navigation for school websites and
 > other common websites.
 
@@ -18,6 +19,7 @@
 - [ ] Design the Logo
 - [ ] Add Analytics for the Clicks
 - [ ] Add About Page
+- [ ] Add Broken Link list for School Pages
 - [ ] Add Issues, Feedback and Contact
 - [ ] Allow Users to Change the Background
 - [ ] Add detailed introduction for each link
@@ -33,6 +35,8 @@
 ---
 
 ## Usage
+
+If you are a student of CSU, just open the official site.
 
 If you want to create a navigation for your own school, just fork this project and change the "
 /url-process/origin-urls.md" file, then the python script should be run automatically by GitHub Actions to generate the
@@ -88,8 +92,7 @@ ts file.After that, the page will be deployed on GitHub Pages.
   by [Vue 3](https://vuejs.org/) + [TypeScript](https://www.typescriptlang.org/) + [Vite](https://vitejs.dev/) + [Element Plus](https://element-plus.org).
 - The Loading Cat Animation is from [TouNeko](https://codepen.io/touneko).
 - This project is inspired by [ZJUers轻首页](https://zjuers.com/).
-- Some idea of functions is from [ BYR-Navi
-  ](https://github.com/BYR-Navi/BYR-Navi).
+- Some idea of functions is from [BYR-Navi](https://github.com/BYR-Navi/BYR-Navi).
 - All the codes are done by myself.
 
 ---

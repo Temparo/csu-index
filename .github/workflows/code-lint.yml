@@ -1,6 +1,6 @@
-name: Lint
+name: Code lint
 
-on: # yamllint disable-line rule:truthy
+on:
   push:
     branches:
       - main

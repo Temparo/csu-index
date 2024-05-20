@@ -3,26 +3,26 @@
 * <>内的内容将被加入到detail内
 * 程序通过顺序来匹配,请勿改变链接块整体的顺序,单个链接的顺序可以调整
 
-### 中南教务x12
+### 中南教务
 
 {
 
 - [信息门户](https://my.csu.edu.cn/login/index.jsp)
 - [图书馆](https://lib.csu.edu.cn/)
-- [升华网通知](https://54sh.csu.edu.cn/tntz/tntz.htm)
+- [教学可视化](https://lms.csu.edu.cn/login)
 - [上网认证](https://portal.csu.edu.cn/)
+- [升华网通知](https://54sh.csu.edu.cn/tntz/tntz.htm)
 - [校内通知](https://oa.csu.edu.cn/con/ggtz)
 - [办事大厅](https://ehall.csu.edu.cn/v2/site/index)
 - [本科生教务](http://csujwc.its.csu.edu.cn/)
 - [研究生教务](http://gms.csu.edu.cn/)
-- [教学可视化](https://lms.csu.edu.cn/login)
 - [教师信息查询](https://faculty.csu.edu.cn/)
 - [校园卡中心](https://ecard.csu.edu.cn/plat-pc/serviceclassification)
 - [校长信箱](https://oa.csu.edu.cn/mailbox/?tp=01)
   <有可能获得与辅导员单独交流的机会,请谨慎发言>
   }
 
-### 中南其他x12
+### 中南其他
 
 {
 
@@ -38,13 +38,12 @@
   <待添加>
 - [本科生选课评价](https://www.csu.edu.cn/)
   <待添加>
-- [国外留学信息](https://www.csu.edu.cn/)
-  <待添加>
-- [暑研信息](https://www.csu.edu.cn/)
-  <待添加>
+- [本科生服务](http://bkwsfw.csu.edu.cn/)
+  <我不确定是否可用>
+- [财务平台](http://cwpt.csu.edu.cn/caslogin.aspx)
   }
 
-### 学术x12
+### 学术
 
 {
 
@@ -63,7 +62,7 @@
   <论文降重润色总结,这个工具我没有亲自测试>
   }
 
-### 实用工具x12
+### 实用工具
 
 {
 
@@ -86,7 +85,7 @@
 - [在线PDF编辑](https://www.ilovepdf.com/zh-cn)
   }
 
-### 考虑是否添加x12
+### 考虑是否添加
 
 {
 
@@ -107,7 +106,7 @@
 - [首字母还原](https://lab.magiconch.com/nbnhhsh/)
   }
 
-### 新生x10
+### 新生
 
 {
 
@@ -123,5 +122,9 @@
 - [极简课表ios](https://apps.apple.com/cn/app/%E6%9E%81%E7%AE%80%E8%AF%BE%E8%A1%A8-watch%E8%AF%BE%E7%A8%8B%E8%A1%A8/id1581272719)
 - [github](https://github.com/)
   <暂时置于此处>
+- [暑研信息](https://www.csu.edu.cn/)
+  <待添加>
+- [国外留学信息](https://www.csu.edu.cn/)
+  <待添加>
   }
   

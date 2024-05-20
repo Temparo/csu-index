@@ -8,7 +8,11 @@ const {fullUrlBlock} = useUrlList()
 
 <template>
   <el-container class=".container">
-    <el-main>
+    <!--    <el-header>-->
+    <!--      <p>CSU-Index</p>-->
+
+    <!--    </el-header>-->
+    <!--    <el-main>-->
 
       <el-row :gutter="16" align="middle" justify="space-evenly">
         <el-col v-for="{cardName,urlList} in fullUrlBlock " :lg="8" :md="12" :sm="12" :v-if="fullUrlBlock" :xl="8"
