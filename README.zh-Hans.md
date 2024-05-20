@@ -4,19 +4,19 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/Temparo/csu-index?style=for-the-badge)
 [![GitHub License](https://img.shields.io/github/license/Temparo/csu-index?style=for-the-badge)](LICENSE)
 
-> 由于学校官网设计不尽如人意，我决定自己写一个对于校内网站和其他常用网站的导航.
+> 由于学校官网设计不尽如人意，我决定自己写一个对于校内网站和其他常用网站的导航。
 
 ---
 
 ## 未来规划:
 
-- [x] 创建基本布局
+- [x] 创建网站基本布局
 - [x] 支持移动设备
 - [x] 在 GitHub Pages 上部署
 - [x] 添加猫猫加载动画
 - [ ] 设计Logo
-- [ ] 添加点击量分析
-- [ ] 添加关于页
+- [ ] 添加网站点击量分析
+- [ ] 添加"关于"页
 - [ ] 添加学校失效链接列表
 - [ ] 添加问题反馈和联系方式
 - [ ] 允许用户更改背景
@@ -54,7 +54,7 @@ TS 文件。之后，该页面将自动部署在 GitHub Pages 上。
 
 3. 安装 [VS Code](https://code.visualstudio.com/) 或 [Webstorm](https://www.jetbrains.com/webstorm/)（付费，学生免费）
 
-4. 如果您使用的是 VS Code，建议使用 [Vue-Official-Plugin](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+4. 如果您使用的是 VS Code ，建议使用 [Vue-Official-Plugin](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
    插件
 
 5. 克隆项目代码
@@ -80,7 +80,7 @@ TS 文件。之后，该页面将自动部署在 GitHub Pages 上。
 > ### 提示：
 > - 欢迎贡献代码，只需 fork 项目并创建 pull request 即可。
 > - 在 dev 分支上进行更改，**而不是 main 分支**
-> - 如果您有任何问题或建议，欢迎随时提出issue。
+> - 如果您有任何问题或建议，欢迎随时提出 issue。
 
 ---
 
@@ -89,12 +89,12 @@ TS 文件。之后，该页面将自动部署在 GitHub Pages 上。
 -
 
 项目通过 [Vue 3](https://vuejs.org/) + [TypeScript](https://www.typescriptlang.org/) + [Vite](https://vitejs.dev/) + [Element Plus](https://element-plus.org)
-来创建.
+来创建。
 
-- 猫猫动画的作者是 [TouNeko](https://codepen.io/touneko).
-- 本项目思路来源于 [ZJUers轻首页](https://zjuers.com/).
-- 一些功能思路来源于 [BYR-Navi](https://github.com/BYR-Navi/BYR-Navi).
-- 全部代码由我独立完成.
+- 猫猫动画的作者是 [TouNeko](https://codepen.io/touneko)。
+- 本项目思路来源于 [ZJUers轻首页](https://zjuers.com/)。
+- 一些功能思路来源于 [BYR-Navi](https://github.com/BYR-Navi/BYR-Navi)。
+- 全部代码由我独立完成。
 
 ---
 
@@ -106,4 +106,4 @@ TS 文件。之后，该页面将自动部署在 GitHub Pages 上。
 
 ## 许可证
 
-本项目采用 [Apache-2.0](LICENSE) 许可证.
+本项目采用 [Apache-2.0](LICENSE) 许可证。
