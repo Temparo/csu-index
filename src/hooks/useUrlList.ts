@@ -15,13 +15,18 @@ export default function () {
  },
  {
   "id": nanoid(),
-  "url": "https://54sh.csu.edu.cn/tntz/tntz.htm",
-  "text": "升华网通知"
+  "url": "https://lms.csu.edu.cn/login",
+  "text": "教学可视化"
  },
  {
   "id": nanoid(),
   "url": "https://portal.csu.edu.cn/",
   "text": "上网认证"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://54sh.csu.edu.cn/tntz/tntz.htm",
+  "text": "升华网通知"
  },
  {
   "id": nanoid(),
@@ -42,11 +47,6 @@ export default function () {
   "id": nanoid(),
   "url": "http://gms.csu.edu.cn/",
   "text": "研究生教务"
- },
- {
-  "id": nanoid(),
-  "url": "https://lms.csu.edu.cn/login",
-  "text": "教学可视化"
  },
  {
   "id": nanoid(),
@@ -120,15 +120,14 @@ export default function () {
  },
  {
   "id": nanoid(),
-  "url": "https://www.csu.edu.cn/",
-  "text": "国外留学信息",
-  "detail": "待添加"
+  "url": "http://bkwsfw.csu.edu.cn/",
+  "text": "本科生服务",
+  "detail": "我不确定是否可用"
  },
  {
   "id": nanoid(),
-  "url": "https://www.csu.edu.cn/",
-  "text": "暑研信息",
-  "detail": "待添加"
+  "url": "http://cwpt.csu.edu.cn/caslogin.aspx",
+  "text": "财务平台"
  }
 ]
     let urlList3: UrlBlock = [
@@ -378,6 +377,18 @@ export default function () {
   "url": "https://github.com/",
   "text": "github",
   "detail": "暂时置于此处"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://www.csu.edu.cn/",
+  "text": "暑研信息",
+  "detail": "待添加"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://www.csu.edu.cn/",
+  "text": "国外留学信息",
+  "detail": "待添加"
  }
 ]
     let fullUrlBlock: Array<FullUrlInfo> = [
