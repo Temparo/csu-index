@@ -8,10 +8,24 @@ const {fullUrlBlock} = useUrlList()
 
 <template>
   <el-container class=".container">
-    <!--    <el-header>-->
-    <!--      <p>CSU-Index</p>-->
-
-    <!--    </el-header>-->
+    <el-header>
+      <div>
+        <span>
+          <a href="https://csu-index.github.io/" target="_self">CSU-Index</a>
+        </span>
+      </div>
+      <div>
+        <el-button
+            href="https://github.com/Temparo/csu-index"
+            link
+            tag="a"
+            target="_blank">GitHub
+        </el-button>
+        <el-button link
+        >About
+        </el-button>
+      </div>
+    </el-header>
     <el-main>
 
       <el-row :gutter="16" align="middle" justify="space-evenly">
@@ -79,5 +93,22 @@ const {fullUrlBlock} = useUrlList()
 
 .el-main {
   padding: 1rem 0.5rem;
+}
+
+.el-header {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+
+  > div {
+    display: flex;
+    align-items: center;
+
+    span {
+      margin-left: 15px;
+    }
+  }
 }
 </style>

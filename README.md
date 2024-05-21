@@ -89,8 +89,7 @@ ts file.After that, the page will be deployed on GitHub Pages.
 
 ## Thanks
 
-- The Project is created
-  by [Vue 3](https://vuejs.org/) + [TypeScript](https://www.typescriptlang.org/) + [Vite](https://vitejs.dev/) + [Element Plus](https://element-plus.org).
+- The Project is created by [Vue 3](https://vuejs.org/) + [TypeScript](https://www.typescriptlang.org/) .
 - The Loading Cat Animation is from [TouNeko](https://codepen.io/touneko).
 - This project is inspired by [ZJUers轻首页](https://zjuers.com/).
 - Some idea of functions is from [BYR-Navi](https://github.com/BYR-Navi/BYR-Navi).

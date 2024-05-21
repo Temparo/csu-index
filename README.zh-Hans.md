@@ -86,9 +86,7 @@ Actions 应自动运行 python 脚本以生成
 
 ## 致谢
 
--
-项目通过 [Vue 3](https://vuejs.org/) + [TypeScript](https://www.typescriptlang.org/) + [Vite](https://vitejs.dev/) + [Element Plus](https://element-plus.org)
-创建。
+- 项目通过 [Vue 3](https://vuejs.org/) + [TypeScript](https://www.typescriptlang.org/) 构建。
 - 猫猫动画的作者是 [TouNeko](https://codepen.io/touneko)。
 - 本项目思路来源于 [ZJUers轻首页](https://zjuers.com/)。
 - 一些功能思路来源于 [BYR-Navi](https://github.com/BYR-Navi/BYR-Navi)。
