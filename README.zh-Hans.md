@@ -36,9 +36,9 @@
 
 如果你是中南大学学生,打开官网即可使用
 
-如果你想为自己的学校创建一个导航页，只需fork这个项目并更改"
-/url-process/origin-urls.md"文件，则 GitHub Actions 应自动运行 python 脚本以生成
-TS 文件。之后，该页面将自动部署在 GitHub Pages 上。
+如果你想为自己的学校创建一个导航页，只需fork这个项目并更改 "/url-process/origin-urls.md" 文件，push 到 GitHub 后 GitHub
+Actions 应自动运行 python 脚本以生成
+相应 TS 文件。之后，该页面将自动部署在 GitHub Pages 上。
 
 ---
 
@@ -46,7 +46,7 @@ TS 文件。之后，该页面将自动部署在 GitHub Pages 上。
 
 1. 安装 [Node.js](https://nodejs.org/en/download/)
 
-2. 更改国内源
+2. 更换国内镜像
 
     ```shell
     npm config set registry https://registry.npm.taobao.org
@@ -75,7 +75,7 @@ TS 文件。之后，该页面将自动部署在 GitHub Pages 上。
     npm run dev
    ```
 
-8. 打开[http://localhost:5173](http://localhost:5173)并开始工作!
+8. 打开 [http://localhost:5173](http://localhost:5173) 并开始工作!
 
 > ### 提示：
 > - 欢迎贡献代码，只需 fork 项目并创建 pull request 即可。
@@ -87,10 +87,8 @@ TS 文件。之后，该页面将自动部署在 GitHub Pages 上。
 ## 致谢
 
 -
-
 项目通过 [Vue 3](https://vuejs.org/) + [TypeScript](https://www.typescriptlang.org/) + [Vite](https://vitejs.dev/) + [Element Plus](https://element-plus.org)
-来创建。
-
+创建。
 - 猫猫动画的作者是 [TouNeko](https://codepen.io/touneko)。
 - 本项目思路来源于 [ZJUers轻首页](https://zjuers.com/)。
 - 一些功能思路来源于 [BYR-Navi](https://github.com/BYR-Navi/BYR-Navi)。

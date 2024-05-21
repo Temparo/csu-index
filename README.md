@@ -4,9 +4,10 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/Temparo/csu-index?style=for-the-badge)
 [![GitHub License](https://img.shields.io/github/license/Temparo/csu-index?style=for-the-badge)](LICENSE)
 
-[简体中文](README.zh-Hans.md)
 > Because the stupid design of the school official site, I would like to create a navigation for school websites and
 > other common websites.
+
+[简体中文](README.zh-Hans.md)
 
 ---
 
