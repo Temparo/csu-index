@@ -1,6 +1,7 @@
 <script lang="ts" setup>
 import useUrlList from "../../hooks/useUrlList";
 import {nanoid} from "nanoid";
+import {toggleDark} from "../../hooks/dark.ts";
 
 const {fullUrlBlock} = useUrlList()
 
@@ -24,6 +25,16 @@ const {fullUrlBlock} = useUrlList()
         <el-button link
         >About
         </el-button>
+        <el-menu>
+          <el-menu-item h="full" @click="toggleDark()">
+            <button
+                class="border-none w-full bg-transparent cursor-pointer"
+                style="height: var(--ep-menu-item-height)"
+            >
+              <i i="dark:ep-moon ep-sunny" inline-flex/>
+            </button>
+          </el-menu-item>
+        </el-menu>
       </div>
     </el-header>
     <el-main>
