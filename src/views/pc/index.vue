@@ -20,6 +20,7 @@ const {fullUrlBlock} = useUrlList()
             href="https://github.com/Temparo/csu-index"
             link
             tag="a"
+            data-umami-event="visit github"
             target="_blank">GitHub
         </el-button>
         <el-button link
