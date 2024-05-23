@@ -20,7 +20,7 @@ const {fullUrlBlock} = useUrlList()
             href="https://github.com/Temparo/csu-index"
             link
             tag="a"
-            data-umami-event="visit github"
+            data-umami-event-github="visit github"
             target="_blank">GitHub
         </el-button>
         <el-button link
@@ -67,7 +67,7 @@ const {fullUrlBlock} = useUrlList()
                 tag="a"
                 target="_blank"
                 text
-                :data-umami-event-url="url.url"
+                :data-umami-event="url.url"
 
             >
               {{ url.text }}
