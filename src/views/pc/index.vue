@@ -66,6 +66,7 @@ const {fullUrlBlock} = useUrlList()
                 tag="a"
                 target="_blank"
                 text
+                :data-umami-event-url="url.url"
 
             >
               {{ url.text }}

@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
+    "@vuepress/plugin-umami-analytics": "^2.0.0-rc.30",
     "sass": "^1.76.0",
     "typescript": "^5.2.2",
     "unplugin-auto-import": "^0.17.5",
