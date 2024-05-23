@@ -20,7 +20,7 @@ const {fullUrlBlock} = useUrlList()
             href="https://github.com/Temparo/csu-index"
             link
             tag="a"
-            data-umami-event-github="visit github"
+            data-umami-event="visit github (only from pc)"
             target="_blank">GitHub
         </el-button>
         <el-button link
@@ -53,8 +53,6 @@ const {fullUrlBlock} = useUrlList()
             <!--                        <span>{{ cardName }}</span>-->
             <!--                      </div>-->
             <!--                    </template>-->
-
-
             <el-button
                 v-for="url in urlList"
                 :key="url.id"
@@ -67,8 +65,10 @@ const {fullUrlBlock} = useUrlList()
                 tag="a"
                 target="_blank"
                 text
-                :data-umami-event="url.url"
-
+                :data-umami-event-card="cardName"
+                :data-umami-event-url="url.url"
+                data-umami-event="url click"
+                data-umami-event-device="pc"
             >
               {{ url.text }}
             </el-button>
