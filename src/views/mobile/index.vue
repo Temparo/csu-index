@@ -40,10 +40,10 @@ const size = ref(18)
               tag="a"
               target="_blank"
               text
-              :data-umami-event-card="cardName"
-              :data-umami-event-url="url.url"
               data-umami-event="url click"
               data-umami-event-device="mobile"
+              :data-umami-event-card="cardName"
+              :data-umami-event-url="url.url"
           >
             {{ url.text }}
           </el-button>

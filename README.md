@@ -18,7 +18,7 @@
 - [x] Deploy on GitHub Pages
 - [x] Add Loading Cat Animation
 - [ ] Design the Logo
-- [ ] Add Analytics for the Clicks
+- [x] Add Analytics for the Clicks
 - [ ] Add About Page
 - [ ] Add Broken Link list for School Pages
 - [ ] Add Issues, Feedback and Contact
