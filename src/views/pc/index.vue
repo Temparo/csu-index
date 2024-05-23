@@ -30,7 +30,6 @@ const {fullUrlBlock} = useUrlList()
 
             <button
                 class="border-none w-full bg-transparent cursor-pointer"
-                style="height: var(--el-menu-item-height)"
             >
               <i i="dark:ep-moon ep-sunny"/>
             </button>
