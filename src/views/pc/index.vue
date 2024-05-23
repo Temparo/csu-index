@@ -27,11 +27,12 @@ const {fullUrlBlock} = useUrlList()
         </el-button>
         <el-menu>
           <el-menu-item h="full" @click="toggleDark()">
+
             <button
                 class="border-none w-full bg-transparent cursor-pointer"
-                style="height: var(--ep-menu-item-height)"
+                style="height: var(--el-menu-item-height)"
             >
-              <i i="dark:ep-moon ep-sunny" inline-flex/>
+              <i i="dark:ep-moon ep-sunny"/>
             </button>
           </el-menu-item>
         </el-menu>

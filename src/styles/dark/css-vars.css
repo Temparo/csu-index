@@ -1,13 +1,39 @@
 html.dark {
     /* 自定义深色背景颜色 */
     --el-bg-color: black;
-}
 
-body {
-    /* 自定义深色背景颜色 */
-    background-color: var(--el-bg-color);
-    /* 自定义深色文字颜色 */
-    /*color: white;*/
-    /* 自定义深色边框颜色 */
-    /*border-color: #333;*/
+    body {
+        /* 自定义深色背景颜色 */
+        background-color: var(--el-bg-color);
+        /* 自定义深色文字颜色 */
+        /*color: white;*/
+        /* 自定义深色边框颜色 */
+        /*border-color: #333;*/
+
+    }
+
+    .cat-body:before {
+        background-color: var(--el-bg-color);
+    }
+
+    .cat-animation-mask {
+        background-color: var(--el-bg-color);
+    }
+
+    .cat-animation-mask:before {
+        background-color: var(--el-bg-color);
+    }
+
+    .cat-animation-mask:after {
+        background-color: var(--el-bg-color);
+    }
+
+    .cat-head {
+        background-color: var(--el-bg-color);
+    }
+
+    .cat-foot {
+        background-color: var(--el-bg-color);
+    }
+
 }
