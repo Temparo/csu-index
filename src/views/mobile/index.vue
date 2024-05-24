@@ -1,11 +1,17 @@
 <script lang="ts" setup>
-import {ref} from "vue";
+import {onMounted, ref} from "vue";
 import useUrlList from "../../hooks/useUrlList";
 import {nanoid} from "nanoid";
+import dynamicLoadJs from "../../hooks/useScriptDetection.ts";
 
 const {fullUrlBlock} = useUrlList()
 const size = ref(18)
+onMounted(() => {
+  dynamicLoadJs("https://cloud.umami.is/script.js", "f7ba7afc-e25f-413e-ab06-d77e6ed68eb7", () => {
+    console.log("script test")
 
+  })
+})
 </script>
 
 <template>
@@ -43,7 +49,7 @@ const size = ref(18)
               data-umami-event="url click"
               data-umami-event-device="mobile"
               :data-umami-event-card="cardName"
-              :data-umami-event-url="url.url"
+              :data-umami-event-url="url.text"
           >
             {{ url.text }}
           </el-button>

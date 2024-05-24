@@ -21,6 +21,3 @@ export default function dynamicLoadJs(url: string, webId: string, callback: obje
     }
     head.appendChild(script)
 }
-
-
-

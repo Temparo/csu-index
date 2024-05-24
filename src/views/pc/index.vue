@@ -4,36 +4,45 @@ import {nanoid} from "nanoid";
 import {toggleDark} from "../../hooks/useDarkMode.ts";
 import dynamicLoadJs from "../../hooks/useScriptDetection.ts";
 import {onMounted} from "vue";
+import router from "../../router";
 
 const {fullUrlBlock} = useUrlList()
 onMounted(() => {
   dynamicLoadJs("https://cloud.umami.is/script.js", "f7ba7afc-e25f-413e-ab06-d77e6ed68eb7", () => {
-    console.log("jiazaiwanc")
+    console.log("script test")
 
   })
 })
+
+function routerPush() {
+  router.push("/about")
+}
 
 </script>
 
 <template>
   <el-container class=".container">
     <el-header>
-      <div>
+      <div class="headline">
         <span>
           <a href="https://csu-index.github.io/" target="_self">CSU-Index</a>
         </span>
       </div>
       <div>
-        <el-button
-            href="https://github.com/Temparo/csu-index"
-            link
-            tag="a"
-            data-umami-event="visit github (only from pc)"
-            target="_blank">GitHub
-        </el-button>
-        <el-button link
-        >About
-        </el-button>
+        <div>
+          <el-button class="fancy-button"
+                     data-umami-event="visit github (only from pc)"
+                     href="https://github.com/Temparo/csu-index"
+                     link
+                     tag="a"
+                     target="_blank">GitHub
+          </el-button>
+          <el-button class="fancy-button"
+                     data-umami-event="visit about (only from pc)"
+                     link
+                     @click="routerPush">About
+          </el-button>
+        </div>
         <el-menu>
           <el-menu-item h="full" @click="toggleDark()">
 
@@ -76,7 +85,7 @@ onMounted(() => {
                 data-umami-event="url click"
                 data-umami-event-device="pc"
                 :data-umami-event-card="cardName"
-                :data-umami-event-url="url.url"
+                :data-umami-event-url="url.text"
             >
               {{ url.text }}
             </el-button>
@@ -112,6 +121,18 @@ onMounted(() => {
   font-size: 16px;
 }
 
+
+.fancy-button {
+  color: #fff;
+  background: linear-gradient(315deg, #42d392 25%, #647eff);
+  border: none;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: inherit;
+}
+
 .el-main {
   padding: 1rem 0.5rem;
 }
@@ -132,4 +153,11 @@ onMounted(() => {
     }
   }
 }
+
+//.headline {
+//  color: #747bff;
+//  font-weight: 500;
+//  text-decoration: inherit;
+//}
+
 </style>
