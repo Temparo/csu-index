@@ -120,7 +120,7 @@
   <微信小程序搜索也可以找到>
 - [WakeUp课程表](https://www.wakeup.fun/)
 - [极简课表ios](https://apps.apple.com/cn/app/%E6%9E%81%E7%AE%80%E8%AF%BE%E8%A1%A8-watch%E8%AF%BE%E7%A8%8B%E8%A1%A8/id1581272719)
-- [github](https://github.com/)
+- [GitHub](https://github.com/)
   <暂时置于此处>
 - [暑研信息](https://www.csu.edu.cn/)
   <待添加>

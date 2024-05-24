@@ -10,6 +10,11 @@ const routerPc = [
         path: '/index',
         component: () =>
             import('../views/pc/index.vue'),
+    },
+    {
+        path: '/about',
+        component: () =>
+            import('../views/about.vue')
     }
 ]
 const routerMobile = [
@@ -21,6 +26,11 @@ const routerMobile = [
         path: '/index',
         component: () =>
             import('../views/mobile/index.vue')
+    },
+    {
+        path: '/about',
+        component: () =>
+            import('../views/about.vue')
     }
 ]
 let routes = [];
