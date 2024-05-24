@@ -4,7 +4,7 @@ import {nanoid} from "nanoid";
 import {toggleDark} from "../../hooks/useDarkMode.ts";
 import dynamicLoadJs from "../../hooks/useScriptDetection.ts";
 import {onMounted} from "vue";
-import router from "../../router";
+import {useRouter} from "vue-router";
 
 const {fullUrlBlock} = useUrlList()
 onMounted(() => {
@@ -13,9 +13,10 @@ onMounted(() => {
 
   })
 })
-
+const router = useRouter()
 function routerPush() {
-  router.push("/about")
+  router.push({path: "/about"})
+  window.open(href, '_blank')
 }
 
 </script>
