@@ -1,9 +1,17 @@
 <script lang="ts" setup>
 import useUrlList from "../../hooks/useUrlList";
 import {nanoid} from "nanoid";
-import {toggleDark} from "../../hooks/dark.ts";
+import {toggleDark} from "../../hooks/useDarkMode.ts";
+import dynamicLoadJs from "../../hooks/useScriptDetection.ts";
+import {onMounted} from "vue";
 
 const {fullUrlBlock} = useUrlList()
+onMounted(() => {
+  dynamicLoadJs("https://cloud.umami.is/script.js", "f7ba7afc-e25f-413e-ab06-d77e6ed68eb7", () => {
+    console.log("jiazaiwanc")
+
+  })
+})
 
 </script>
 
