@@ -29,7 +29,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: OpenCommit — improve commits with AI 🧙
-        uses: di-sukharev/opencommit
+        uses: di-sukharev/opencommit@github-action-v1.0.4
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
