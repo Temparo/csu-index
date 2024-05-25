@@ -24,7 +24,7 @@ jobs:
       - name: Setup Node.js Environment
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: latest
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
