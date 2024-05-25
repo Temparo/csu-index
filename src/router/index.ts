@@ -34,11 +34,14 @@ const routerMobile = [
     }
 ]
 let routes: any[];
+export let device: string
 let Adaptive = /(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i
 if (navigator.userAgent.match(Adaptive)) {
     routes = routerMobile
+    device = "mobile"
 } else {
     routes = routerPc
+    device = "pc"
 }
 const router = createRouter({
     history: createWebHistory(),

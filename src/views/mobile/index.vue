@@ -58,7 +58,7 @@ onMounted(() => {
     </el-main>
     <el-footer>
       <div class="grid-content bg-purple-dark"></div>
-      <p>Created by Zhuzhu.All rights reserved.</p>
+      <p>Created by Zhuzhu mobile.All rights reserved.</p>
     </el-footer>
   </el-container>
 </template>
@@ -76,7 +76,8 @@ onMounted(() => {
   min-height: 36px;
 }
 
-.el-main {
-  padding: 0;
+.el-space {
+  align-items: center;
+  justify-content: center;
 }
 </style>

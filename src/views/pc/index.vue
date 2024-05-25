@@ -6,6 +6,7 @@ import dynamicLoadJs from "../../hooks/useScriptDetection.ts";
 import {onMounted} from "vue";
 import {useRouter} from "vue-router";
 import DarkModeToggle from "../../components/darkModeToggle.vue";
+import {device} from "../../router";
 
 const {fullUrlBlock} = useUrlList()
 onMounted(() => {
@@ -15,10 +16,16 @@ onMounted(() => {
   })
 })
 const router = useRouter()
+let appPadding: string
+if (device === "pc") {
+  appPadding = "1rem 1rem 1.5rem 1rem"
+} else if (device === "mobile") {
+  appPadding = "0"
+}
 </script>
 
 <template>
-  <el-container class=".container">
+  <el-container class="container">
     <el-header>
       <div class="headline">
         <span>
@@ -105,6 +112,8 @@ const router = useRouter()
 
 .container {
   margin: 0 auto;
+  padding: v-bind(appPadding);
+  text-align: center;
 }
 
 .button {
