@@ -15,7 +15,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <el-container class=".container">
+  <el-container class="container">
     <el-main>
 
       <el-space
@@ -64,12 +64,14 @@ onMounted(() => {
 </template>
 
 <style lang="scss" scoped>
+.container {
+  padding: 1rem 0 1rem 0;
+}
 
 .el-card {
   border-radius: 4px;
   --el-card-padding: 10px;
 }
-
 
 .grid-content {
   border-radius: 4px;
@@ -79,5 +81,9 @@ onMounted(() => {
 .el-space {
   align-items: center;
   justify-content: center;
+}
+
+.el-main {
+  padding: 0
 }
 </style>
