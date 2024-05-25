@@ -7,21 +7,36 @@ import {onMounted} from "vue";
 import {useRouter} from "vue-router";
 import DarkModeToggle from "../../components/darkModeToggle.vue";
 import {device} from "../../router";
+import {ElNotification} from "element-plus";
+import 'element-plus/es/components/notification/style/css'
 
 const {fullUrlBlock} = useUrlList()
-onMounted(() => {
-  dynamicLoadJs("https://cloud.umami.is/script.js", "f7ba7afc-e25f-413e-ab06-d77e6ed68eb7", () => {
-    console.log("script test")
-
-  })
-})
 const router = useRouter()
+
 let appPadding: string
 if (device === "pc") {
   appPadding = "1rem 1rem 1.5rem 1rem"
 } else if (device === "mobile") {
   appPadding = "0"
 }
+
+const prompt = () => {
+  ElNotification({
+    title: "Oops,我被拦住了！＠_＠",
+    message: "如果看到这条提示，说明您的浏览器开启了广告拦截，烦请您将本网站加入白名单，以便我们统计各个链接的点击情况，把更常用的置于前面，我们承诺不会关联您的任何个人信息",
+    type: 'warning',
+    position: 'top-right',
+  })
+}
+onMounted(() => {
+  const timerId = setTimeout(() => {
+    prompt()
+  }, 2000)
+  dynamicLoadJs("https://cloud.umami.is/script.js", "f7ba7afc-e25f-413e-ab06-d77e6ed68eb7", () => {
+    clearTimeout(timerId)
+  })
+})
+
 </script>
 
 <template>

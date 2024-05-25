@@ -3,13 +3,26 @@ import {onMounted, ref} from "vue";
 import useUrlList from "../../hooks/useUrlList";
 import {nanoid} from "nanoid";
 import dynamicLoadJs from "../../hooks/useScriptDetection.ts";
+import {ElNotification} from "element-plus";
+import 'element-plus/es/components/notification/style/css'
 
 const {fullUrlBlock} = useUrlList()
 const size = ref(18)
-onMounted(() => {
-  dynamicLoadJs("https://cloud.umami.is/script.js", "f7ba7afc-e25f-413e-ab06-d77e6ed68eb7", () => {
-    console.log("script test")
 
+const prompt = () => {
+  ElNotification({
+    title: "Oops,我被拦住了！＠_＠",
+    message: "如果看到这条提示，说明您的浏览器开启了广告拦截，烦请您将本网站加入白名单，以便我们统计各个链接的点击情况，把更常用的置于前面，我们承诺不会关联您的任何个人信息,谢谢！",
+    type: 'warning',
+  })
+}
+
+onMounted(() => {
+  const timerId = setTimeout(() => {
+    prompt()
+  }, 2000)
+  dynamicLoadJs("https://cloud.umami.is/script.js", "f7ba7afc-e25f-413e-ab06-d77e6ed68eb7", () => {
+    clearTimeout(timerId)
   })
 })
 </script>
