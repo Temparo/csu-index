@@ -375,7 +375,7 @@ export default function () {
  {
   "id": nanoid(),
   "url": "https://github.com/",
-  "text": "github",
+  "text": "GitHub",
   "detail": "暂时置于此处"
  },
  {
