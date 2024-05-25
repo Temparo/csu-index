@@ -39,7 +39,7 @@ jobs:
         uses: actions/setup-node@v4
         # 指定某个action 可能需要输入的参数
         with:
-          node-version: '20.x'
+          node-version: latest
 
       # 安装依赖  
       - name: Install dependencies
