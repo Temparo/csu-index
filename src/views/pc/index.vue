@@ -5,6 +5,7 @@ import {toggleDark} from "../../hooks/useDarkMode.ts";
 import dynamicLoadJs from "../../hooks/useScriptDetection.ts";
 import {onMounted} from "vue";
 import {useRouter} from "vue-router";
+import DarkModeToggle from "../../components/darkModeToggle.vue";
 
 const {fullUrlBlock} = useUrlList()
 onMounted(() => {
@@ -14,11 +15,6 @@ onMounted(() => {
   })
 })
 const router = useRouter()
-function routerPush() {
-  router.push({path: "/about"})
-  window.open(href, '_blank')
-}
-
 </script>
 
 <template>
@@ -30,7 +26,7 @@ function routerPush() {
         </span>
       </div>
       <div>
-        <div>
+        <div class="right-items">
           <el-button class="fancy-button"
                      data-umami-event="visit github (only from pc)"
                      href="https://github.com/Temparo/csu-index"
@@ -41,19 +37,12 @@ function routerPush() {
           <el-button class="fancy-button"
                      data-umami-event="visit about (only from pc)"
                      link
-                     @click="routerPush">About
+                     @click="router.push('/about')">About
           </el-button>
         </div>
-        <el-menu>
-          <el-menu-item h="full" @click="toggleDark()">
-
-            <button
-                class="border-none w-full bg-transparent cursor-pointer"
-            >
-              <i i="dark:ep-moon ep-sunny"/>
-            </button>
-          </el-menu-item>
-        </el-menu>
+        <div class="dark-mode-toggle-scale right-items" @click="toggleDark()">
+          <dark-mode-toggle></dark-mode-toggle>
+        </div>
       </div>
     </el-header>
     <el-main>
@@ -155,10 +144,14 @@ function routerPush() {
   }
 }
 
-//.headline {
-//  color: #747bff;
-//  font-weight: 500;
-//  text-decoration: inherit;
-//}
+.dark-mode-toggle-scale {
+  transform: scale(0.25);
+  margin: 0 -60px 0 -67px;
+}
 
+.right-items {
+  display: flex;
+  align-items: normal;
+  justify-content: flex-end;
+}
 </style>
