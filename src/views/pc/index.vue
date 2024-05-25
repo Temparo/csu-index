@@ -123,6 +123,10 @@ const router = useRouter()
   text-decoration: inherit;
 }
 
+.fancy-button:hover {
+  color: #C8EDED;
+}
+
 .el-main {
   padding: 1rem 0.5rem;
 }
