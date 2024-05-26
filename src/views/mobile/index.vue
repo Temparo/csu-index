@@ -25,7 +25,7 @@ onBeforeMount(() => {
 onMounted(() => {
   const timerId = setTimeout(() => {
     prompt()
-  }, 2000)
+  }, 1500)
   dynamicLoadJs("https://cloud.umami.is/script.js", "f7ba7afc-e25f-413e-ab06-d77e6ed68eb7", () => {
     clearTimeout(timerId)
   })

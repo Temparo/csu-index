@@ -31,7 +31,7 @@ const prompt = () => {
 onMounted(() => {
   const timerId = setTimeout(() => {
     prompt()
-  }, 2000)
+  }, 1500)
   dynamicLoadJs("https://cloud.umami.is/script.js", "f7ba7afc-e25f-413e-ab06-d77e6ed68eb7", () => {
     clearTimeout(timerId)
   })
@@ -82,25 +82,37 @@ onMounted(() => {
             <!--                        <span>{{ cardName }}</span>-->
             <!--                      </div>-->
             <!--                    </template>-->
-            <el-button
+            <el-popover
                 v-for="url in urlList"
-                :key="url.id"
-                :href="url.url"
-                class="button"
-                plain
-                size="large"
-                style="margin: 6px 0.4em;
-              padding: 6px 0.4em;width: 7.5em"
-                tag="a"
-                target="_blank"
-                text
-                data-umami-event="url click"
-                data-umami-event-device="pc"
-                :data-umami-event-card="cardName"
-                :data-umami-event-url="url.text"
+                :content="url.detail"
+                :disabled="!url.detail"
+                :width="200"
+                placement="right-start"
+                show-after="200"
+                title=""
+                trigger="hover"
             >
-              {{ url.text }}
-            </el-button>
+              <template #reference>
+                <el-button
+                    :key="url.id"
+                    :data-umami-event-card="cardName"
+                    :data-umami-event-url="url.text"
+                    :href="url.url"
+                    class="button"
+                    data-umami-event="url click"
+                    data-umami-event-device="pc"
+                    plain
+                    size="large"
+                    style="margin: 6px 0.4em;
+              padding: 6px 0.4em;width: 7.5em"
+                    tag="a"
+                    target="_blank"
+                    text
+                >
+                  {{ url.text }}
+                </el-button>
+              </template>
+            </el-popover>
           </el-card>
         </el-col>
       </el-row>

@@ -20,8 +20,7 @@ const goBack = () => {
     <el-main>
       <el-card>
         <div class="about">
-          <p>CSU-Index is a navigation that provides a list of useful links for students of Central South
-            University.</p>
+          <p>CSU-Index是一个导航页，为中南大学学生提供常用网站链接</p>
         </div>
       </el-card>
     </el-main>

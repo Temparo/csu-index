@@ -17,6 +17,7 @@ declare module 'vue' {
     ElHeader: typeof import('element-plus/es')['ElHeader']
     ElMain: typeof import('element-plus/es')['ElMain']
     ElPageHeader: typeof import('element-plus/es')['ElPageHeader']
+    ElPopover: typeof import('element-plus/es')['ElPopover']
     ElRow: typeof import('element-plus/es')['ElRow']
     ElSpace: typeof import('element-plus/es')['ElSpace']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
