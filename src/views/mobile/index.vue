@@ -1,10 +1,11 @@
 <script lang="ts" setup>
-import {onMounted, ref} from "vue";
+import {onBeforeMount, onMounted, ref} from "vue";
 import useUrlList from "../../hooks/useUrlList";
 import {nanoid} from "nanoid";
 import dynamicLoadJs from "../../hooks/useScriptDetection.ts";
 import {ElNotification} from "element-plus";
 import 'element-plus/es/components/notification/style/css'
+import {isDark} from "../../hooks/useDarkMode.ts";
 
 const {fullUrlBlock} = useUrlList()
 const size = ref(18)
@@ -16,6 +17,10 @@ const prompt = () => {
     type: 'warning',
   })
 }
+
+onBeforeMount(() => {
+  isDark.value = window.matchMedia('(prefers-color-scheme: dark)').matches;
+})
 
 onMounted(() => {
   const timerId = setTimeout(() => {
