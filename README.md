@@ -19,17 +19,17 @@
 - [x] Add Loading Cat Animation
 - [ ] Design the Logo
 - [x] Add Analytics for the Clicks
-- [ ] Add About Page
+- [x] Add About Page
 - [ ] Add Broken Link list for School Pages
 - [ ] Add Issues, Feedback and Contact
 - [ ] Allow Users to Change the Background
 - [ ] Add detailed introduction for each link
 - [ ] Beautify the Layout
-- [ ] Add Dark Mode
+- [x] Add Dark Mode Support
 - [ ] Allow Users to Change the Layout through Dragging
 - [ ] Add E-guide for Newcomers
 - [ ] Add Icons for links
-- [ ] Global Language Support
+- [ ] ~~Global Language Support~~
 - [ ] Deploy on Individual Domain and Server
 - [ ] Add Search Function(Maybe)
 
@@ -89,11 +89,12 @@ ts file.After that, the page will be deployed on GitHub Pages.
 
 ## Thanks
 
-- The Project is created by [Vue 3](https://vuejs.org/) + [TypeScript](https://www.typescriptlang.org/) .
-- The Loading Cat Animation is from [TouNeko](https://codepen.io/touneko).
-- This project is inspired by [ZJUers轻首页](https://zjuers.com/).
-- Some idea of functions is from [BYR-Navi](https://github.com/BYR-Navi/BYR-Navi).
-- All the codes are done by myself.
+- The Project is created by [Vue 3](https://vuejs.org/) + [TypeScript](https://www.typescriptlang.org/)
+- The Loading Cat animation is by [TouNeko](https://codepen.io/touneko)
+- The dark mode toggle button is by [MarvinRudolph](https://codepen.io/MarvinRudolph)
+- This project is inspired by [ZJUers轻首页](https://zjuers.com/)
+- Some idea of functions is from [BYR-Navi](https://github.com/BYR-Navi/BYR-Navi)
+- All the codes are done by myself
 
 ---
 

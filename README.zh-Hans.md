@@ -16,17 +16,18 @@
 - [x] 添加猫猫加载动画
 - [ ] 设计Logo
 - [x] 添加网站点击量分析
-- [ ] 添加"关于"页
+- [x] 添加"关于"页
+- [ ] 展示网站访问量和点击量等统计数据
 - [ ] 添加学校失效链接列表
 - [ ] 添加问题反馈和联系方式
 - [ ] 允许用户更改背景
 - [ ] 为每个链接添加详细介绍
 - [ ] 美化布局
-- [ ] 添加深色模式
+- [x] 添加深色模式
 - [ ] 允许用户通过拖拽来更改布局
 - [ ] 撰写新生电子指南
 - [ ] 为链接添加图标
-- [ ] 多语言支持
+- [ ] ~~多语言支持~~
 - [ ] 部署在独立域名和服务器上
 - [ ] 增加搜索功能（也许）
 
@@ -86,11 +87,12 @@ Actions 应自动运行 python 脚本以生成
 
 ## 致谢
 
-- 项目通过 [Vue 3](https://vuejs.org/) + [TypeScript](https://www.typescriptlang.org/) 构建。
-- 猫猫动画的作者是 [TouNeko](https://codepen.io/touneko)。
-- 本项目思路来源于 [ZJUers轻首页](https://zjuers.com/)。
-- 一些功能思路来源于 [BYR-Navi](https://github.com/BYR-Navi/BYR-Navi)。
-- 全部代码由我独立完成。
+- 项目使用 [Vue 3](https://vuejs.org/) + [TypeScript](https://www.typescriptlang.org/) 构建
+- 猫猫动画的原作者是 [TouNeko](https://codepen.io/touneko)
+- 暗黑模式按钮的原作者是 [MarvinRudolph](https://codepen.io/MarvinRudolph)
+- 本项目思路来源于 [ZJUers轻首页](https://zjuers.com/)
+- 一些功能思路来源于 [BYR-Navi](https://github.com/BYR-Navi/BYR-Navi)
+- 全部代码由我独立完成
 
 ---
 
