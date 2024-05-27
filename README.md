@@ -4,14 +4,14 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/Temparo/csu-index?style=for-the-badge)
 [![GitHub License](https://img.shields.io/github/license/Temparo/csu-index?style=for-the-badge)](LICENSE)
 
-> Because the stupid design of the school official site, I would like to create a navigation for school websites and
+> Because of the stupid design of the school official site, I would like to create a navigation for school websites and
 > other common websites.
 
 [简体中文](README.zh-Hans.md)
 
 ---
 
-## To do:
+## Roadmap:
 
 - [x] Create the Basic Layout
 - [x] Support the Mobile Devices
@@ -107,3 +107,7 @@ ts file.After that, the page will be deployed on GitHub Pages.
 ## License
 
 This project is under [Apache-2.0 License](LICENSE).
+
+## Stars History
+
+[![Stargazers over time](https://starchart.cc/Temparo/csu-index.svg)](https://starchart.cc/Temparo/csu-index)
