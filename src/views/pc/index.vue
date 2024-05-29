@@ -128,7 +128,7 @@ onMounted(() => {
 
 .el-card {
   border-radius: 4px;
-  --el-card-padding: 0.8rem 0.5rem;
+  --el-card-padding: 1rem 0.5rem;
   margin-bottom: 16px;
 }
 

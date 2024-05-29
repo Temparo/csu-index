@@ -90,11 +90,12 @@ ts file.After that, the page will be deployed on GitHub Pages.
 ## Thanks
 
 - The Project is created by [Vue 3](https://vuejs.org/) + [TypeScript](https://www.typescriptlang.org/)
-- The Loading Cat animation is by [TouNeko](https://codepen.io/touneko)
-- The dark mode toggle button is by [MarvinRudolph](https://codepen.io/MarvinRudolph)
 - This project is inspired by [ZJUers轻首页](https://zjuers.com/)
 - Some idea of functions is from [BYR-Navi](https://github.com/BYR-Navi/BYR-Navi)
-- All the codes are done by myself
+- The Loading Cat animation is by [TouNeko](https://codepen.io/touneko)
+- The dark mode toggle button is by [MarvinRudolph](https://codepen.io/MarvinRudolph)
+- The title style imitates [YesIcon](https://yesicon.app/)
+- Myself!!!🏳️‍🌈
 
 ---
 

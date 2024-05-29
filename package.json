@@ -12,7 +12,8 @@
     "element-plus": "^2.7.2",
     "nanoid": "^5.0.7",
     "vue": "^3.4.21",
-    "vue-router": "^4.3.2"
+    "vue-router": "^4.3.2",
+    "vue3-moveable": "^0.28.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",

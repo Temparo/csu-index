@@ -21,7 +21,7 @@
 - [ ] 添加学校失效链接列表
 - [ ] 添加问题反馈和联系方式
 - [ ] 允许用户更改背景
-- [ ] 为每个链接添加详细介绍
+- [ ] 为链接添加详细介绍
 - [ ] 美化布局
 - [x] 添加深色模式
 - [ ] 允许用户通过拖拽来更改布局
@@ -88,11 +88,12 @@ Actions 应自动运行 python 脚本以生成
 ## 致谢
 
 - 项目使用 [Vue 3](https://vuejs.org/) + [TypeScript](https://www.typescriptlang.org/) 构建
-- 猫猫动画的原作者是 [TouNeko](https://codepen.io/touneko)
-- 暗黑模式按钮的原作者是 [MarvinRudolph](https://codepen.io/MarvinRudolph)
 - 本项目思路来源于 [ZJUers轻首页](https://zjuers.com/)
 - 一些功能思路来源于 [BYR-Navi](https://github.com/BYR-Navi/BYR-Navi)
-- 全部代码由我独立完成
+- 猫猫动画的作者是 [TouNeko](https://codepen.io/touneko)
+- 暗黑模式按钮的作者是 [MarvinRudolph](https://codepen.io/MarvinRudolph)
+- 标题样式来源于 [YesIcon](https://yesicon.app/)
+- 我自己！！！🏳️‍🌈
 
 ---
 
