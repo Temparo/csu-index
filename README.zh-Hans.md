@@ -102,10 +102,12 @@ Actions 应自动运行 python 脚本以生成
 
 ---
 
-## 许可证
-
-本项目采用 [Apache-2.0](LICENSE) 许可证。
-
 ## 星星历史
 
 [![Stargazers over time](https://starchart.cc/Temparo/csu-index.svg)](https://starchart.cc/Temparo/csu-index)
+
+---
+
+## 许可证
+
+本项目采用 [Apache-2.0](LICENSE) 许可证。

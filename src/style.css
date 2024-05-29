@@ -1,5 +1,15 @@
+@tailwind base;
+@layer base {
+    .kitty, ::before, ::after {
+        @apply box-content
+    }
+}
+
+@tailwind components;
+@tailwind utilities;
+
 :root {
-    font-family: Inter, PingFang SC, Avenir, Helvetica, Arial, sans-serif;
+    font-family: Inter, PingFang SC, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
 

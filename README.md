@@ -104,10 +104,12 @@ ts file.After that, the page will be deployed on GitHub Pages.
 
 ---
 
-## License
-
-This project is under [Apache-2.0 License](LICENSE).
-
 ## Stars History
 
 [![Stargazers over time](https://starchart.cc/Temparo/csu-index.svg)](https://starchart.cc/Temparo/csu-index)
+
+---
+
+## License
+
+This project is under [Apache-2.0 License](LICENSE).

@@ -76,12 +76,12 @@ onMounted(() => {
           <el-card :key="nanoid()" class="box-card" style="min-width: 21.3em;max-width: 38rem">
 
 
-            <p slot="header">{{ cardName }}</p>
-            <!--                    <template #header>-->
-            <!--                      <div class="card-header">-->
-            <!--                        <span>{{ cardName }}</span>-->
-            <!--                      </div>-->
-            <!--                    </template>-->
+            <p slot="header" class="text-xl font-sans">{{ cardName }}</p>
+            <!--                                <template #header>-->
+            <!--                                  <div class="card-header text-2xl font-sans">-->
+            <!--                                    <span>{{ cardName }}</span>-->
+            <!--                                  </div>-->
+            <!--                                </template>-->
             <el-popover
                 v-for="url in urlList"
                 :content="url.detail"
@@ -119,7 +119,7 @@ onMounted(() => {
     </el-main>
     <el-footer>
       <div class="grid-content bg-purple-dark"></div>
-      <p>Created by Zhuzhu.All rights reserved.</p>
+      <p>Created by ZhuZhu.All rights reserved.</p>
     </el-footer>
   </el-container>
 </template>

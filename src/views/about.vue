@@ -18,7 +18,7 @@ interface RuleForm {
   location: string
   type: string[]
   resource: string
-  desc: string
+  detail: string
   grade: number
 }
 
@@ -34,7 +34,7 @@ const ruleForm = reactive<RuleForm>({
   location: '',
   type: [],
   resource: '',
-  desc: '',
+  detail: '',
   grade: 2.5
 
 })
@@ -79,8 +79,8 @@ const rules = reactive<FormRules<RuleForm>>({
       trigger: 'change',
     },
   ],
-  desc: [
-    {required: true, message: 'Please input activity form', trigger: 'blur'},
+  detail: [
+    {required: true, message: '请输入详细描述', trigger: 'blur'},
   ],
 })
 
@@ -181,8 +181,8 @@ const colors = ref(['#99A9BF', '#F7BA2A', '#FF9900'])
               <el-radio value="Venue">Venue</el-radio>
             </el-radio-group>
           </el-form-item>
-          <el-form-item label="Activity form" prop="desc">
-            <el-input v-model="ruleForm.desc" type="textarea"/>
+          <el-form-item label="问题描述" prop="detail">
+            <el-input v-model="ruleForm.detail" type="textarea"/>
           </el-form-item>
           <el-form-item>
             <el-button type="primary" @click="submitForm(ruleFormRef)">
