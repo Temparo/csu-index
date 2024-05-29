@@ -1,6 +1,6 @@
 * 请注意,这里的链接是原始链接,将会在处理后导入到网页内
 * 需要处理的链接被包裹在大括号内,以特定格式分隔
-* <>内的内容将被加入到detail内
+* <>内的内容将被加入到 description 内
 * 程序通过顺序来匹配,请勿改变链接块整体的顺序,单个链接的顺序可以调整
 
 ### 中南教务
@@ -67,6 +67,7 @@
 {
 
 - [一个木函](https://ol.woobx.cn/)
+  <实用工具箱>
 - [Github Copilot](https://github.com/features/copilot)
   <学生注册可免费使用,写代码和代码讲解极其强大,强烈推荐>
 - [OriginLab](https://www.originlab.com/)
@@ -74,7 +75,7 @@
 - [知云文献翻译](https://www.zhiyunwenxian.cn/)
 - [CopyTranslator](https://copytranslator.github.io/)
 - [JetBrains](https://www.jetbrains.com/)
-  <开箱即用编程IDE,如PyCharm,IDEA等,有社区版,专业版学生注册后免费>
+  <开箱即用编程IDE,如PyCharm,IDEA等,部分有社区版,专业版学生注册后免费>
 - [Mathpix](https://mathpix.com/)
   <数学公式识别>
 - [Overleaf](https://www.overleaf.com/)
@@ -91,7 +92,7 @@
 
 - [奖助学金](https://award.csu.edu.cn/#/login)
 - [机关作风评价](https://ca.csu.edu.cn/authserver/login?service=http://jgzfpj.csu.edu.cn/sso.aspx)
-  <我也不知道有没有实际效果>
+  <我还没提交过评价，不知道有没有实际效果>
 - [校园支付平台](https://ca.csu.edu.cn/authserver/login?service=http://jf.csu.edu.cn/xysf/caslogin.aspx)
 - [办事服务](https://nic.csu.edu.cn/bsfw/xsfw1.htm)
 - [阳光服务大厅](https://ygfw.csu.edu.cn/)
@@ -122,9 +123,7 @@
 - [极简课表ios](https://apps.apple.com/cn/app/%E6%9E%81%E7%AE%80%E8%AF%BE%E8%A1%A8-watch%E8%AF%BE%E7%A8%8B%E8%A1%A8/id1581272719)
 - [GitHub](https://github.com/)
   <暂时置于此处>
-- [暑研信息](https://www.csu.edu.cn/)
-  <待添加>
+- [海外暑研信息](https://www.pathwaystoscience.org/)
 - [国外留学信息](https://www.csu.edu.cn/)
   <待添加>
   }
-  

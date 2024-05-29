@@ -28,8 +28,8 @@ for block in ret:
             url = re.search(r"\((.*?)\)", item).group().replace("(", "").replace(")", "")
             small_dict: dict = {"id": 'nanoid()', "url": url, "text": text}
             if re.search(r"<(.*?)>", item) is not None:
-                detail = re.search(r"<(.*?)>", item).group().replace("<", "").replace(">", "")
-                small_dict["detail"] = detail
+                description = re.search(r"<(.*?)>", item).group().replace("<", "").replace(">", "")
+                small_dict["description"] = description
 
             mid_list.append(small_dict)
             count += 1

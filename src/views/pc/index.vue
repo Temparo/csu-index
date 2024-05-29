@@ -9,6 +9,7 @@ import DarkModeToggle from "../../components/darkModeToggle.vue";
 import {device} from "../../router";
 import {ElNotification} from "element-plus";
 import 'element-plus/es/components/notification/style/css'
+import moveableTitle from "../../components/moveableTitle.vue";
 
 const {fullUrlBlock} = useUrlList()
 const router = useRouter()
@@ -42,10 +43,13 @@ onMounted(() => {
 <template>
   <el-container class="container">
     <el-header>
-      <div class="headline">
-        <span>
-          <a href="https://csu-index.github.io/" target="_self">CSU-Index</a>
+      <div class="headline text-4xl">
+        <span
+            class="color-action cursor-text hover:ring-2 hover:ring-fuchsia-500 focus:ring-2 focus:ring-fuchsia-500 outline-0 bg-fuchsia-200/60 dark:bg-fuchsia-50/20 before:content-['<'] after:content-['/>'] after:ml-2">
+          <a href="https://csu-index.github.io/" target="_self">CSU</a>
         </span>
+        <a href="https://csu-index.github.io/" target="_self">&nbsp;-&nbsp;</a>
+        <moveableTitle/>
       </div>
       <div>
         <div class="right-items">
@@ -84,11 +88,11 @@ onMounted(() => {
             <!--                                </template>-->
             <el-popover
                 v-for="url in urlList"
-                :content="url.detail"
-                :disabled="!url.detail"
+                :content="url.description"
+                :disabled="!url.description"
                 :width="200"
                 placement="right-start"
-                show-after="200"
+                :show-after=200
                 title=""
                 trigger="hover"
             >
@@ -172,7 +176,6 @@ onMounted(() => {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 24px;
 
   > div {
     display: flex;
@@ -193,5 +196,10 @@ onMounted(() => {
   display: flex;
   align-items: normal;
   justify-content: flex-end;
+}
+
+.headline {
+  display: block;
+
 }
 </style>

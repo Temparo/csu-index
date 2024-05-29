@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vueuse/core": "^10.10.0",
     "element-plus": "^2.7.2",
     "nanoid": "^5.0.7",
     "vue": "^3.4.21",
@@ -17,7 +18,6 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
-    "@vuepress/plugin-umami-analytics": "^2.0.0-rc.30",
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.38",
     "sass": "^1.76.0",

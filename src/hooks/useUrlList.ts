@@ -62,7 +62,7 @@ export default function () {
   "id": nanoid(),
   "url": "https://oa.csu.edu.cn/mailbox/?tp=01",
   "text": "校长信箱",
-  "detail": "有可能获得与辅导员单独交流的机会,请谨慎发言"
+  "description": "有可能获得与辅导员单独交流的机会,请谨慎发言"
  }
 ]
     let urlList2: UrlBlock = [
@@ -110,19 +110,19 @@ export default function () {
   "id": nanoid(),
   "url": "https://www.csu.edu.cn/",
   "text": "导师评价",
-  "detail": "待添加"
+  "description": "待添加"
  },
  {
   "id": nanoid(),
   "url": "https://www.csu.edu.cn/",
   "text": "本科生选课评价",
-  "detail": "待添加"
+  "description": "待添加"
  },
  {
   "id": nanoid(),
   "url": "http://bkwsfw.csu.edu.cn/",
   "text": "本科生服务",
-  "detail": "我不确定是否可用"
+  "description": "我不确定是否可用"
  },
  {
   "id": nanoid(),
@@ -190,7 +190,7 @@ export default function () {
   "id": nanoid(),
   "url": "https://quillbot.com/",
   "text": "QuillBot",
-  "detail": "论文降重润色总结,这个工具我没有亲自测试"
+  "description": "论文降重润色总结,这个工具我没有亲自测试"
  }
 ]
     let urlList4: UrlBlock = [
@@ -203,13 +203,13 @@ export default function () {
   "id": nanoid(),
   "url": "https://github.com/features/copilot",
   "text": "Github Copilot",
-  "detail": "学生注册可免费使用,写代码和代码讲解极其强大,强烈推荐"
+  "description": "学生注册可免费使用,写代码和代码讲解极其强大,强烈推荐"
  },
  {
   "id": nanoid(),
   "url": "https://www.originlab.com/",
   "text": "OriginLab",
-  "detail": "科研绘图工具"
+  "description": "科研绘图工具"
  },
  {
   "id": nanoid(),
@@ -225,19 +225,19 @@ export default function () {
   "id": nanoid(),
   "url": "https://www.jetbrains.com/",
   "text": "JetBrains",
-  "detail": "开箱即用编程IDE,如PyCharm,IDEA等,有社区版,专业版学生注册后免费"
+  "description": "开箱即用编程IDE,如PyCharm,IDEA等,有社区版,专业版学生注册后免费"
  },
  {
   "id": nanoid(),
   "url": "https://mathpix.com/",
   "text": "Mathpix",
-  "detail": "数学公式识别"
+  "description": "数学公式识别"
  },
  {
   "id": nanoid(),
   "url": "https://www.overleaf.com/",
   "text": "Overleaf",
-  "detail": "在线LaTeX编辑器"
+  "description": "在线LaTeX编辑器"
  },
  {
   "id": nanoid(),
@@ -270,7 +270,7 @@ export default function () {
   "id": nanoid(),
   "url": "https://ca.csu.edu.cn/authserver/login?service=http://jgzfpj.csu.edu.cn/sso.aspx",
   "text": "机关作风评价",
-  "detail": "我也不知道有没有实际效果"
+  "description": "我也不知道有没有实际效果"
  },
  {
   "id": nanoid(),
@@ -301,7 +301,7 @@ export default function () {
   "id": nanoid(),
   "url": "https://www.connectedpapers.com/",
   "text": "文献联系",
-  "detail": "快速找到关联文献,适合写综述"
+  "description": "快速找到关联文献,适合写综述"
  },
  {
   "id": nanoid(),
@@ -317,7 +317,7 @@ export default function () {
   "id": nanoid(),
   "url": "",
   "text": "课程评价系统",
-  "detail": "待实现"
+  "description": "待实现"
  },
  {
   "id": nanoid(),
@@ -360,7 +360,7 @@ export default function () {
   "id": nanoid(),
   "url": "http://www.zanoa.cn/",
   "text": "赞噢集市",
-  "detail": "微信小程序搜索也可以找到"
+  "description": "微信小程序搜索也可以找到"
  },
  {
   "id": nanoid(),
@@ -376,19 +376,19 @@ export default function () {
   "id": nanoid(),
   "url": "https://github.com/",
   "text": "GitHub",
-  "detail": "暂时置于此处"
+  "description": "暂时置于此处"
  },
  {
   "id": nanoid(),
   "url": "https://www.csu.edu.cn/",
   "text": "暑研信息",
-  "detail": "待添加"
+  "description": "待添加"
  },
  {
   "id": nanoid(),
   "url": "https://www.csu.edu.cn/",
   "text": "国外留学信息",
-  "detail": "待添加"
+  "description": "待添加"
  }
 ]
     let fullUrlBlock: Array<FullUrlInfo> = [
