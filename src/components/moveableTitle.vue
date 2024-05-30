@@ -1,5 +1,5 @@
 <template>
-    <span ref="target" class="target inline-block color-action designer p-1 cursor-move relative z-10">
+    <span ref="target" class="target inline-block designer p-1 relative z-10">
         <a href="https://csu-index.github.io/" target="_self">Index</a>
         </span>
   <Moveable

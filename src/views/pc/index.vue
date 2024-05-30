@@ -45,10 +45,10 @@ onMounted(() => {
     <el-header>
       <div class="headline text-4xl">
         <span
-            class="color-action cursor-text hover:ring-2 hover:ring-fuchsia-500 focus:ring-2 focus:ring-fuchsia-500 outline-0 bg-fuchsia-200/60 dark:bg-fuchsia-50/20 before:content-['<'] after:content-['/>'] after:ml-2">
-          <a href="https://csu-index.github.io/" target="_self">CSU</a>
+            class="cursor-text hover:ring-2 hover:ring-fuchsia-500 focus:ring-2 focus:ring-fuchsia-500 outline-0 bg-fuchsia-200/60 dark:bg-fuchsia-50/20 before:content-['<'] after:content-['/>'] after:ml-2">
+          <a contenteditable="true" class="outline-0" href="https://csu-index.github.io/" target="_self">CSU</a>
         </span>
-        <a href="https://csu-index.github.io/" target="_self">&nbsp;-&nbsp;</a>
+        <a class="inline-block p-1 relative z-10" href="https://csu-index.github.io/" target="_self">&nbsp;-&nbsp;</a>
         <moveableTitle/>
       </div>
       <div>
