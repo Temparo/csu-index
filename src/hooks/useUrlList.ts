@@ -15,7 +15,7 @@ export default function () {
  },
  {
   "id": nanoid(),
-  "url": "https://lms.csu.edu.cn/login",
+  "url": "http://lms.csu.edu.cn/user/index#/",
   "text": "教学可视化"
  },
  {
