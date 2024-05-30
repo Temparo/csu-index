@@ -197,7 +197,8 @@ export default function () {
  {
   "id": nanoid(),
   "url": "https://ol.woobx.cn/",
-  "text": "一个木函"
+  "text": "一个木函",
+  "description": "实用工具箱"
  },
  {
   "id": nanoid(),
@@ -225,7 +226,7 @@ export default function () {
   "id": nanoid(),
   "url": "https://www.jetbrains.com/",
   "text": "JetBrains",
-  "description": "开箱即用编程IDE,如PyCharm,IDEA等,有社区版,专业版学生注册后免费"
+  "description": "开箱即用编程IDE,如PyCharm,IDEA等,部分有社区版,专业版学生注册后免费"
  },
  {
   "id": nanoid(),
@@ -270,7 +271,7 @@ export default function () {
   "id": nanoid(),
   "url": "https://ca.csu.edu.cn/authserver/login?service=http://jgzfpj.csu.edu.cn/sso.aspx",
   "text": "机关作风评价",
-  "description": "我也不知道有没有实际效果"
+  "description": "我还没提交过评价，不知道有没有实际效果"
  },
  {
   "id": nanoid(),
@@ -380,9 +381,8 @@ export default function () {
  },
  {
   "id": nanoid(),
-  "url": "https://www.csu.edu.cn/",
-  "text": "暑研信息",
-  "description": "待添加"
+  "url": "https://www.pathwaystoscience.org/",
+  "text": "海外暑研信息"
  },
  {
   "id": nanoid(),
