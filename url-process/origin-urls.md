@@ -9,7 +9,7 @@
 
 - [信息门户](https://my.csu.edu.cn/login/index.jsp)
 - [图书馆](https://lib.csu.edu.cn/)
-- [教学可视化](https://lms.csu.edu.cn/login)
+- [教学可视化](http://lms.csu.edu.cn/user/index#/)
 - [上网认证](https://portal.csu.edu.cn/)
 - [升华网通知](https://54sh.csu.edu.cn/tntz/tntz.htm)
 - [校内通知](https://oa.csu.edu.cn/con/ggtz)
