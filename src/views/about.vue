@@ -142,7 +142,7 @@ const colors = ref(['#99A9BF', '#F7BA2A', '#FF9900'])
             </el-col>
           </el-row>
           <el-form-item class="rate-block" label="使用体验" prop="grade">
-            <el-rate v-model="ruleForm.grade" :colors="colors" allow-half/>
+            <el-rate v-model="ruleForm.grade" :colors="colors" allow-half class="text-justify"/>
 
           </el-form-item>
           <el-form-item label="问题种类" prop="types">
