@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  $END$
+  <p>THIS IS 404 PAGE.</p>
 </template>
 
 <style scoped>

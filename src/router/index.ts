@@ -14,7 +14,12 @@ const routerPc = [
     {
         path: '/about',
         component: () =>
-            import('../views/about.vue')
+            import('../views/About.vue')
+    },
+    {
+        path: '/:pathMatch(.*)',
+        component: () =>
+            import('../views/NotFound.vue')
     }
 ]
 const routerMobile = [
@@ -30,7 +35,12 @@ const routerMobile = [
     {
         path: '/about',
         component: () =>
-            import('../views/about.vue')
+            import('../views/About.vue')
+    },
+    {
+        path: '/:pathMatch(.*)',
+        component: () =>
+            import('../views/NotFound.vue')
     }
 ]
 let routes: any[];
