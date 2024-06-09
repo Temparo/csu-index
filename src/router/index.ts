@@ -17,7 +17,16 @@ const routerPc = [
             import('../views/About.vue')
     },
     {
-        path: '/:pathMatch(.*)',
+        path: '/:pathMatch(.*)*',
+        redirect: '/404'
+    },
+    {
+        path: '/feedback',
+        component: () =>
+            import('../views/Feedback.vue')
+    },
+    {
+        path: '/404',
         component: () =>
             import('../views/NotFound.vue')
     }
@@ -38,7 +47,16 @@ const routerMobile = [
             import('../views/About.vue')
     },
     {
-        path: '/:pathMatch(.*)',
+        path: '/:pathMatch(.*)*',
+        redirect: '/404'
+    },
+    {
+        path: '/feedback',
+        component: () =>
+            import('../views/Feedback.vue')
+    },
+    {
+        path: '/404',
         component: () =>
             import('../views/NotFound.vue')
     }

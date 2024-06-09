@@ -54,10 +54,10 @@
 - [知网](https://www.cnki.net/)
 - [万方数据](https://www.wanfangdata.com.cn/)
 - [维普网](https://wwwv3.cqvip.com/)
-- [X-MOL](https://www.x-mol.com/)
 - [科研通](https://www.ablesci.com/)
 - [NSFC基金委](https://www.nsfc.gov.cn/)
 - [SCI-HUB](https://www.sci-hub.ru/)
+- [X-MOL](https://www.x-mol.com/)
 - [QuillBot](https://quillbot.com/)
   <论文降重润色总结,这个工具我没有亲自测试>
   }
@@ -121,9 +121,10 @@
   <微信小程序搜索也可以找到>
 - [WakeUp课程表](https://www.wakeup.fun/)
 - [极简课表ios](https://apps.apple.com/cn/app/%E6%9E%81%E7%AE%80%E8%AF%BE%E8%A1%A8-watch%E8%AF%BE%E7%A8%8B%E8%A1%A8/id1581272719)
+  <只有苹果手机可用，但是很好用>
 - [GitHub](https://github.com/)
   <暂时置于此处>
 - [海外暑研信息](https://www.pathwaystoscience.org/)
-- [国外留学信息](https://www.csu.edu.cn/)
-  <待添加>
+- [绮课](https://qike.huayemao.run/)
+  <绮课是一个第三方中南大学课表查询工具（我个人测试好像获取本学期公选课获取不全）>
   }
