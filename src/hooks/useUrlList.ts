@@ -168,11 +168,6 @@ export default function () {
  },
  {
   "id": nanoid(),
-  "url": "https://www.x-mol.com/",
-  "text": "X-MOL"
- },
- {
-  "id": nanoid(),
   "url": "https://www.ablesci.com/",
   "text": "科研通"
  },
@@ -185,6 +180,11 @@ export default function () {
   "id": nanoid(),
   "url": "https://www.sci-hub.ru/",
   "text": "SCI-HUB"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://www.x-mol.com/",
+  "text": "X-MOL"
  },
  {
   "id": nanoid(),
@@ -371,7 +371,8 @@ export default function () {
  {
   "id": nanoid(),
   "url": "https://apps.apple.com/cn/app/%E6%9E%81%E7%AE%80%E8%AF%BE%E8%A1%A8-watch%E8%AF%BE%E7%A8%8B%E8%A1%A8/id1581272719",
-  "text": "极简课表ios"
+  "text": "极简课表ios",
+  "description": "只有苹果手机可用，但是很好用"
  },
  {
   "id": nanoid(),
@@ -386,9 +387,9 @@ export default function () {
  },
  {
   "id": nanoid(),
-  "url": "https://www.csu.edu.cn/",
-  "text": "国外留学信息",
-  "description": "待添加"
+  "url": "https://qike.huayemao.run/",
+  "text": "绮课",
+  "description": "绮课是一个第三方中南大学课表查询工具（我个人测试好像获取本学期公选课获取不全）"
  }
 ]
     let fullUrlBlock: Array<FullUrlInfo> = [
