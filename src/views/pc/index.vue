@@ -16,7 +16,7 @@ const router = useRouter()
 
 let appPadding: string
 if (device === "pc") {
-  appPadding = "1rem 1rem 1.5rem 1rem"
+  appPadding = "2.5rem 1rem 1.5rem 1rem"
 } else if (device === "mobile") {
   appPadding = "0"
 }
