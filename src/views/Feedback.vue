@@ -17,7 +17,7 @@ interface RuleForm {
   date1: string
   date2: string
   respond: boolean
-  location: string
+  position: string
   type: string[]
   resource: string
   detail: string
@@ -33,7 +33,7 @@ const ruleForm = reactive<RuleForm>({
   date1: '',
   date2: '',
   respond: false,
-  location: '',
+  position: '',
   type: [],
   resource: '',
   detail: '',
@@ -41,11 +41,11 @@ const ruleForm = reactive<RuleForm>({
 
 })
 
-const locationOptions = ['Home', 'Company', 'School']
+const PositionOptions = ['本科生', '研究生', '博士及以上', '教职工', '其他']
 
 const rules = reactive<FormRules<RuleForm>>({
   name: [
-    {required: true, message: '请输入姓名', trigger: 'blur'},
+    {required: true, message: '请输入昵称', trigger: 'blur'},
     {min: 3, max: 5, message: 'Length should be 3 to 5', trigger: 'blur'},
   ],
   email: [
@@ -59,10 +59,10 @@ const rules = reactive<FormRules<RuleForm>>({
       trigger: 'change',
     },
   ],
-  location: [
+  position: [
     {
       required: true,
-      message: 'Please select a location',
+      message: '请选择身份',
       trigger: 'change',
     },
   ],
@@ -90,9 +90,9 @@ const submitForm = async (formEl: FormInstance | undefined) => {
   if (!formEl) return
   await formEl.validate((valid, fields) => {
     if (valid) {
-      console.log('submit!')
+      console.log('提交成功！')
     } else {
-      console.log('error submit!', fields)
+      console.log('提交失败！', fields)
     }
   })
 }
@@ -116,11 +116,6 @@ const colors = ref(['#99A9BF', '#F7BA2A', '#FF9900'])
   <el-container class="container">
     <el-main>
       <el-card>
-        <div class="about">
-          <h2>CSU-Index是一个导航页，为中南大学学生提供常用网站链接</h2>
-        </div>
-      </el-card>
-      <el-card>
         <el-form
             ref="ruleFormRef"
             :model="ruleForm"
@@ -133,7 +128,7 @@ const colors = ref(['#99A9BF', '#F7BA2A', '#FF9900'])
         >
           <el-row>
             <el-col :span="12">
-              <el-form-item label="姓名" prop="name">
+              <el-form-item label="昵称" prop="name">
                 <el-input v-model="ruleForm.name"/>
               </el-form-item>
             </el-col>
@@ -149,18 +144,18 @@ const colors = ref(['#99A9BF', '#F7BA2A', '#FF9900'])
           </el-form-item>
           <el-form-item label="问题种类" prop="types">
             <el-select v-model="ruleForm.types" placeholder="问题种类">
-              <el-option label="页面设计" value="design"/>
+              <el-option label="页面设计建议" value="design"/>
               <el-option label="页面卡顿，加载缓慢" value="network"/>
-              <el-option label="页面显示不全" value="device"/>
+              <el-option label="页面显示不全或错乱" value="device"/>
               <el-option label="新功能需求" value="feature"/>
-              <el-option label="新增网站建议" value="addlink"/>
+              <el-option label="新增网址建议" value="addlink"/>
             </el-select>
           </el-form-item>
           <el-form-item label="希望收到回复" prop="respond">
             <el-switch v-model="ruleForm.respond"/>
           </el-form-item>
-          <el-form-item label="Activity location" prop="location">
-            <el-segmented v-model="ruleForm.location" :options="locationOptions"/>
+          <el-form-item label="身份" prop="position">
+            <el-segmented v-model="ruleForm.position" :options="PositionOptions"/>
           </el-form-item>
           <el-form-item label="Activity type" prop="type">
             <el-checkbox-group v-model="ruleForm.type">
@@ -200,7 +195,7 @@ const colors = ref(['#99A9BF', '#F7BA2A', '#FF9900'])
             </div>
             <template #tip>
               <div class="el-upload__tip">
-                jpg/png files with a size less than 500kb
+                图片文件应小于500kb
               </div>
             </template>
           </el-upload>
