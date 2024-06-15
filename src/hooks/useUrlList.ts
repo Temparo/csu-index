@@ -10,11 +10,6 @@ export default function () {
  },
  {
   "id": nanoid(),
-  "url": "https://lib.csu.edu.cn/",
-  "text": "图书馆"
- },
- {
-  "id": nanoid(),
   "url": "http://lms.csu.edu.cn/user/index#/",
   "text": "教学可视化"
  },
@@ -133,6 +128,11 @@ export default function () {
     let urlList3: UrlBlock = [
  {
   "id": nanoid(),
+  "url": "https://lib.csu.edu.cn/",
+  "text": "图书馆"
+ },
+ {
+  "id": nanoid(),
   "url": "https://www.webofscience.com/",
   "text": "WOS"
  },
@@ -183,14 +183,8 @@ export default function () {
  },
  {
   "id": nanoid(),
-  "url": "https://www.x-mol.com/",
-  "text": "X-MOL"
- },
- {
-  "id": nanoid(),
-  "url": "https://quillbot.com/",
-  "text": "QuillBot",
-  "description": "论文降重润色总结,这个工具我没有亲自测试"
+  "url": "https://pubscholar.cn/",
+  "text": "PubScholar"
  }
 ]
     let urlList4: UrlBlock = [
@@ -199,12 +193,6 @@ export default function () {
   "url": "https://ol.woobx.cn/",
   "text": "一个木函",
   "description": "实用工具箱"
- },
- {
-  "id": nanoid(),
-  "url": "https://github.com/features/copilot",
-  "text": "Github Copilot",
-  "description": "学生注册可免费使用,写代码和代码讲解极其强大,强烈推荐"
  },
  {
   "id": nanoid(),
@@ -219,26 +207,9 @@ export default function () {
  },
  {
   "id": nanoid(),
-  "url": "https://copytranslator.github.io/",
-  "text": "CopyTranslator"
- },
- {
-  "id": nanoid(),
-  "url": "https://www.jetbrains.com/",
-  "text": "JetBrains",
-  "description": "开箱即用编程IDE,如PyCharm,IDEA等,部分有社区版,专业版学生注册后免费"
- },
- {
-  "id": nanoid(),
-  "url": "https://mathpix.com/",
-  "text": "Mathpix",
-  "description": "数学公式识别"
- },
- {
-  "id": nanoid(),
-  "url": "https://www.overleaf.com/",
-  "text": "Overleaf",
-  "description": "在线LaTeX编辑器"
+  "url": "https://qrbtf.com/zh",
+  "text": "二维码美化",
+  "description": "AI & 参数化二维码生成器"
  },
  {
   "id": nanoid(),
@@ -259,6 +230,16 @@ export default function () {
   "id": nanoid(),
   "url": "https://www.ilovepdf.com/zh-cn",
   "text": "在线PDF编辑"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://airportal.cn/",
+  "text": "文件传输"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://snapdrop.net",
+  "text": "局域网文件传输"
  }
 ]
     let urlList5: UrlBlock = [
@@ -295,11 +276,6 @@ export default function () {
  },
  {
   "id": nanoid(),
-  "url": "https://www.csc.edu.cn/",
-  "text": "留学基金委"
- },
- {
-  "id": nanoid(),
   "url": "https://www.connectedpapers.com/",
   "text": "文献联系",
   "description": "快速找到关联文献,适合写综述"
@@ -323,7 +299,7 @@ export default function () {
  {
   "id": nanoid(),
   "url": "https://lab.magiconch.com/nbnhhsh/",
-  "text": "首字母还原"
+  "text": "缩略词复原"
  }
 ]
     let urlList6: UrlBlock = [
@@ -366,7 +342,8 @@ export default function () {
  {
   "id": nanoid(),
   "url": "https://www.wakeup.fun/",
-  "text": "WakeUp课程表"
+  "text": "WakeUp课程表",
+  "description": "免费无广告的课表软件"
  },
  {
   "id": nanoid(),
@@ -376,9 +353,141 @@ export default function () {
  },
  {
   "id": nanoid(),
+  "url": "https://qike.huayemao.run/",
+  "text": "绮课",
+  "description": "第三方中南大学课表查询工具（我个人测试好像获取本学期公选课获取不全）"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://colleges.chat/universities/zhong-nan-da-xue/",
+  "text": "基础设施条件",
+  "description": "提供影响大学生活质量的要求与细节"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://www.kkdaxue.com/",
+  "text": "框框大学",
+  "description": "提供由学生的分享专业学习建议的平台"
+ }
+]
+    let urlList6: UrlBlock = [
+ {
+  "id": nanoid(),
+  "url": "https://mathpix.com/",
+  "text": "Mathpix",
+  "description": "数学公式识别"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://www.overleaf.com/",
+  "text": "Overleaf",
+  "description": "在线LaTeX编辑器"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://copytranslator.github.io/",
+  "text": "CopyTranslator",
+  "description": "好用的翻译工具"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://www.jetbrains.com/",
+  "text": "JetBrains",
+  "description": "开箱即用编程IDE,如PyCharm,IDEA等,部分产品有社区版,专业版学生身份认证后免费"
+ },
+ {
+  "id": nanoid(),
   "url": "https://github.com/",
   "text": "GitHub",
   "description": "暂时置于此处"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://github.com/features/copilot",
+  "text": "Github Copilot",
+  "description": "编程辅助工具，学生身份认证后可免费使用,写代码和代码讲解极其强大,强烈推荐"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://www.virustotal.com",
+  "text": "在线病毒检测"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://www.grammarly.com/",
+  "text": "Grammarly",
+  "description": "英文写作辅助工具"
+ }
+]
+    let urlList6: UrlBlock = [
+ {
+  "id": nanoid(),
+  "url": "https://www.csu.edu.cn",
+  "text": "海外留学项目"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://www.researchgate.net/",
+  "text": "ResearchGate"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://www.geogebra.org/",
+  "text": "GeoGebra"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://www.wolframalpha.com/",
+  "text": "WolframAlpha"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://quillbot.com/",
+  "text": "QuillBot",
+  "description": "论文降重润色总结,这个工具我没有亲自测试"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://pubmed.ncbi.nlm.nih.gov/",
+  "text": "Pubmed"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://pubpeer.com/",
+  "text": "PubPeer"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://publons.com/",
+  "text": "Publons"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://www.x-mol.com/",
+  "text": "X-MOL"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://webdemo.myscript.com/",
+  "text": "MyScript"
+ }
+]
+    let urlList6: UrlBlock = [
+ {
+  "id": nanoid(),
+  "url": "https://github.com/FeijiangHan/CSU-Application-Handbook",
+  "text": "中南大学留学申请飞跃手册"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://github.com/aboutzack/postgraduate-recommendation",
+  "text": "保研攻略",
+  "description": "学长学姐编写的保研攻略（两年前）"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://www.csc.edu.cn/",
+  "text": "留学基金委"
  },
  {
   "id": nanoid(),
@@ -387,18 +496,22 @@ export default function () {
  },
  {
   "id": nanoid(),
-  "url": "https://qike.huayemao.run/",
-  "text": "绮课",
-  "description": "绮课是一个第三方中南大学课表查询工具（我个人测试好像获取本学期公选课获取不全）"
+  "url": "https://www.onetonline.org/",
+  "text": "O*NET OnLine",
+  "description": "  为英文网站，提供不同职业的入职要求、劳动强度、工作环境、工作内容、薪酬福利、就业趋势等信息（网站数据来源于美国,请结合实际情况分析）"
  }
 ]
+
     let fullUrlBlock: Array<FullUrlInfo> = [
         {cardName: "中南教务", urlList: urlList1},
         {cardName: "中南其他", urlList: urlList2},
         {cardName: "学术", urlList: urlList3},
         {cardName: "实用工具", urlList: urlList4},
         {cardName: "是否添加", urlList: urlList5},
-        {cardName: "新生入学", urlList: urlList6}
+        {cardName: "新生入学", urlList: urlList6},
+        {cardName: "个人推荐", urlList: urlList7},
+        {cardName: "测试链接2", urlList: urlList8},
+        {cardName: "未来规划", urlList: urlList9}
     ]
 
 
