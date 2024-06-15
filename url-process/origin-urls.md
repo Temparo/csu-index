@@ -103,7 +103,6 @@
 ### 新生
 
 {
-
 - [作息时间表](https://www.csu.edu.cn/info/1050/1215.htm)
 - [班车时刻表](https://oa.csu.edu.cn/con/NoticeInfo?JLNM=3894A9FC9A0941FEBD6C2688D4916D36&tableName=ZNDX_ZHBG_GGTZ)
 - [研究生手册](https://www.csu.edu.cn/style/yjssc.pdf)
