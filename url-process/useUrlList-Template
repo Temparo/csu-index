@@ -8,13 +8,20 @@ export default function () {
     let urlList4: UrlBlock = <block4>
     let urlList5: UrlBlock = <block5>
     let urlList6: UrlBlock = <block6>
+    let urlList6: UrlBlock = <block7>
+    let urlList6: UrlBlock = <block8>
+    let urlList6: UrlBlock = <block9>
+
     let fullUrlBlock: Array<FullUrlInfo> = [
         {cardName: "中南教务", urlList: urlList1},
         {cardName: "中南其他", urlList: urlList2},
         {cardName: "学术", urlList: urlList3},
         {cardName: "实用工具", urlList: urlList4},
         {cardName: "是否添加", urlList: urlList5},
-        {cardName: "新生入学", urlList: urlList6}
+        {cardName: "新生入学", urlList: urlList6},
+        {cardName: "个人推荐", urlList: urlList7},
+        {cardName: "测试链接2", urlList: urlList8},
+        {cardName: "未来规划", urlList: urlList9}
     ]
 
 

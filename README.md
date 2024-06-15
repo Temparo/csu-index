@@ -20,15 +20,15 @@
 - [ ] Design the Logo
 - [x] Add Analytics for the Clicks
 - [x] Add About Page
-- [ ] Add Broken Link list for School Pages
+- [ ] Add Broken Link List for School Pages
 - [ ] Add Issues, Feedback and Contact
 - [ ] Allow Users to Change the Background
-- [ ] Add detailed introduction for each link
+- [ ] Add Detailed Introduction for Each Link
 - [ ] Beautify the Layout
 - [x] Add Dark Mode Support
 - [ ] Allow Users to Change the Layout through Dragging
 - [ ] Add E-guide for Newcomers
-- [ ] Add Icons for links
+- [ ] Add Icons for Links
 - [ ] ~~Global Language Support~~
 - [ ] Deploy on Individual Domain and Server
 - [ ] Add Search Function(Maybe)
