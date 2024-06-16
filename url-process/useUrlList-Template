@@ -8,9 +8,9 @@ export default function () {
     let urlList4: UrlBlock = <block4>
     let urlList5: UrlBlock = <block5>
     let urlList6: UrlBlock = <block6>
-    let urlList6: UrlBlock = <block7>
-    let urlList6: UrlBlock = <block8>
-    let urlList6: UrlBlock = <block9>
+    let urlList7: UrlBlock = <block7>
+    let urlList8: UrlBlock = <block8>
+    let urlList9: UrlBlock = <block9>
 
     let fullUrlBlock: Array<FullUrlInfo> = [
         {cardName: "中南教务", urlList: urlList1},
