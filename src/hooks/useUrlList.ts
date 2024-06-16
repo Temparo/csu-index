@@ -370,7 +370,7 @@ export default function () {
   "description": "提供由学生的分享专业学习建议的平台"
  }
 ]
-    let urlList6: UrlBlock = [
+    let urlList7: UrlBlock = [
  {
   "id": nanoid(),
   "url": "https://mathpix.com/",
@@ -419,7 +419,7 @@ export default function () {
   "description": "英文写作辅助工具"
  }
 ]
-    let urlList6: UrlBlock = [
+    let urlList8: UrlBlock = [
  {
   "id": nanoid(),
   "url": "https://www.csu.edu.cn",
@@ -472,7 +472,7 @@ export default function () {
   "text": "MyScript"
  }
 ]
-    let urlList6: UrlBlock = [
+    let urlList9: UrlBlock = [
  {
   "id": nanoid(),
   "url": "https://github.com/FeijiangHan/CSU-Application-Handbook",
