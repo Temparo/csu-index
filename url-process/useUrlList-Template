@@ -2,26 +2,26 @@ import {nanoid} from "nanoid";
 import {FullUrlInfo, type UrlBlock} from "../types";
 
 export default function () {
-    let urlList1: UrlBlock = <block1>
-    let urlList2: UrlBlock = <block2>
-    let urlList3: UrlBlock = <block3>
-    let urlList4: UrlBlock = <block4>
-    let urlList5: UrlBlock = <block5>
-    let urlList6: UrlBlock = <block6>
-    let urlList7: UrlBlock = <block7>
-    let urlList8: UrlBlock = <block8>
-    let urlList9: UrlBlock = <block9>
+    let urlList1: UrlBlock = <blockContent1>
+    let urlList2: UrlBlock = <blockContent2>
+    let urlList3: UrlBlock = <blockContent3>
+    let urlList4: UrlBlock = <blockContent4>
+    let urlList5: UrlBlock = <blockContent5>
+    let urlList6: UrlBlock = <blockContent6>
+    let urlList7: UrlBlock = <blockContent7>
+    let urlList8: UrlBlock = <blockContent8>
+    let urlList9: UrlBlock = <blockContent9>
 
     let fullUrlBlock: Array<FullUrlInfo> = [
-        {cardName: "中南教务", urlList: urlList1},
-        {cardName: "中南其他", urlList: urlList2},
-        {cardName: "学术", urlList: urlList3},
-        {cardName: "实用工具", urlList: urlList4},
-        {cardName: "是否添加", urlList: urlList5},
-        {cardName: "新生入学", urlList: urlList6},
-        {cardName: "个人推荐", urlList: urlList7},
-        {cardName: "测试链接2", urlList: urlList8},
-        {cardName: "未来规划", urlList: urlList9}
+        {cardName: "<blockName1>", urlList: urlList1},
+        {cardName: "<blockName2>", urlList: urlList2},
+        {cardName: "<blockName3>", urlList: urlList3},
+        {cardName: "<blockName4>", urlList: urlList4},
+        {cardName: "<blockName5>", urlList: urlList5},
+        {cardName: "<blockName6>", urlList: urlList6},
+        {cardName: "<blockName7>", urlList: urlList7},
+        {cardName: "<blockName8>", urlList: urlList8},
+        {cardName: "<blockName9>", urlList: urlList9}
     ]
 
 

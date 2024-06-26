@@ -32,7 +32,6 @@
 - [学术讲座](https://www.csu.edu.cn/index/xsjz.htm)
 - [常用电话](https://www.csu.edu.cn/info/1050/5129.htm)
 - [校历](https://www.csu.edu.cn/info/1050/7585.htm)
-- [就业指导中心](https://career.csu.edu.cn/)
 - [中南云盘](https://pan.csu.edu.cn/#/)
 - [导师评价](https://www.csu.edu.cn/)
   <待添加>
@@ -71,7 +70,6 @@
   <实用工具箱>
 - [OriginLab](https://www.originlab.com/)
   <科研绘图工具>
-- [知云文献翻译](https://www.zhiyunwenxian.cn/)
 - [二维码美化](https://qrbtf.com/zh)
   <AI & 参数化二维码生成器>
 - [文件格式转换1](https://convertio.co/zh/)
@@ -79,7 +77,10 @@
 - [在线图片编辑](https://www.iloveimg.com/zh-cn)
 - [在线PDF编辑](https://www.ilovepdf.com/zh-cn)
 - [文件传输](https://airportal.cn/)
-- [局域网文件传输](https://snapdrop.net)
+- [局域网文件传输1](https://snapdrop.net)
+- [局域网文件传输2](https://pairdrop.net/)
+- [文叔叔](https://www.wenshushu.cn/)
+- [Wormhole](https://wormhole.app/)
 
   }
 
@@ -144,7 +145,7 @@
   <编程辅助工具，学生身份认证后可免费使用,写代码和代码讲解极其强大,强烈推荐>
 - [在线病毒检测](https://www.virustotal.com)
 - [Grammarly](https://www.grammarly.com/)
-  <英文写作辅助工具>
+  <英文拼写检查>
 
 }
 
@@ -163,6 +164,7 @@
 - [Publons](https://publons.com/)
 - [X-MOL](https://www.x-mol.com/)
 - [MyScript](https://webdemo.myscript.com/)
+- [知云文献翻译](https://www.zhiyunwenxian.cn/)
 
 }
 
@@ -178,5 +180,6 @@
 - [O*NET OnLine](https://www.onetonline.org/)
   <
   为英文网站，提供不同职业的入职要求、劳动强度、工作环境、工作内容、薪酬福利、就业趋势等信息（网站数据来源于美国,请结合实际情况分析）>
+- [就业指导中心](https://career.csu.edu.cn/)
 
 }

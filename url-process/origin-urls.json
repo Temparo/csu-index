@@ -1,0 +1,422 @@
+{
+  "中南教务": [
+    {
+      "url": "https://my.csu.edu.cn/login/index.jsp",
+      "text": "信息门户"
+    },
+    {
+      "url": "http://lms.csu.edu.cn/user/index#/",
+      "text": "教学可视化"
+    },
+    {
+      "url": "https://portal.csu.edu.cn/",
+      "text": "上网认证"
+    },
+    {
+      "url": "https://54sh.csu.edu.cn/tntz/tntz.htm",
+      "text": "升华网通知"
+    },
+    {
+      "url": "https://oa.csu.edu.cn/con/ggtz",
+      "text": "校内通知"
+    },
+    {
+      "url": "https://ehall.csu.edu.cn/v2/site/index",
+      "text": "办事大厅"
+    },
+    {
+      "url": "http://csujwc.its.csu.edu.cn/",
+      "text": "本科生教务"
+    },
+    {
+      "url": "http://gms.csu.edu.cn/",
+      "text": "研究生教务"
+    },
+    {
+      "url": "https://faculty.csu.edu.cn/",
+      "text": "教师信息查询"
+    },
+    {
+      "url": "https://ecard.csu.edu.cn/plat-pc/serviceclassification",
+      "text": "校园卡中心"
+    },
+    {
+      "url": "https://oa.csu.edu.cn/mailbox/?tp=01",
+      "text": "校长信箱",
+      "description": "有可能获得与辅导员单独交流的机会,请谨慎发言"
+    }
+  ],
+  "中南其他": [
+    {
+      "url": "https://ms.csu.edu.cn/",
+      "text": "正版软件"
+    },
+    {
+      "url": "https://mail.csu.edu.cn/",
+      "text": "中南邮箱"
+    },
+    {
+      "url": "http://equip.csu.edu.cn/",
+      "text": "仪器共享平台"
+    },
+    {
+      "url": "https://www.csu.edu.cn/index/xsjz.htm",
+      "text": "学术讲座"
+    },
+    {
+      "url": "https://www.csu.edu.cn/info/1050/5129.htm",
+      "text": "常用电话"
+    },
+    {
+      "url": "https://www.csu.edu.cn/info/1050/7585.htm",
+      "text": "校历"
+    },
+    {
+      "url": "https://pan.csu.edu.cn/#/",
+      "text": "中南云盘"
+    },
+    {
+      "url": "https://www.csu.edu.cn/",
+      "text": "导师评价",
+      "description": "待添加"
+    },
+    {
+      "url": "https://www.csu.edu.cn/",
+      "text": "本科生选课评价",
+      "description": "待添加"
+    },
+    {
+      "url": "http://bkwsfw.csu.edu.cn/",
+      "text": "本科生服务",
+      "description": "我不确定是否可用"
+    },
+    {
+      "url": "http://cwpt.csu.edu.cn/caslogin.aspx",
+      "text": "财务平台"
+    }
+  ],
+  "学术": [
+    {
+      "url": "https://lib.csu.edu.cn/",
+      "text": "图书馆"
+    },
+    {
+      "url": "https://www.webofscience.com/",
+      "text": "WOS"
+    },
+    {
+      "url": "https://scholar.google.com/",
+      "text": "Google学术"
+    },
+    {
+      "url": "https://cn.bing.com/academic",
+      "text": "Bing学术"
+    },
+    {
+      "url": "https://xueshu.baidu.com/",
+      "text": "百度学术"
+    },
+    {
+      "url": "https://www.cnki.net/",
+      "text": "知网"
+    },
+    {
+      "url": "https://www.wanfangdata.com.cn/",
+      "text": "万方数据"
+    },
+    {
+      "url": "https://wwwv3.cqvip.com/",
+      "text": "维普网"
+    },
+    {
+      "url": "https://www.ablesci.com/",
+      "text": "科研通"
+    },
+    {
+      "url": "https://www.nsfc.gov.cn/",
+      "text": "NSFC基金委"
+    },
+    {
+      "url": "https://www.sci-hub.ru/",
+      "text": "SCI-HUB"
+    },
+    {
+      "url": "https://pubscholar.cn/",
+      "text": "PubScholar"
+    }
+  ],
+  "实用工具": [
+    {
+      "url": "https://ol.woobx.cn/",
+      "text": "一个木函",
+      "description": "实用工具箱"
+    },
+    {
+      "url": "https://www.originlab.com/",
+      "text": "OriginLab",
+      "description": "科研绘图工具"
+    },
+    {
+      "url": "https://qrbtf.com/zh",
+      "text": "二维码美化",
+      "description": "AI & 参数化二维码生成器"
+    },
+    {
+      "url": "https://convertio.co/zh/",
+      "text": "文件格式转换1"
+    },
+    {
+      "url": "https://cdkm.com/cn/",
+      "text": "文件格式转换2"
+    },
+    {
+      "url": "https://www.iloveimg.com/zh-cn",
+      "text": "在线图片编辑"
+    },
+    {
+      "url": "https://www.ilovepdf.com/zh-cn",
+      "text": "在线PDF编辑"
+    },
+    {
+      "url": "https://airportal.cn/",
+      "text": "文件传输"
+    },
+    {
+      "url": "https://snapdrop.net",
+      "text": "局域网文件传输1"
+    },
+    {
+      "url": "https://pairdrop.net/",
+      "text": "局域网文件传输2"
+    },
+    {
+      "url": "https://www.wenshushu.cn/",
+      "text": "文叔叔"
+    },
+    {
+      "url": "https://wormhole.app/",
+      "text": "Wormhole"
+    }
+  ],
+  "是否添加": [
+    {
+      "url": "https://award.csu.edu.cn/#/login",
+      "text": "奖助学金"
+    },
+    {
+      "url": "https://ca.csu.edu.cn/authserver/login?service=http://jgzfpj.csu.edu.cn/sso.aspx",
+      "text": "机关作风评价",
+      "description": "我还没提交过评价，不知道有没有实际效果"
+    },
+    {
+      "url": "https://ca.csu.edu.cn/authserver/login?service=http://jf.csu.edu.cn/xysf/caslogin.aspx",
+      "text": "校园支付平台"
+    },
+    {
+      "url": "https://nic.csu.edu.cn/bsfw/xsfw1.htm",
+      "text": "办事服务"
+    },
+    {
+      "url": "https://ygfw.csu.edu.cn/",
+      "text": "阳光服务大厅"
+    },
+    {
+      "url": "http://hpc.csu.edu.cn/",
+      "text": "高性能计算"
+    },
+    {
+      "url": "https://www.connectedpapers.com/",
+      "text": "文献联系",
+      "description": "快速找到关联文献,适合写综述"
+    },
+    {
+      "url": "https://www.drugfuture.com/cnpat/cn_patent.asp",
+      "text": "专利下载"
+    },
+    {
+      "url": "https://cert.csu.edu.cn/student",
+      "text": "成绩单打印"
+    },
+    {
+      "url": "",
+      "text": "课程评价系统",
+      "description": "待实现"
+    },
+    {
+      "url": "https://lab.magiconch.com/nbnhhsh/",
+      "text": "缩略词复原"
+    }
+  ],
+  "新生入学": [
+    {
+      "url": "https://www.csu.edu.cn/info/1050/1215.htm",
+      "text": "作息时间表"
+    },
+    {
+      "url": "https://oa.csu.edu.cn/con/NoticeInfo?JLNM=3894A9FC9A0941FEBD6C2688D4916D36&tableName=ZNDX_ZHBG_GGTZ",
+      "text": "班车时刻表"
+    },
+    {
+      "url": "https://www.csu.edu.cn/style/yjssc.pdf",
+      "text": "研究生手册"
+    },
+    {
+      "url": "https://www.csu.edu.cn/style/bkssc2020.pdf",
+      "text": "本科生手册"
+    },
+    {
+      "url": "https://nic.csu.edu.cn/bsfw/yhsc.htm",
+      "text": "办事服务手册"
+    },
+    {
+      "url": "https://xszz.csu.edu.cn/",
+      "text": "勤助中心"
+    },
+    {
+      "url": "http://www.zanoa.cn/",
+      "text": "赞噢集市",
+      "description": "微信小程序搜索也可以找到"
+    },
+    {
+      "url": "https://www.wakeup.fun/",
+      "text": "WakeUp课程表",
+      "description": "免费无广告的课表软件"
+    },
+    {
+      "url": "https://apps.apple.com/cn/app/%E6%9E%81%E7%AE%80%E8%AF%BE%E8%A1%A8-watch%E8%AF%BE%E7%A8%8B%E8%A1%A8/id1581272719",
+      "text": "极简课表ios",
+      "description": "只有苹果手机可用，但是很好用"
+    },
+    {
+      "url": "https://qike.huayemao.run/",
+      "text": "绮课",
+      "description": "第三方中南大学课表查询工具（我个人测试好像获取本学期公选课获取不全）"
+    },
+    {
+      "url": "https://colleges.chat/universities/zhong-nan-da-xue/",
+      "text": "基础设施条件",
+      "description": "提供影响大学生活质量的要求与细节"
+    },
+    {
+      "url": "https://www.kkdaxue.com/",
+      "text": "框框大学",
+      "description": "提供由学生的分享专业学习建议的平台"
+    }
+  ],
+  "个人推荐": [
+    {
+      "url": "https://mathpix.com/",
+      "text": "Mathpix",
+      "description": "数学公式识别"
+    },
+    {
+      "url": "https://www.overleaf.com/",
+      "text": "Overleaf",
+      "description": "在线LaTeX编辑器"
+    },
+    {
+      "url": "https://copytranslator.github.io/",
+      "text": "CopyTranslator",
+      "description": "好用的翻译工具"
+    },
+    {
+      "url": "https://www.jetbrains.com/",
+      "text": "JetBrains",
+      "description": "开箱即用编程IDE,如PyCharm,IDEA等,部分产品有社区版,专业版学生身份认证后免费"
+    },
+    {
+      "url": "https://github.com/",
+      "text": "GitHub",
+      "description": "暂时置于此处"
+    },
+    {
+      "url": "https://github.com/features/copilot",
+      "text": "Github Copilot",
+      "description": "编程辅助工具，学生身份认证后可免费使用,写代码和代码讲解极其强大,强烈推荐"
+    },
+    {
+      "url": "https://www.virustotal.com",
+      "text": "在线病毒检测"
+    },
+    {
+      "url": "https://www.grammarly.com/",
+      "text": "Grammarly",
+      "description": "英文拼写检查"
+    }
+  ],
+  "测试链接2": [
+    {
+      "url": "https://www.csu.edu.cn",
+      "text": "海外留学项目"
+    },
+    {
+      "url": "https://www.researchgate.net/",
+      "text": "ResearchGate"
+    },
+    {
+      "url": "https://www.geogebra.org/",
+      "text": "GeoGebra"
+    },
+    {
+      "url": "https://www.wolframalpha.com/",
+      "text": "WolframAlpha"
+    },
+    {
+      "url": "https://quillbot.com/",
+      "text": "QuillBot",
+      "description": "论文降重润色总结,这个工具我没有亲自测试"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/",
+      "text": "Pubmed"
+    },
+    {
+      "url": "https://pubpeer.com/",
+      "text": "PubPeer"
+    },
+    {
+      "url": "https://publons.com/",
+      "text": "Publons"
+    },
+    {
+      "url": "https://www.x-mol.com/",
+      "text": "X-MOL"
+    },
+    {
+      "url": "https://webdemo.myscript.com/",
+      "text": "MyScript"
+    },
+    {
+      "url": "https://www.zhiyunwenxian.cn/",
+      "text": "知云文献翻译"
+    }
+  ],
+  "未来规划": [
+    {
+      "url": "https://github.com/FeijiangHan/CSU-Application-Handbook",
+      "text": "中南大学留学申请飞跃手册"
+    },
+    {
+      "url": "https://github.com/aboutzack/postgraduate-recommendation",
+      "text": "保研攻略",
+      "description": "学长学姐编写的保研攻略（两年前）"
+    },
+    {
+      "url": "https://www.csc.edu.cn/",
+      "text": "留学基金委"
+    },
+    {
+      "url": "https://www.pathwaystoscience.org/",
+      "text": "海外暑研信息"
+    },
+    {
+      "url": "https://www.onetonline.org/",
+      "text": "O*NET OnLine",
+      "description": " 为英文网站，提供不同职业的入职要求、劳动强度、工作环境、工作内容、薪酬福利、就业趋势等信息（网站数据来源于美国,请结合实际情况分析）"
+    },
+    {
+      "url": "https://career.csu.edu.cn/",
+      "text": "就业指导中心"
+    }
+  ]
+}

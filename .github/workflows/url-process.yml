@@ -22,7 +22,7 @@ jobs:
           python-version: '3.12'
       - run: |
           cd url-process
-          python "md_format_to_json.py"
+          python "json-format-to-json.py"
           cd ..
 
       # Commit all changed files back to the repository
