@@ -485,8 +485,13 @@ export default function () {
     let urlList9: UrlBlock = [
  {
   "id": nanoid(),
+  "url": "https://career.csu.edu.cn/",
+  "text": "就业指导中心"
+ },
+ {
+  "id": nanoid(),
   "url": "https://github.com/FeijiangHan/CSU-Application-Handbook",
-  "text": "中南大学留学申请飞跃手册"
+  "text": "留学申请手册"
  },
  {
   "id": nanoid(),
@@ -509,11 +514,6 @@ export default function () {
   "url": "https://www.onetonline.org/",
   "text": "O*NET OnLine",
   "description": " 为英文网站，提供不同职业的入职要求、劳动强度、工作环境、工作内容、薪酬福利、就业趋势等信息（网站数据来源于美国,请结合实际情况分析）"
- },
- {
-  "id": nanoid(),
-  "url": "https://career.csu.edu.cn/",
-  "text": "就业指导中心"
  }
 ]
 
