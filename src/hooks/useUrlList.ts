@@ -229,22 +229,22 @@ export default function () {
  {
   "id": nanoid(),
   "url": "https://snapdrop.net",
-     "text": "局域网文件传输1"
+  "text": "局域网文件传输1"
  },
-        {
-            "id": nanoid(),
-            "url": "https://pairdrop.net/",
-            "text": "局域网文件传输2"
-        },
-        {
-            "id": nanoid(),
-            "url": "https://www.wenshushu.cn/",
-            "text": "文叔叔"
-        },
-        {
-            "id": nanoid(),
-            "url": "https://wormhole.app/",
-            "text": "Wormhole"
+ {
+  "id": nanoid(),
+  "url": "https://pairdrop.net/",
+  "text": "局域网文件传输2"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://www.wenshushu.cn/",
+  "text": "文叔叔"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://wormhole.app/",
+  "text": "Wormhole"
  }
 ]
     let urlList5: UrlBlock = [
@@ -421,7 +421,7 @@ export default function () {
   "id": nanoid(),
   "url": "https://www.grammarly.com/",
   "text": "Grammarly",
-     "description": "英文拼写检查"
+  "description": "英文拼写检查"
  }
 ]
     let urlList8: UrlBlock = [
@@ -476,10 +476,10 @@ export default function () {
   "url": "https://webdemo.myscript.com/",
   "text": "MyScript"
  },
-        {
-            "id": nanoid(),
-            "url": "https://www.zhiyunwenxian.cn/",
-            "text": "知云文献翻译"
+ {
+  "id": nanoid(),
+  "url": "https://www.zhiyunwenxian.cn/",
+  "text": "知云文献翻译"
  }
 ]
     let urlList9: UrlBlock = [
@@ -508,12 +508,12 @@ export default function () {
   "id": nanoid(),
   "url": "https://www.onetonline.org/",
   "text": "O*NET OnLine",
-     "description": " 为英文网站，提供不同职业的入职要求、劳动强度、工作环境、工作内容、薪酬福利、就业趋势等信息（网站数据来源于美国,请结合实际情况分析）"
+  "description": " 为英文网站，提供不同职业的入职要求、劳动强度、工作环境、工作内容、薪酬福利、就业趋势等信息（网站数据来源于美国,请结合实际情况分析）"
  },
-        {
-            "id": nanoid(),
-            "url": "https://career.csu.edu.cn/",
-            "text": "就业指导中心"
+ {
+  "id": nanoid(),
+  "url": "https://career.csu.edu.cn/",
+  "text": "就业指导中心"
  }
 ]
 
