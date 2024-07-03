@@ -1,6 +1,5 @@
 <script lang="ts" setup>
 import {useRouter} from "vue-router";
-import moveableTitle from "../components/moveableTitle.vue";
 
 const router = useRouter()
 const goBack = () => {
@@ -18,22 +17,12 @@ const goBack = () => {
   </el-page-header>
   <el-container class="container">
     <el-header>
-      <div class="headline text-9xl">
-        <span
-            class="cursor-text hover:ring-2 hover:ring-fuchsia-500 focus:ring-2 focus:ring-fuchsia-500 outline-0 bg-fuchsia-200/60 dark:bg-fuchsia-50/20 before:content-['<'] after:content-['/>'] after:ml-2">
-          <a class="outline-0" contenteditable="true" href="https://csu-index.github.io/" target="_self">CSU</a>
-        </span>
-        <a class="inline-block p-1 relative z-10" href="https://csu-index.github.io/" target="_self">&nbsp;-&nbsp;</a>
-        <moveableTitle/>
-      </div>
     </el-header>
     <el-main>
       <el-card>
         <div class="about">
-          <h1>CSU-Index是一个导航页，为中南大学师生提供学习和科研的常用网站链接</h1>
+          <el-text>CSU-Index是一个导航页，为中南大学师生提供学习和科研的常用网站链接</el-text>
         </div>
-      </el-card>
-      <el-card>
         <el-button
             link
             size="large"
@@ -44,7 +33,7 @@ const goBack = () => {
             link
             size="large"
             tag="a"
-            target="_blank">Github 反馈
+            target="_blank">GitHub 反馈
         </el-button>
       </el-card>
       <el-alert
@@ -55,7 +44,7 @@ const goBack = () => {
       />
       <el-alert
           center
-          title="作者暂未完成反馈页面的搭建，如有问题可发送至反馈邮箱diabeted@outlook.com或使用Github反馈"
+          title="作者暂未完成反馈页面的搭建，如有问题可发送至反馈邮箱diabeted@outlook.com或使用GitHub反馈"
           type="warning"
       />
     </el-main>
@@ -63,7 +52,4 @@ const goBack = () => {
 </template>
 
 <style scoped>
-.el-header {
-  --el-header-height: 8rem;
-}
 </style>

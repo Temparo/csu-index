@@ -19,7 +19,7 @@ interface RuleForm {
   respond: boolean
   position: string
   type: string[]
-  resource: string
+  device: string
   detail: string
   grade: number
 }
@@ -35,7 +35,7 @@ const ruleForm = reactive<RuleForm>({
   respond: false,
   position: '',
   type: [],
-  resource: '',
+  device: '',
   detail: '',
   grade: 2.5
 
@@ -74,10 +74,10 @@ const rules = reactive<FormRules<RuleForm>>({
       trigger: 'change',
     },
   ],
-  resource: [
+  device: [
     {
       required: true,
-      message: 'Please select activity resource',
+      message: '请选择出现问题时您的使用设备',
       trigger: 'change',
     },
   ],
@@ -151,13 +151,21 @@ const colors = ref(['#99A9BF', '#F7BA2A', '#FF9900'])
               <el-option label="新增网址建议" value="addlink"/>
             </el-select>
           </el-form-item>
-          <el-form-item label="希望收到回复" prop="respond">
-            <el-switch v-model="ruleForm.respond"/>
-          </el-form-item>
-          <el-form-item label="身份" prop="position">
-            <el-segmented v-model="ruleForm.position" :options="PositionOptions"/>
-          </el-form-item>
-          <el-form-item label="Activity type" prop="type">
+
+          <el-row>
+            <el-col :span="16">
+              <el-form-item label="身份" prop="position">
+                <el-segmented v-model="ruleForm.position" :options="PositionOptions"/>
+              </el-form-item>
+            </el-col>
+            <el-col :span="8">
+              <el-form-item label="希望收到回复" prop="respond">
+                <el-switch v-model="ruleForm.respond"/>
+              </el-form-item>
+            </el-col>
+          </el-row>
+
+          <el-form-item label="这里要改成什么捏" prop="type">
             <el-checkbox-group v-model="ruleForm.type">
               <el-checkbox name="type" value="Online activities">
                 Online activities
@@ -173,10 +181,11 @@ const colors = ref(['#99A9BF', '#F7BA2A', '#FF9900'])
               </el-checkbox>
             </el-checkbox-group>
           </el-form-item>
-          <el-form-item label="Resources" prop="resource">
-            <el-radio-group v-model="ruleForm.resource">
-              <el-radio value="Sponsorship">Sponsorship</el-radio>
-              <el-radio value="Venue">Venue</el-radio>
+          <el-form-item label="使用设备" prop="device">
+            <el-radio-group v-model="ruleForm.device">
+              <el-radio value="智能手机">智能手机</el-radio>
+              <el-radio value="平板或iPad">平板或 iPad</el-radio>
+              <el-radio value="电脑">电脑</el-radio>
             </el-radio-group>
           </el-form-item>
 
