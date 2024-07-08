@@ -225,11 +225,6 @@
       "text": "高性能计算"
     },
     {
-      "url": "https://www.connectedpapers.com/",
-      "text": "文献联系",
-      "description": "快速找到关联文献,适合写综述"
-    },
-    {
       "url": "https://www.drugfuture.com/cnpat/cn_patent.asp",
       "text": "专利下载"
     },
@@ -245,6 +240,16 @@
     {
       "url": "https://lab.magiconch.com/nbnhhsh/",
       "text": "缩略词复原"
+    },
+    {
+      "url": "https://tikz.dev/",
+      "text": "Tikz绘图",
+      "description": "LaTeX绘图工具"
+    },
+    {
+      "url": "https://www.aminer.cn/",
+      "text": "AMiner",
+      "description": "Aminer是一个AI学术搜索引擎，可以搜索学术论文、学者、会议等信息"
     }
   ],
   "新生入学": [
@@ -342,12 +347,33 @@
       "url": "https://www.grammarly.com/",
       "text": "Grammarly",
       "description": "英文拼写检查"
+    },
+    {
+      "url": "https://www.vosviewer.com/",
+      "text": "VOSviewer",
+      "description": "多篇文献可视化工具"
+    },
+    {
+      "url": "https://www.bibliometrix.org/home/index.php/layout/biblioshiny",
+      "text": "Biblioshiny",
+      "description": "文献计量分析工具"
+    },
+    {
+      "url": "https://www.connectedpapers.com/",
+      "text": "文献联系",
+      "description": "快速找到关联文献,适合写综述"
+    },
+    {
+      "url": "https://academictree.org/",
+      "text": "Academic Tree",
+      "description": "导师关系网分析"
     }
   ],
   "测试链接2": [
     {
-      "url": "https://www.csu.edu.cn",
-      "text": "海外留学项目"
+      "url": "https://www.zotero.org/",
+      "text": "Zotero",
+      "description": "文献管理工具"
     },
     {
       "url": "https://www.researchgate.net/",
@@ -389,6 +415,11 @@
     {
       "url": "https://www.zhiyunwenxian.cn/",
       "text": "知云文献翻译"
+    },
+    {
+      "url": "https://www.semanticscholar.org/",
+      "text": "Semantic Scholar",
+      "description": "A free, AI-powered research tool for scientific literature"
     }
   ],
   "未来规划": [

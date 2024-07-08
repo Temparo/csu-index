@@ -30,8 +30,8 @@ for key, value in content_dic.items():
 
     target = json.dumps(mid_list, ensure_ascii=False, indent=True)
     target = target.replace("\"nanoid()\"", "nanoid()")
-    print(target)
-    # print("共有{}个链接".format(count))
+    # print(target)
+    print("{0:　<4} 共有{1}个链接".format(block_name, count))
     ts_template_content = re.sub(r"<blockContent{}>".format(sequence), target, ts_template_content)
     ts_template_content = re.sub(r"<blockName{}>".format(sequence), block_name, ts_template_content)
     sequence += 1

@@ -281,12 +281,6 @@ export default function () {
  },
  {
   "id": nanoid(),
-  "url": "https://www.connectedpapers.com/",
-  "text": "文献联系",
-  "description": "快速找到关联文献,适合写综述"
- },
- {
-  "id": nanoid(),
   "url": "https://www.drugfuture.com/cnpat/cn_patent.asp",
   "text": "专利下载"
  },
@@ -305,6 +299,18 @@ export default function () {
   "id": nanoid(),
   "url": "https://lab.magiconch.com/nbnhhsh/",
   "text": "缩略词复原"
+ },
+     {
+      "id": nanoid(),
+      "url": "https://tikz.dev/",
+      "text": "Tikz绘图",
+      "description": "LaTeX绘图工具"
+     },
+     {
+      "id": nanoid(),
+      "url": "https://www.aminer.cn/",
+      "text": "AMiner",
+      "description": "Aminer是一个AI学术搜索引擎，可以搜索学术论文、学者、会议等信息"
  }
 ]
     let urlList6: UrlBlock = [
@@ -422,6 +428,30 @@ export default function () {
   "url": "https://www.grammarly.com/",
   "text": "Grammarly",
   "description": "英文拼写检查"
+ },
+     {
+      "id": nanoid(),
+      "url": "https://www.vosviewer.com/",
+      "text": "VOSviewer",
+      "description": "多篇文献可视化工具"
+     },
+     {
+      "id": nanoid(),
+      "url": "https://www.bibliometrix.org/home/index.php/layout/biblioshiny",
+      "text": "Biblioshiny",
+      "description": "文献计量分析工具"
+     },
+     {
+      "id": nanoid(),
+      "url": "https://www.connectedpapers.com/",
+      "text": "文献联系",
+      "description": "快速找到关联文献,适合写综述"
+     },
+     {
+      "id": nanoid(),
+      "url": "https://academictree.org/",
+      "text": "Academic Tree",
+      "description": "导师关系网分析"
  }
 ]
     let urlList8: UrlBlock = [
@@ -480,13 +510,24 @@ export default function () {
   "id": nanoid(),
   "url": "https://www.zhiyunwenxian.cn/",
   "text": "知云文献翻译"
+ },
+     {
+      "id": nanoid(),
+      "url": "https://www.semanticscholar.org/",
+      "text": "Semantic Scholar",
+      "description": "A free, AI-powered research tool for scientific literature"
  }
 ]
     let urlList9: UrlBlock = [
  {
   "id": nanoid(),
+  "url": "https://career.csu.edu.cn/",
+  "text": "就业指导中心"
+ },
+     {
+  "id": nanoid(),
   "url": "https://github.com/FeijiangHan/CSU-Application-Handbook",
-  "text": "中南大学留学申请飞跃手册"
+      "text": "留学申请手册"
  },
  {
   "id": nanoid(),
@@ -509,11 +550,6 @@ export default function () {
   "url": "https://www.onetonline.org/",
   "text": "O*NET OnLine",
   "description": " 为英文网站，提供不同职业的入职要求、劳动强度、工作环境、工作内容、薪酬福利、就业趋势等信息（网站数据来源于美国,请结合实际情况分析）"
- },
- {
-  "id": nanoid(),
-  "url": "https://career.csu.edu.cn/",
-  "text": "就业指导中心"
  }
 ]
 
