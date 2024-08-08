@@ -37,9 +37,8 @@
 
 如果你是中南大学学生,打开官网即可使用
 
-如果你想为自己的学校创建一个导航页，只需fork这个项目并更改 "/url-process/origin-urls.md" 文件，push 到 GitHub 后 GitHub
-Actions 应自动运行 python 脚本以生成
-相应 TS 文件。之后，该页面将自动部署在 GitHub Pages 上。
+如果你想为自己的学校创建一个导航页，只需fork这个项目并更改 "/url-process/origin-urls.json" 文件，push 到 GitHub 后 GitHub
+Actions 应自动运行 python 脚本以生成相应 TS 文件。之后，该页面将自动部署在 GitHub Pages 上。
 
 ---
 
@@ -93,7 +92,7 @@ Actions 应自动运行 python 脚本以生成
 - 猫猫动画的作者是 [TouNeko](https://codepen.io/touneko)
 - 暗黑模式按钮的作者是 [MarvinRudolph](https://codepen.io/MarvinRudolph)
 - 标题样式来源于 [YesIcon](https://yesicon.app/)
-- 我自己！！！🏳️‍🌈
+- 我自己！！！(๑¯ω¯๑)
 
 ---
 

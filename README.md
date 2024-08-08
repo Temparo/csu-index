@@ -40,7 +40,8 @@
 If you are a student of CSU, just open the official site.
 
 If you want to create a navigation for your own school, just fork this project and change the "
-/url-process/origin-urls.md" file, then the python script should be run automatically by GitHub Actions to generate the
+/url-process/origin-urls.json" file, then the python script should be run automatically by GitHub Actions to generate
+the
 ts file.After that, the page will be deployed on GitHub Pages.
 
 ---
@@ -95,7 +96,7 @@ ts file.After that, the page will be deployed on GitHub Pages.
 - The Loading Cat animation is by [TouNeko](https://codepen.io/touneko)
 - The dark mode toggle button is by [MarvinRudolph](https://codepen.io/MarvinRudolph)
 - The title style imitates [YesIcon](https://yesicon.app/)
-- Myself!!!🏳️‍🌈
+- Myself!!!(๑¯ω¯๑)
 
 ---
 
