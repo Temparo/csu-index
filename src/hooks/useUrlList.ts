@@ -300,17 +300,17 @@ export default function () {
   "url": "https://lab.magiconch.com/nbnhhsh/",
   "text": "缩略词复原"
  },
-     {
-      "id": nanoid(),
-      "url": "https://tikz.dev/",
-      "text": "Tikz绘图",
-      "description": "LaTeX绘图工具"
-     },
-     {
-      "id": nanoid(),
-      "url": "https://www.aminer.cn/",
-      "text": "AMiner",
-      "description": "Aminer是一个AI学术搜索引擎，可以搜索学术论文、学者、会议等信息"
+ {
+  "id": nanoid(),
+  "url": "https://tikz.dev/",
+  "text": "Tikz绘图",
+  "description": "LaTeX绘图工具"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://www.aminer.cn/",
+  "text": "AMiner",
+  "description": "Aminer是一个AI学术搜索引擎，可以搜索学术论文、学者、会议等信息"
  }
 ]
     let urlList6: UrlBlock = [
@@ -429,36 +429,37 @@ export default function () {
   "text": "Grammarly",
   "description": "英文拼写检查"
  },
-     {
-      "id": nanoid(),
-      "url": "https://www.vosviewer.com/",
-      "text": "VOSviewer",
-      "description": "多篇文献可视化工具"
-     },
-     {
-      "id": nanoid(),
-      "url": "https://www.bibliometrix.org/home/index.php/layout/biblioshiny",
-      "text": "Biblioshiny",
-      "description": "文献计量分析工具"
-     },
-     {
-      "id": nanoid(),
-      "url": "https://www.connectedpapers.com/",
-      "text": "文献联系",
-      "description": "快速找到关联文献,适合写综述"
-     },
-     {
-      "id": nanoid(),
-      "url": "https://academictree.org/",
-      "text": "Academic Tree",
-      "description": "导师关系网分析"
+ {
+  "id": nanoid(),
+  "url": "https://www.vosviewer.com/",
+  "text": "VOSviewer",
+  "description": "多篇文献可视化工具"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://www.bibliometrix.org/home/index.php/layout/biblioshiny",
+  "text": "Biblioshiny",
+  "description": "文献计量分析工具"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://www.connectedpapers.com/",
+  "text": "文献联系",
+  "description": "快速找到关联文献,适合写综述"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://academictree.org/",
+  "text": "Academic Tree",
+  "description": "导师关系网分析"
  }
 ]
     let urlList8: UrlBlock = [
  {
   "id": nanoid(),
-  "url": "https://www.csu.edu.cn",
-  "text": "海外留学项目"
+  "url": "https://www.zotero.org/",
+  "text": "Zotero",
+  "description": "文献管理工具"
  },
  {
   "id": nanoid(),
@@ -511,11 +512,11 @@ export default function () {
   "url": "https://www.zhiyunwenxian.cn/",
   "text": "知云文献翻译"
  },
-     {
-      "id": nanoid(),
-      "url": "https://www.semanticscholar.org/",
-      "text": "Semantic Scholar",
-      "description": "A free, AI-powered research tool for scientific literature"
+ {
+  "id": nanoid(),
+  "url": "https://www.semanticscholar.org/",
+  "text": "Semantic Scholar",
+  "description": "A free, AI-powered research tool for scientific literature"
  }
 ]
     let urlList9: UrlBlock = [
@@ -524,10 +525,10 @@ export default function () {
   "url": "https://career.csu.edu.cn/",
   "text": "就业指导中心"
  },
-     {
+ {
   "id": nanoid(),
   "url": "https://github.com/FeijiangHan/CSU-Application-Handbook",
-      "text": "留学申请手册"
+  "text": "留学申请手册"
  },
  {
   "id": nanoid(),
