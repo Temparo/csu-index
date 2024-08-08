@@ -73,11 +73,6 @@ export default function () {
  },
  {
   "id": nanoid(),
-  "url": "http://equip.csu.edu.cn/",
-  "text": "仪器共享平台"
- },
- {
-  "id": nanoid(),
   "url": "https://www.csu.edu.cn/index/xsjz.htm",
   "text": "学术讲座"
  },
@@ -110,6 +105,11 @@ export default function () {
  },
  {
   "id": nanoid(),
+  "url": "http://equip.csu.edu.cn/",
+  "text": "仪器共享平台"
+ },
+ {
+  "id": nanoid(),
   "url": "http://bkwsfw.csu.edu.cn/",
   "text": "本科生服务",
   "description": "我不确定是否可用"
@@ -118,6 +118,11 @@ export default function () {
   "id": nanoid(),
   "url": "http://cwpt.csu.edu.cn/caslogin.aspx",
   "text": "财务平台"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://xszz.csu.edu.cn/",
+  "text": "勤助中心"
  }
 ]
     let urlList3: UrlBlock = [
@@ -326,23 +331,18 @@ export default function () {
  },
  {
   "id": nanoid(),
-  "url": "https://www.csu.edu.cn/style/yjssc.pdf",
-  "text": "研究生手册"
- },
- {
-  "id": nanoid(),
   "url": "https://www.csu.edu.cn/style/bkssc2020.pdf",
   "text": "本科生手册"
  },
  {
   "id": nanoid(),
-  "url": "https://nic.csu.edu.cn/bsfw/yhsc.htm",
-  "text": "办事服务手册"
+  "url": "https://www.csu.edu.cn/style/yjssc.pdf",
+  "text": "研究生手册"
  },
  {
   "id": nanoid(),
-  "url": "https://xszz.csu.edu.cn/",
-  "text": "勤助中心"
+  "url": "https://nic.csu.edu.cn/bsfw/yhsc.htm",
+  "text": "办事服务手册"
  },
  {
   "id": nanoid(),
@@ -371,7 +371,7 @@ export default function () {
  {
   "id": nanoid(),
   "url": "https://colleges.chat/universities/zhong-nan-da-xue/",
-  "text": "基础设施条件",
+  "text": "生活质量指南(北)",
   "description": "提供影响大学生活质量的要求与细节"
  },
  {
