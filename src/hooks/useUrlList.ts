@@ -243,10 +243,10 @@ export default function () {
   "text": "Wormhole(无需登录)",
   "description": "文件共享网站"
  },
-     {
-      "id": nanoid(),
-      "url": "https://www.virustotal.com",
-      "text": "在线病毒检测"
+ {
+  "id": nanoid(),
+  "url": "https://www.virustotal.com",
+  "text": "在线病毒检测"
  }
 ]
     let urlList5: UrlBlock = [
@@ -256,57 +256,57 @@ export default function () {
   "text": "智谱清言",
   "description": "目前国内表现最好的AI模型之一"
  },
-     {
-      "id": nanoid(),
-      "url": "https://tongyi.aliyun.com/qianwen/",
-      "text": "通义千问",
-      "description": "还不错的AI模型"
-     },
-     {
-      "id": nanoid(),
-      "url": "https://www.wanzhi.com/",
-      "text": "万知",
-      "description": "目前国内表现最好的AI模型之一"
-     },
-     {
-      "id": nanoid(),
-      "url": "https://lmarena.ai/",
-      "text": "免费AI模型",
-      "description": "这本来是一个是研究性的LLM评估网站，但由于可以访问多个大模型，你也可以用于提问，但注意不要上传隐私信息，使用时点击💬 Direct Chat并选择模型即可聊天"
-     },
-     {
-      "id": nanoid(),
-      "url": "https://bus.hematown.com/list",
-      "text": "免费GPT-4o",
-      "description": ""
-     },
-     {
-      "id": nanoid(),
-      "url": "https://qrbtf.com/zh",
-      "text": "二维码美化",
-      "description": "AI & 参数化二维码生成器"
-     },
-     {
-      "id": nanoid(),
-      "url": "https://www.semanticscholar.org/",
-      "text": "Semantic Scholar",
-      "description": "A free, AI-powered research tool for scientific literature"
-     },
-     {
-      "id": nanoid(),
-      "url": "https://www.aminer.cn/",
-      "text": "AMiner",
-      "description": "Aminer是一个AI学术搜索引擎，可以搜索学术论文、学者、会议等信息"
-     },
-     {
-      "id": nanoid(),
-      "url": "https://openai.com/",
-      "text": "OpenAI",
-      "description": "GPT-4o官方，如果你能用当然最好，用不了其他的也不错，简称“懂的都懂”"
-     }
-    ]
- let urlList6: UrlBlock = [
-  {
+ {
+  "id": nanoid(),
+  "url": "https://tongyi.aliyun.com/qianwen/",
+  "text": "通义千问",
+  "description": "还不错的AI模型"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://www.wanzhi.com/",
+  "text": "万知",
+  "description": "目前国内表现最好的AI模型之一"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://lmarena.ai/",
+  "text": "免费AI模型",
+  "description": "这本来是一个是研究性的LLM评估网站，但由于可以访问多个大模型，你也可以用于提问，但注意不要上传隐私信息，使用时点击💬 Direct Chat并选择模型即可聊天"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://bus.hematown.com/list",
+  "text": "免费GPT-4o",
+  "description": ""
+ },
+ {
+  "id": nanoid(),
+  "url": "https://qrbtf.com/zh",
+  "text": "二维码美化",
+  "description": "AI & 参数化二维码生成器"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://www.semanticscholar.org/",
+  "text": "Semantic Scholar",
+  "description": "A free, AI-powered research tool for scientific literature"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://www.aminer.cn/",
+  "text": "AMiner",
+  "description": "Aminer是一个AI学术搜索引擎，可以搜索学术论文、学者、会议等信息"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://openai.com/",
+  "text": "OpenAI",
+  "description": "GPT-4o官方，如果你能用当然最好，用不了其他的也不错，简称“懂的都懂”"
+ }
+]
+    let urlList6: UrlBlock = [
+ {
   "id": nanoid(),
   "url": "https://award.csu.edu.cn/#/login",
   "text": "奖助学金"
@@ -352,43 +352,43 @@ export default function () {
   "url": "https://www.wolframalpha.com/",
   "text": "WolframAlpha"
  },
-  {
-   "id": nanoid(),
-   "url": "https://quillbot.com/",
-   "text": "QuillBot",
-   "description": "论文降重润色总结,这个工具我没有亲自测试"
-  },
-  {
-   "id": nanoid(),
-   "url": "https://www.grammarly.com/",
-   "text": "Grammarly",
-   "description": "英文拼写检查"
-  },
-  {
-   "id": nanoid(),
-   "url": "https://www.vosviewer.com/",
-   "text": "VOSviewer",
-   "description": "多篇文献可视化工具"
-  },
-  {
-   "id": nanoid(),
-   "url": "https://www.bibliometrix.org/home/index.php/layout/biblioshiny",
-   "text": "Biblioshiny",
-   "description": "文献计量分析工具"
-  },
-  {
-   "id": nanoid(),
-   "url": "https://www.connectedpapers.com/",
-   "text": "文献联系",
-   "description": "快速找到关联文献,适合写综述"
-  },
-  {
-   "id": nanoid(),
-   "url": "https://www.overleaf.com/",
-   "text": "Overleaf",
-   "description": "在线LaTeX编辑器"
-  },
-  {
+ {
+  "id": nanoid(),
+  "url": "https://quillbot.com/",
+  "text": "QuillBot",
+  "description": "论文降重润色总结,这个工具我没有亲自测试"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://www.grammarly.com/",
+  "text": "Grammarly",
+  "description": "英文拼写检查"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://www.vosviewer.com/",
+  "text": "VOSviewer",
+  "description": "多篇文献可视化工具"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://www.bibliometrix.org/home/index.php/layout/biblioshiny",
+  "text": "Biblioshiny",
+  "description": "文献计量分析工具"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://www.connectedpapers.com/",
+  "text": "文献联系",
+  "description": "快速找到关联文献,适合写综述"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://www.overleaf.com/",
+  "text": "Overleaf",
+  "description": "在线LaTeX编辑器"
+ },
+ {
   "id": nanoid(),
   "url": "",
   "text": "课程评价系统",
@@ -405,7 +405,7 @@ export default function () {
   "text": "MyScript"
  }
 ]
- let urlList7: UrlBlock = [
+    let urlList7: UrlBlock = [
  {
   "id": nanoid(),
   "url": "https://www.csu.edu.cn/info/1050/1215.htm",
@@ -455,14 +455,14 @@ export default function () {
   "text": "框框大学",
   "description": "提供由学生的分享专业学习建议的平台"
  },
-  {
-   "id": nanoid(),
-   "url": "https://www.zotero.org/",
-   "text": "Zotero",
-   "description": "文献管理工具"
+ {
+  "id": nanoid(),
+  "url": "https://www.zotero.org/",
+  "text": "Zotero",
+  "description": "文献管理工具"
  }
 ]
- let urlList8: UrlBlock = [
+    let urlList8: UrlBlock = [
  {
   "id": nanoid(),
   "url": "https://www.wakeup.fun/",
@@ -492,11 +492,11 @@ export default function () {
   "text": "GitHub",
   "description": "计算机院的建议多看看Trending，可以找到很多有趣的开源项目"
  },
-  {
-   "id": nanoid(),
-   "url": "https://www.jetbrains.com/",
-   "text": "JetBrains",
-   "description": "开箱即用编程IDE,如PyCharm,IDEA等,部分产品有社区版,专业版学生身份认证后免费"
+ {
+  "id": nanoid(),
+  "url": "https://www.jetbrains.com/",
+  "text": "JetBrains",
+  "description": "开箱即用编程IDE,如PyCharm,IDEA等,部分产品有社区版,专业版学生身份认证后免费"
  },
  {
   "id": nanoid(),
@@ -538,11 +538,11 @@ export default function () {
   "text": "O*NET OnLine",
   "description": " 为英文网站，提供不同职业的入职要求、劳动强度、工作环境、工作内容、薪酬福利、就业趋势等信息（网站数据来源于美国,请结合实际情况分析）"
  },
-     {
-      "id": nanoid(),
-      "url": "https://academictree.org/",
-      "text": "Academic Tree",
-      "description": "导师关系网分析，适合有留学想法的提前确定导师的学术关系"
+ {
+  "id": nanoid(),
+  "url": "https://academictree.org/",
+  "text": "Academic Tree",
+  "description": "导师关系网分析，适合有留学想法的提前确定导师的学术关系"
  }
 ]
 
@@ -551,10 +551,10 @@ export default function () {
         {cardName: "中南其他", urlList: urlList2},
         {cardName: "学术", urlList: urlList3},
         {cardName: "实用工具", urlList: urlList4},
-     {cardName: "AI", urlList: urlList5},
-     {cardName: "是否添加", urlList: urlList6},
-     {cardName: "新生入学", urlList: urlList7},
-     {cardName: "作者自己在用的应用推荐", urlList: urlList8},
+        {cardName: "AI", urlList: urlList5},
+        {cardName: "是否添加", urlList: urlList6},
+        {cardName: "新生入学", urlList: urlList7},
+        {cardName: "作者自己在用的应用推荐", urlList: urlList8},
         {cardName: "未来规划", urlList: urlList9}
     ]
 
