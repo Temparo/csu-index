@@ -11,20 +11,20 @@
   "dependencies": {
     "element-plus": "^2.7.8",
     "nanoid": "^5.0.7",
-    "vue": "^3.4.35",
-    "vue-router": "^4.4.2",
+    "vue": "^3.4.36",
+    "vue-router": "^4.4.3",
     "vue3-moveable": "^0.28.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.1.2",
     "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.40",
+    "postcss": "^8.4.41",
     "sass": "^1.77.8",
-    "tailwindcss": "^3.4.7",
+    "tailwindcss": "^3.4.8",
     "typescript": "^5.5.4",
     "unplugin-auto-import": "^0.18.2",
     "unplugin-vue-components": "^0.27.3",
-    "vite": "^5.3.5",
+    "vite": "^5.4.0",
     "vue-tsc": "^2.0.29"
   }
 }
