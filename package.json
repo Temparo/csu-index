@@ -4,6 +4,7 @@
   "version": "0.0.3",
   "type": "module",
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "dev": "vite --port 80 --host 0.0.0.0",
     "build": "vue-tsc && vite build",
     "preview": "vite preview"
