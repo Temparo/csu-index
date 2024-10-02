@@ -59,10 +59,10 @@ export default function () {
   "text": "校长信箱",
   "description": "有可能获得与辅导员单独交流的机会,请谨慎发言"
  },
-     {
-      "id": nanoid(),
-      "url": "https://ygfw.csu.edu.cn/",
-      "text": "阳光服务大厅"
+ {
+  "id": nanoid(),
+  "url": "https://ygfw.csu.edu.cn/",
+  "text": "阳光服务大厅"
  }
 ]
     let urlList2: UrlBlock = [
@@ -123,11 +123,17 @@ export default function () {
   "url": "https://xszz.csu.edu.cn/",
   "text": "勤助中心"
  },
-     {
-      "id": nanoid(),
-      "url": "",
-      "text": "选课评价系统",
-      "description": "待实现"
+ {
+  "id": nanoid(),
+  "url": "",
+  "text": "选课评价系统",
+  "description": "待实现"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://csu-index.github.io/csu-awesome/",
+  "text": "csu-awesome",
+  "description": "有趣的中南开源项目和学习资料"
  }
 ]
     let urlList3: UrlBlock = [
@@ -147,32 +153,32 @@ export default function () {
   "text": "PubScholar",
   "description": "中科院建设的文献检索平台"
  },
-     {
-      "id": nanoid(),
-      "url": "https://patentool.wanfangdata.com.cn/patent/advancedsearch",
-      "text": "专利工具",
-      "description": "万方专利检索"
-     },
-     {
-      "id": nanoid(),
-      "url": "https://award.csu.edu.cn/#/login",
-      "text": "奖助学金"
-     },
-     {
-      "id": nanoid(),
-      "url": "https://ca.csu.edu.cn/authserver/login?service=http://jgzfpj.csu.edu.cn/sso.aspx",
-      "text": "机关作风评价",
-      "description": "我还没提交过评价，不知道有没有实际效果"
-     },
-     {
-      "id": nanoid(),
-      "url": "https://nic.csu.edu.cn/bsfw/xsfw1.htm",
-      "text": "办事服务"
-     },
-     {
-      "id": nanoid(),
-      "url": "http://hpc.csu.edu.cn/",
-      "text": "高性能计算"
+ {
+  "id": nanoid(),
+  "url": "https://patentool.wanfangdata.com.cn/patent/advancedsearch",
+  "text": "专利工具",
+  "description": "万方专利检索"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://award.csu.edu.cn/#/login",
+  "text": "奖助学金"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://ca.csu.edu.cn/authserver/login?service=http://jgzfpj.csu.edu.cn/sso.aspx",
+  "text": "机关作风评价",
+  "description": "我还没提交过评价，不知道有没有实际效果"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://nic.csu.edu.cn/bsfw/xsfw1.htm",
+  "text": "办事服务"
+ },
+ {
+  "id": nanoid(),
+  "url": "http://hpc.csu.edu.cn/",
+  "text": "高性能计算"
  }
 ]
     let urlList4: UrlBlock = [
@@ -291,8 +297,8 @@ export default function () {
   "text": "Claude",
   "description": "一个与GPT-4o类似的AI模型，目前能力不相上下"
  }
-    ]
- let urlList6: UrlBlock = [
+]
+    let urlList6: UrlBlock = [
  {
   "id": nanoid(),
   "url": "https://www.originlab.com/",
@@ -450,11 +456,11 @@ export default function () {
   "text": "Github Copilot",
   "description": "编程辅助工具，学生身份认证后可免费使用,写代码和代码讲解极其强大,强烈推荐，不过现在也有很多国产替代"
  },
-     {
-      "id": nanoid(),
-      "url": "https://workrave.org/",
-      "text": "Workrave",
-      "description": "用电脑时定时提醒你休息的软件，界面不太现代，但很有用"
+ {
+  "id": nanoid(),
+  "url": "https://workrave.org/",
+  "text": "Workrave",
+  "description": "用电脑时定时提醒你休息的软件，界面不太现代，但很有用"
  }
 ]
     let urlList9: UrlBlock = [
@@ -495,7 +501,7 @@ export default function () {
   "url": "https://cert.csu.edu.cn/student",
   "text": "成绩单打印"
  },
-     {
+ {
   "id": nanoid(),
   "url": "https://academictree.org/",
   "text": "Academic Tree",
@@ -506,12 +512,12 @@ export default function () {
     let fullUrlBlock: Array<FullUrlInfo> = [
         {cardName: "中南教务", urlList: urlList1},
         {cardName: "中南其他", urlList: urlList2},
-     {cardName: "文献搜索", urlList: urlList3},
+        {cardName: "文献搜索", urlList: urlList3},
         {cardName: "实用工具", urlList: urlList4},
         {cardName: "AI", urlList: urlList5},
-     {cardName: "学术工具", urlList: urlList6},
+        {cardName: "学术工具", urlList: urlList6},
         {cardName: "新生入学", urlList: urlList7},
-     {cardName: "作者自己在用的应用", urlList: urlList8},
+        {cardName: "作者自己在用的应用", urlList: urlList8},
         {cardName: "未来规划", urlList: urlList9}
     ]
 
