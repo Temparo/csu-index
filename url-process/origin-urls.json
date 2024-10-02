@@ -44,6 +44,10 @@
       "url": "https://oa.csu.edu.cn/mailbox/?tp=01",
       "text": "校长信箱",
       "description": "有可能获得与辅导员单独交流的机会,请谨慎发言"
+    },
+    {
+      "url": "https://ygfw.csu.edu.cn/",
+      "text": "阳光服务大厅"
     }
   ],
   "中南其他": [
@@ -77,11 +81,6 @@
       "description": "待添加"
     },
     {
-      "url": "https://www.csu.edu.cn/",
-      "text": "本科生选课评价",
-      "description": "待添加"
-    },
-    {
       "url": "http://equip.csu.edu.cn/",
       "text": "仪器共享平台"
     },
@@ -97,53 +96,54 @@
     {
       "url": "https://xszz.csu.edu.cn/",
       "text": "勤助中心"
+    },
+    {
+      "url": "",
+      "text": "选课评价系统",
+      "description": "待实现"
+    },
+    {
+      "url": "https://csu-index.github.io/csu-awesome/",
+      "text": "csu-awesome",
+      "description": "有趣的中南开源项目和学习资料"
     }
+
   ],
-  "学术": [
+  "文献搜索": [
     {
       "url": "https://lib.csu.edu.cn/",
       "text": "中南图书馆"
-    },
-    {
-      "url": "https://www.webofscience.com/",
-      "text": "WOS"
-    },
-    {
-      "url": "https://scholar.google.com/",
-      "text": "Google学术"
-    },
-    {
-      "url": "https://cn.bing.com/academic",
-      "text": "Bing学术"
-    },
-    {
-      "url": "https://xueshu.baidu.com/",
-      "text": "百度学术"
-    },
-    {
-      "url": "https://www.cnki.net/",
-      "text": "知网"
-    },
-    {
-      "url": "https://www.wanfangdata.com.cn/",
-      "text": "万方数据"
-    },
-    {
-      "url": "https://wwwv3.cqvip.com/",
-      "text": "维普网"
     },
     {
       "url": "https://www.ablesci.com/",
       "text": "科研通"
     },
     {
-      "url": "https://www.nsfc.gov.cn/",
-      "text": "NSFC基金委"
-    },
-    {
       "url": "https://pubscholar.cn/",
       "text": "PubScholar",
       "description": "中科院建设的文献检索平台"
+    },
+    {
+      "url": "https://patentool.wanfangdata.com.cn/patent/advancedsearch",
+      "text": "专利工具",
+      "description": "万方专利检索"
+    },
+    {
+      "url": "https://award.csu.edu.cn/#/login",
+      "text": "奖助学金"
+    },
+    {
+      "url": "https://ca.csu.edu.cn/authserver/login?service=http://jgzfpj.csu.edu.cn/sso.aspx",
+      "text": "机关作风评价",
+      "description": "我还没提交过评价，不知道有没有实际效果"
+    },
+    {
+      "url": "https://nic.csu.edu.cn/bsfw/xsfw1.htm",
+      "text": "办事服务"
+    },
+    {
+      "url": "http://hpc.csu.edu.cn/",
+      "text": "高性能计算"
     }
   ],
   "实用工具": [
@@ -153,29 +153,20 @@
       "description": "实用工具箱"
     },
     {
-      "url": "https://www.originlab.com/",
-      "text": "OriginLab",
-      "description": "科研绘图工具"
-    },
-    {
       "url": "https://web.baimiaoapp.com/",
       "text": "图片转文字OCR",
       "description": "白描"
     },
     {
-      "url": "https://convertio.co/zh/",
-      "text": "文件格式转换1"
-    },
-    {
       "url": "https://cdkm.com/cn/",
-      "text": "文件格式转换2"
+      "text": "文件格式转换"
     },
     {
       "url": "https://www.iloveimg.com/zh-cn",
       "text": "在线图片处理"
     },
     {
-      "url": "https://www.ilovepdf.com/zh-cn",
+      "url": "https://smallpdf.com/cn#r=app",
       "text": "在线PDF处理"
     },
     {
@@ -204,17 +195,17 @@
     {
       "url": "https://chatglm.cn/",
       "text": "智谱清言",
-      "description": "目前国内表现最好的AI模型之一"
+      "description": "目前国内表现最好的AI模型之一（清华的）"
     },
     {
       "url": "https://tongyi.aliyun.com/qianwen/",
       "text": "通义千问",
-      "description": "还不错的AI模型"
+      "description": "还不错的AI模型（阿里的）"
     },
     {
       "url": "https://www.wanzhi.com/",
       "text": "万知",
-      "description": "目前国内表现最好的AI模型之一"
+      "description": "目前国内表现最好的AI模型之一（一个独角兽公司的）"
     },
     {
       "url": "https://lmarena.ai/",
@@ -244,42 +235,23 @@
     {
       "url": "https://openai.com/",
       "text": "OpenAI",
-      "description": "GPT-4o官方，如果你能用当然最好，用不了其他的也不错，简称“懂的都懂”"
+      "description": "GPT-4o官方，如果你能用当然最好，用不的话国内平台也不错"
+    },
+    {
+      "url": "https://claude.ai/",
+      "text": "Claude",
+      "description": "一个与GPT-4o类似的AI模型，目前能力不相上下"
     }
   ],
-  "是否添加": [
+  "学术工具": [
     {
-      "url": "https://award.csu.edu.cn/#/login",
-      "text": "奖助学金"
+      "url": "https://www.originlab.com/",
+      "text": "OriginLab",
+      "description": "科研绘图工具"
     },
     {
-      "url": "https://ca.csu.edu.cn/authserver/login?service=http://jgzfpj.csu.edu.cn/sso.aspx",
-      "text": "机关作风评价",
-      "description": "我还没提交过评价，不知道有没有实际效果"
-    },
-    {
-      "url": "https://ca.csu.edu.cn/authserver/login?service=http://jf.csu.edu.cn/xysf/caslogin.aspx",
-      "text": "校园支付平台"
-    },
-    {
-      "url": "https://nic.csu.edu.cn/bsfw/xsfw1.htm",
-      "text": "办事服务"
-    },
-    {
-      "url": "https://ygfw.csu.edu.cn/",
-      "text": "阳光服务大厅"
-    },
-    {
-      "url": "http://hpc.csu.edu.cn/",
-      "text": "高性能计算"
-    },
-    {
-      "url": "https://www.drugfuture.com/cnpat/cn_patent.asp",
-      "text": "专利下载"
-    },
-    {
-      "url": "https://cert.csu.edu.cn/student",
-      "text": "成绩单打印"
+      "url": "https://www.zhiyunwenxian.cn/",
+      "text": "知云文献翻译"
     },
     {
       "url": "https://www.wolframalpha.com/",
@@ -314,11 +286,6 @@
       "url": "https://www.overleaf.com/",
       "text": "Overleaf",
       "description": "在线LaTeX编辑器"
-    },
-    {
-      "url": "",
-      "text": "课程评价系统",
-      "description": "待实现"
     },
     {
       "url": "https://www.x-mol.com/",
@@ -376,7 +343,7 @@
       "description": "文献管理工具"
     }
   ],
-  "作者自己在用的应用推荐": [
+  "作者自己在用的应用": [
     {
       "url": "https://www.wakeup.fun/",
       "text": "WakeUp课程表",
@@ -393,10 +360,6 @@
       "description": "复制即翻译"
     },
     {
-      "url": "https://www.zhiyunwenxian.cn/",
-      "text": "知云文献翻译"
-    },
-    {
       "url": "https://github.com/",
       "text": "GitHub",
       "description": "计算机院的建议多看看Trending，可以找到很多有趣的开源项目"
@@ -410,6 +373,11 @@
       "url": "https://github.com/features/copilot",
       "text": "Github Copilot",
       "description": "编程辅助工具，学生身份认证后可免费使用,写代码和代码讲解极其强大,强烈推荐，不过现在也有很多国产替代"
+    },
+    {
+      "url": "https://workrave.org/",
+      "text": "Workrave",
+      "description": "用电脑时定时提醒你休息的软件，界面不太现代，但很有用"
     }
   ],
   "未来规划": [
@@ -438,6 +406,10 @@
       "url": "https://www.onetonline.org/",
       "text": "O*NET OnLine",
       "description": " 为英文网站，提供不同职业的入职要求、劳动强度、工作环境、工作内容、薪酬福利、就业趋势等信息（网站数据来源于美国,请结合实际情况分析）"
+    },
+    {
+      "url": "https://cert.csu.edu.cn/student",
+      "text": "成绩单打印"
     },
     {
       "url": "https://academictree.org/",

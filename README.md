@@ -68,18 +68,24 @@ ts file.After that, the page will be deployed on GitHub Pages.
    git clone https://github.com/Temparo/csu-index
    ```
 
-6. Download the dependencies
+6. Install pnpm
 
    ```shell
-   npm install
+   npm install -g pnpm
    ```
 
-7. Start the project
+7. Download the dependencies
 
    ```shell
-    npm run dev
+   pnpm install
    ```
-8. Browse to [http://localhost:5173](http://localhost:5173) and start contributing !
+
+8. Start the project
+
+   ```shell
+    pnpm dev
+   ```
+9. Browse to [http://localhost:5173](http://localhost:5173) and start contributing !
 
 > ### Tips:
 > - Contributing is welcome, just fork the project and create a pull request.

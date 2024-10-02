@@ -29,6 +29,11 @@ const routerPc = [
         path: '/404',
         component: () =>
             import('../views/NotFound.vue')
+    },
+    {
+        path: '/csu-awesome',
+        component: () =>
+            import('../views/CSUAwesome.vue')
     }
 ]
 const routerMobile = [
@@ -59,6 +64,11 @@ const routerMobile = [
         path: '/404',
         component: () =>
             import('../views/NotFound.vue')
+    },
+    {
+        path: '/csu-awesome',
+        component: () =>
+            import('../views/CSUAwesome.vue')
     }
 ]
 let routes: any[];
