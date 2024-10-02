@@ -32,15 +32,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Set up Node
-        uses: actions/setup-node@v4
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
         with:
-          node-version: latest
-          cache: 'npm'
-      - name: Install dependencies
-        run: npm ci
+          # Install dependencies
+          run_install: true
       - name: Build
-        run: npm run build
+        run: pnpm run build
       - name: Copy index.html to 404.html
         run: cp dist/index.html dist/404.html
       - name: Setup Pages
