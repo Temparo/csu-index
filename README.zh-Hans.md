@@ -81,7 +81,7 @@ Actions 应自动运行 python 脚本以生成相应 TS 文件。之后，该页
     pnpm dev
    ```
 
-9. 打开 [http://localhost:5173](http://localhost:5173) 并开始工作!
+9. 打开 [http://localhost:80](http://localhost:80) 并开始工作!
 
 > ### 提示：
 > - 欢迎贡献代码，只需 fork 项目并创建 pull request 即可。

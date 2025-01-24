@@ -38,7 +38,6 @@ jobs:
           version: 9
           # Install dependencies
           run_install: true
-
       - name: Build
         run: pnpm run build
       - name: Copy index.html to 404.html

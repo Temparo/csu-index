@@ -85,7 +85,7 @@ ts file.After that, the page will be deployed on GitHub Pages.
    ```shell
     pnpm dev
    ```
-9. Browse to [http://localhost:5173](http://localhost:5173) and start contributing !
+9. Browse to [http://localhost:80](http://localhost:80) and start contributing !
 
 > ### Tips:
 > - Contributing is welcome, just fork the project and create a pull request.
