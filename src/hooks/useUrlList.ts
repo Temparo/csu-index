@@ -132,7 +132,7 @@ export default function () {
  {
   "id": nanoid(),
   "url": "https://csu-index.github.io/csu-awesome/",
-  "text": "csu-awesome",
+  "text": "CSU-Awesome",
   "description": "有趣的中南开源项目和学习资料"
  }
 ]
