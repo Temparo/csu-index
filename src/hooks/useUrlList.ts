@@ -88,7 +88,7 @@ export default function () {
  },
  {
   "id": nanoid(),
-  "url": "https://www.csu.edu.cn/info/1050/8091.htm",
+  "url": "https://www.csu.edu.cn/info/1050/9234.htm",
   "text": "校历"
  },
  {
@@ -245,9 +245,9 @@ export default function () {
  },
  {
   "id": nanoid(),
-  "url": "https://tongyi.aliyun.com/qianwen/",
-  "text": "通义千问",
-  "description": "还不错的AI模型（阿里的）"
+  "url": "https://www.deepseek.com/",
+  "text": "deepseek!",
+  "description": "一鸣惊人！"
  },
  {
   "id": nanoid(),
@@ -258,8 +258,8 @@ export default function () {
  {
   "id": nanoid(),
   "url": "https://lmarena.ai/",
-  "text": "免费AI模型",
-  "description": "这本来是一个是研究性的LLM评估网站，但由于可以访问多个大模型，你也可以用于提问，但注意不要上传隐私信息，使用时点击💬 Direct Chat并选择模型即可聊天"
+  "text": "AI竞技场",
+  "description": "这本来是一个是研究性的LLM评估网站，可以了解哪些模型性能比较好，但由于可以访问多个大模型，你也可以用于提问，但注意不要上传隐私信息，使用时点击💬 Direct Chat并选择模型即可聊天"
  },
  {
   "id": nanoid(),
@@ -436,13 +436,13 @@ export default function () {
   "id": nanoid(),
   "url": "https://copytranslator.github.io/",
   "text": "CopyTranslator",
-  "description": "复制即翻译"
+  "description": "复制翻译"
  },
  {
   "id": nanoid(),
   "url": "https://github.com/",
   "text": "GitHub",
-  "description": "计算机院的建议多看看Trending，可以找到很多有趣的开源项目"
+  "description": "计算机院的建议多看看Trending，可以找到很多热门的有趣的项目"
  },
  {
   "id": nanoid(),
@@ -461,6 +461,24 @@ export default function () {
   "url": "https://workrave.org/",
   "text": "Workrave",
   "description": "用电脑时定时提醒你休息的软件，界面不太现代，但很有用"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://store.steampowered.com/app/1931770/",
+  "text": "巴别塔圣歌（游戏）",
+  "description": "只要你想动脑子，那么超级推荐"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://www.notion.so/",
+  "text": "Notion",
+  "description": "个人知识管理工具"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://www.msdmanuals.cn/home",
+  "text": "默沙东诊疗手册",
+  "description": "除了去医院外可以尝试查询医学知识的一个地方，很棒的手册"
  }
 ]
     let urlList9: UrlBlock = [
