@@ -2,7 +2,7 @@
 export default {
     content: [
         "./index.html",
-        "./src/**/*.{vue,js,ts,jsx,tsx}",
+        "./src/**/*.{html,vue,js,ts,jsx,tsx}",
     ],
     theme: {
         fontFamily: {'sans': ['Inter', 'PingFang SC', 'Avenir', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],},
