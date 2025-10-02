@@ -9,7 +9,7 @@ const routerPc = [
     {
         path: '/index',
         component: () =>
-            import('../views/pc/index.vue'),
+            import('../views/index.vue'),
     },
     {
         path: '/about',
@@ -44,7 +44,7 @@ const routerMobile = [
     {
         path: '/index',
         component: () =>
-            import('../views/mobile/index.vue')
+            import('../views/index.vue')
     },
     {
         path: '/about',

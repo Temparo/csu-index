@@ -1,18 +1,20 @@
 <script lang="ts" setup>
-import useUrlList from "../../hooks/useUrlList";
+import {onBeforeMount, onMounted, ref} from "vue";
+import useUrlList from "../hooks/useUrlList";
 import {nanoid} from "nanoid";
-import {toggleDark} from "../../hooks/useDarkMode.ts";
-import dynamicLoadJs from "../../hooks/useScriptDetection.ts";
-import {onMounted} from "vue";
+import {toggleDark} from "../hooks/useDarkMode.ts";
+import dynamicLoadJs from "../hooks/useScriptDetection.ts";
 import {useRouter} from "vue-router";
-import DarkModeToggle from "../../components/darkModeToggle.vue";
-import {device} from "../../router";
+import DarkModeToggle from "../components/darkModeToggle.vue";
+import {device} from "../router";
 import {ElNotification} from "element-plus";
 import 'element-plus/es/components/notification/style/css'
-import moveableTitle from "../../components/moveableTitle.vue";
+import moveableTitle from "../components/moveableTitle.vue";
+import {isDark} from "../hooks/useDarkMode.ts";
 
 const {fullUrlBlock} = useUrlList()
 const router = useRouter()
+const size = ref(18)
 
 let appPadding: string
 if (device === "pc") {
@@ -24,11 +26,21 @@ if (device === "pc") {
 const prompt = () => {
   ElNotification({
     title: "Oops,我被拦住了！＠_＠",
-    message: "如果看到这条提示，说明您的浏览器开启了广告拦截，烦请您将本网站加入白名单，以便我们统计各个链接的点击情况，把更常用的置于前面，我们承诺不会关联您的任何个人信息",
+    message: device === "mobile"
+      ? "如果看到这条提示，说明您的浏览器开启了广告拦截，烦请您将本网站加入白名单，以便我们统计各个链接的点击情况，把更常用的置于前面，我们承诺不会关联您的任何个人信息,谢谢！"
+      : "如果看到这条提示，说明您的浏览器开启了广告拦截，烦请您将本网站加入白名单，以便我们统计各个链接的点击情况，把更常用的置于前面，我们承诺不会关联您的任何个人信息",
     type: 'warning',
-    position: 'top-right',
+    position: device === "pc" ? 'top-right' : undefined,
+    zIndex: device === "mobile" ? 3000 : undefined
   })
 }
+
+onBeforeMount(() => {
+  if (device === "mobile") {
+    isDark.value = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  }
+})
+
 onMounted(() => {
   const timerId = setTimeout(() => {
     prompt()
@@ -37,21 +49,21 @@ onMounted(() => {
     clearTimeout(timerId)
   })
 })
-
 </script>
 
 <template>
   <el-container class="container">
     <el-header>
-      <div class="headline text-4xl">
+      <div :class="['headline', device === 'pc' ? 'text-4xl' : 'text-3xl']">
         <span
             class="cursor-text hover:ring-2 hover:ring-fuchsia-500 focus:ring-2 focus:ring-fuchsia-500 outline-0 bg-fuchsia-200/60 dark:bg-fuchsia-50/20 before:content-['<'] after:content-['/>'] after:ml-2">
-          <a contenteditable="true" class="outline-0" href="https://csu-index.github.io/" target="_self">CSU</a>
+          <a :contenteditable="device === 'pc'" class="outline-0" href="https://csu-index.github.io/" target="_self">CSU</a>
         </span>
-        <a class="inline-block p-1 relative z-10" href="https://csu-index.github.io/" target="_self">&nbsp;-&nbsp;</a>
+        <a :class="device === 'pc' ? 'inline-block p-1 relative z-10' : ''" href="https://csu-index.github.io/" target="_self">&nbsp;-&nbsp;</a>
         <moveableTitle/>
       </div>
-      <div>
+
+      <div v-if="device === 'pc'">
         <div class="right-items">
           <el-button class="fancy-button"
                      data-umami-event="visit github (only from pc)"
@@ -71,21 +83,16 @@ onMounted(() => {
         </div>
       </div>
     </el-header>
-    <el-main>
 
-      <el-row :gutter="16" align="middle" justify="space-evenly">
-        <el-col v-for="{cardName,urlList} in fullUrlBlock " :lg="8" :md="12" :sm="12" :v-if="fullUrlBlock" :xl="8"
+    <el-main>
+      <!-- PC端布局 -->
+      <el-row v-if="device === 'pc'" :gutter="16" align="middle" justify="space-evenly">
+        <el-col v-for="{cardName,urlList} in fullUrlBlock " :lg="8" :md="12" :sm="12" :xl="8"
                 :xs="24"
                 class="card-col">
           <el-card :key="nanoid()" class="box-card" style="min-width: 21.3em;max-width: 38rem">
-
-
             <p slot="header" class="text-xl font-sans">{{ cardName }}</p>
-            <!--                                <template #header>-->
-            <!--                                  <div class="card-header text-2xl font-sans">-->
-            <!--                                    <span>{{ cardName }}</span>-->
-            <!--                                  </div>-->
-            <!--                                </template>-->
+
             <el-popover
                 v-for="url in urlList"
                 :content="url.description"
@@ -120,20 +127,64 @@ onMounted(() => {
           </el-card>
         </el-col>
       </el-row>
+
+      <!-- 移动端布局 -->
+      <el-space
+          v-if="device === 'mobile'"
+          :size="size"
+          alignment="stretch"
+          wrap
+      >
+        <el-card v-for="{cardName,urlList} in fullUrlBlock "
+                 :key="nanoid()" class="box-card"
+                 style="max-width: 21rem">
+          <p slot="header" class="text-xl font-sans ">{{ cardName }}</p>
+
+          <el-button
+              v-for="url in urlList"
+              :key="url.id"
+              :href="url.url"
+              plain
+              size="large"
+              style="margin: 5px 5px;
+              padding: 5px;width: 90px"
+              tag="a"
+              target="_blank"
+              text
+              data-umami-event="url click"
+              data-umami-event-device="mobile"
+              :data-umami-event-card="cardName"
+              :data-umami-event-url="url.text"
+          >
+            {{ url.text }}
+          </el-button>
+        </el-card>
+      </el-space>
     </el-main>
+
     <el-footer>
       <div class="grid-content bg-purple-dark"></div>
-      <p>Created by ZhuZhu.All rights reserved.</p>
+      <p>Created by ZhuZhu{{ device === 'mobile' ? ' mobile' : '' }}.All rights reserved.</p>
     </el-footer>
   </el-container>
 </template>
 
 <style lang="scss" scoped>
+.container {
+  padding: v-bind(appPadding);
+  text-align: center;
+  margin: 0 auto;
+}
 
 .el-card {
   border-radius: 4px;
-  --el-card-padding: 1rem 0.5rem;
   margin-bottom: 16px;
+
+  --el-card-padding: 15px;
+
+  .el-main & {
+    --el-card-padding: 1rem 0.5rem;
+  }
 }
 
 .grid-content {
@@ -141,16 +192,9 @@ onMounted(() => {
   min-height: 36px;
 }
 
-.container {
-  margin: 0 auto;
-  padding: v-bind(appPadding);
-  text-align: center;
-}
-
 .button {
   font-size: 16px;
 }
-
 
 .fancy-button {
   color: #fff;
@@ -168,7 +212,11 @@ onMounted(() => {
 }
 
 .el-main {
-  padding: 1rem 0.5rem;
+  padding: 0;
+
+  &:not(.mobile) {
+    padding: 1rem 0.5rem;
+  }
 }
 
 .el-header {
@@ -200,6 +248,10 @@ onMounted(() => {
 
 .headline {
   display: block;
+}
 
+.el-space {
+  align-items: center;
+  justify-content: center;
 }
 </style>
