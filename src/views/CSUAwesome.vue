@@ -21,7 +21,7 @@ const goBack = () => {
   <el-container class="container">
     <el-main>
       <el-row :gutter="20">
-        <el-col v-for="(url, index) in urls" :key="index" :span="8">
+        <el-col v-for="(url, index) in urls" :key="index" :xs="24" :sm="12" :md="8">
           <el-card class="url-card" shadow="hover">
             <h3>{{ url.text }}</h3>
             <p v-if="url.description">{{ url.description }}</p>
@@ -45,23 +45,30 @@ const goBack = () => {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 180px; /* Slightly reduce the height of the cards */
+  min-height: 160px; /* Set minimum height instead of fixed height */
 }
 
 .url-card h3 {
-  font-size: 24px; /* Increase the font size of the title */
-  margin-bottom: 10px;
+  font-size: 18px; /* Adjust title size for better responsiveness */
+  margin-bottom: 8px;
+  line-height: 1.3;
+  word-wrap: break-word;
 }
 
 .url-card p {
   font-size: 14px;
   color: #666;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
+  line-height: 1.4;
+  flex-grow: 1; /* Allow description to take available space */
+  word-wrap: break-word;
 }
 
 .url-card .el-link {
   font-size: 14px;
   color: #409eff;
   margin-top: auto; /* Push the link to the bottom */
+  word-wrap: break-word;
+  display: block;
 }
 </style>

@@ -87,10 +87,10 @@ onMounted(() => {
     <el-main>
       <!-- PC端布局 -->
       <el-row v-if="device === 'pc'" :gutter="16" align="middle" justify="space-evenly">
-        <el-col v-for="{cardName,urlList} in fullUrlBlock " :lg="8" :md="12" :sm="12" :xl="8"
+        <el-col v-for="{cardName,urlList} in fullUrlBlock " :lg="8" :md="12" :sm="24" :xl="8"
                 :xs="24"
                 class="card-col">
-          <el-card :key="nanoid()" class="box-card" style="min-width: 21.3em;max-width: 38rem">
+          <el-card :key="nanoid()" class="box-card" style="width: 100%; max-width: 38rem">
             <p slot="header" class="text-xl font-sans">{{ cardName }}</p>
 
             <el-popover
@@ -137,7 +137,7 @@ onMounted(() => {
       >
         <el-card v-for="{cardName,urlList} in fullUrlBlock "
                  :key="nanoid()" class="box-card"
-                 style="max-width: 21rem">
+                 style="width: 100%; max-width: 21rem; margin: 0 auto">
           <p slot="header" class="text-xl font-sans ">{{ cardName }}</p>
 
           <el-button
@@ -213,6 +213,7 @@ onMounted(() => {
 
 .el-main {
   padding: 0;
+  margin-top: 1rem;
 
   &:not(.mobile) {
     padding: 1rem 0.5rem;
@@ -251,7 +252,8 @@ onMounted(() => {
 }
 
 .el-space {
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+  width: 100%;
 }
 </style>
