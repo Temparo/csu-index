@@ -185,9 +185,21 @@ export default function () {
  },
  {
   "id": nanoid(),
+  "url": "https://simpletex.cn/",
+  "text": "SimpleTex",
+  "description": "很精准的公式/文档图片识别，支持在线识别和客户端"
+ },
+ {
+  "id": nanoid(),
   "url": "https://web.baimiaoapp.com/",
   "text": "图片转文字OCR",
   "description": "白描"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://localsend.org/",
+  "text": "局域网文件传输",
+  "description": "界面好看，开源免费，无需登录，跨平台，无敌！（需连接同一网络，可以是热点）"
  },
  {
   "id": nanoid(),
@@ -211,11 +223,6 @@ export default function () {
  },
  {
   "id": nanoid(),
-  "url": "https://snapdrop.net",
-  "text": "局域网文件传输"
- },
- {
-  "id": nanoid(),
   "url": "https://www.wenshushu.cn/",
   "text": "文叔叔"
  },
@@ -234,63 +241,69 @@ export default function () {
     let urlList5: UrlBlock = [
  {
   "id": nanoid(),
-  "url": "https://chatglm.cn/",
-  "text": "智谱清言",
-  "description": "目前国内表现最好的AI模型之一（清华的）"
+  "url": "https://qwen.ai",
+  "text": "千问",
+  "description": "阿里的通义千问，新模型评价蛮高，我只用过API，APP没用过"
  },
  {
   "id": nanoid(),
-  "url": "https://www.deepseek.com/",
-  "text": "deepseek!",
-  "description": "一鸣惊人！"
- },
- {
-  "id": nanoid(),
-  "url": "https://www.wanzhi.com/",
-  "text": "万知",
-  "description": "目前国内表现最好的AI模型之一（一个独角兽公司的）"
- },
- {
-  "id": nanoid(),
-  "url": "https://lmarena.ai/",
-  "text": "AI竞技场",
-  "description": "这本来是一个是研究性的LLM评估网站，可以了解哪些模型性能比较好，但由于可以访问多个大模型，你也可以用于提问，但注意不要上传隐私信息，使用时点击💬 Direct Chat并选择模型即可聊天"
- },
- {
-  "id": nanoid(),
-  "url": "https://bus.hematown.com/list",
-  "text": "免费GPT-4o",
-  "description": ""
- },
- {
-  "id": nanoid(),
-  "url": "https://qrbtf.com/zh",
-  "text": "二维码美化",
-  "description": "AI & 参数化二维码生成器"
- },
- {
-  "id": nanoid(),
-  "url": "https://www.semanticscholar.org/",
-  "text": "Semantic Scholar",
-  "description": "A free, AI-powered research tool for scientific literature"
- },
- {
-  "id": nanoid(),
-  "url": "https://www.aminer.cn/",
-  "text": "AMiner",
-  "description": "Aminer是一个AI学术搜索引擎，可以搜索学术论文、学者、会议等信息"
+  "url": "https://www.kimi.com/",
+  "text": "KIMI",
+  "description": "宣传是真的多，旧模型不如DS，新模型K2……我用得不多，但其他模型解决不了的他也解决不了"
  },
  {
   "id": nanoid(),
   "url": "https://openai.com/",
   "text": "OpenAI",
-  "description": "GPT-4o官方，如果你能用当然最好，用不的话国内平台也不错"
+  "description": "聪明，好用，有免费额度，比较全能，需要魔法，只要你能用无脑选"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://www.deepseek.com/",
+  "text": "Deepseek",
+  "description": "全面性可能不如OpenAI或者Gemini，但是思考问题全面不偷懒，可以提偏学术的问题，一定要开深度思考关联网"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://gemini.google.com",
+  "text": "Gemini",
+  "description": "谷歌旗下的，有免费额度，比较强，需要魔法，可以和ChatGPT换着用"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://grok.com/",
+  "text": "Grok",
+  "description": "马斯克的，也很强，需要魔法，换着用嘛"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://lmarena.ai/",
+  "text": "LM竞技场",
+  "description": "本来是一个LLM评估网站，无需登录，可以了解哪些模型性能比较好，但由于可以访问多个大模型，也可以用于提问，可以碰运气测试到最新的模型"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://qrbtf.com/zh",
+  "text": "二维码美化",
+  "description": "AI & 参数化二维码生成器，很适合做海报，但可能使二维码难以识别，需要测试后再使用"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://www.aminer.cn/",
+  "text": "AMiner",
+  "description": "不知道没用过别问我（Aminer是一个AI学术搜索引擎，可以搜索学术论文、学者、会议等信息）"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://openrouter.ai",
+  "text": "OpenRouter",
+  "description": "API供应商，可以调用多个大模型，主要用于开发，Grok 4免费给我用爽了"
  },
  {
   "id": nanoid(),
   "url": "https://claude.ai/",
   "text": "Claude",
-  "description": "一个与GPT-4o类似的AI模型，目前能力不相上下"
+  "description": "断供、贵、封号、不稳定，但写代码确实强"
  }
 ]
     let urlList6: UrlBlock = [
@@ -417,39 +430,45 @@ export default function () {
     let urlList8: UrlBlock = [
  {
   "id": nanoid(),
-  "url": "https://www.wakeup.fun/",
-  "text": "WakeUp课程表",
-  "description": "免费无广告的课表软件"
- },
- {
-  "id": nanoid(),
   "url": "https://apps.apple.com/cn/app/%E6%9E%81%E7%AE%80%E8%AF%BE%E8%A1%A8-watch%E8%AF%BE%E7%A8%8B%E8%A1%A8/id1581272719",
   "text": "极简课表ios",
   "description": "只有苹果手机可用，但是很好用"
  },
  {
   "id": nanoid(),
-  "url": "https://copytranslator.github.io/",
-  "text": "CopyTranslator",
-  "description": "复制翻译"
+  "url": "https://sj.qq.com/appdetail/com.ke.jijian",
+  "text": "极简课表安卓",
+  "description": "由于我没有安卓手机，所以没有测试过，这个是应用宝版本，手机的应用商店也可以搜到"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://github.com/marktext/marktext",
+  "text": "MarkText",
+  "description": "markdown编辑器，只要你写markdown，就是神！优雅美观免费，可以专注于写作，Typora的免费替代"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://joplinapp.org/",
+  "text": "Joplin",
+  "description": "笔记软件，支持markdown，支持多端同步，还不错，可与MarkText结合使用"
  },
  {
   "id": nanoid(),
   "url": "https://github.com/",
   "text": "GitHub",
-  "description": "计算机院的建议多看看Trending，可以找到很多热门的有趣的项目"
+  "description": "全球最大代码网站"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://cursor.com/",
+  "text": "Cursor",
+  "description": "非常适合小白的代码助手，免费一般，付费很强，现在有很多平替，如Trae（不要用国内版），Windsurf，GitHub Copilot，Codex，Claude Code，Kiro"
  },
  {
   "id": nanoid(),
   "url": "https://www.jetbrains.com/",
   "text": "JetBrains",
-  "description": "开箱即用编程IDE,如PyCharm,IDEA等,部分产品有社区版,专业版学生身份认证后免费"
- },
- {
-  "id": nanoid(),
-  "url": "https://github.com/features/copilot",
-  "text": "Github Copilot",
-  "description": "编程辅助工具，学生身份认证后可免费使用,写代码和代码讲解极其强大,强烈推荐，不过现在也有很多国产替代"
+  "description": "开箱即用编程IDE,专业版学生身份认证免费，本身不错，AI不好用，建议结合Github Copilot，但结合后其实也没Cursor好用"
  },
  {
   "id": nanoid(),
@@ -461,7 +480,7 @@ export default function () {
   "id": nanoid(),
   "url": "https://store.steampowered.com/app/1931770/",
   "text": "巴别塔圣歌（游戏）",
-  "description": "只要你想动脑子，那么超级推荐"
+  "description": "文字冒险游戏，很浪漫，超级推荐"
  },
  {
   "id": nanoid(),
@@ -473,7 +492,13 @@ export default function () {
   "id": nanoid(),
   "url": "https://www.msdmanuals.cn/home",
   "text": "默沙东诊疗手册",
-  "description": "除了去医院外可以尝试查询医学知识的一个地方，很棒的手册"
+  "description": "可以尝试查询医学知识的一个地方，医学生外仅供参考！最好咨询医生"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://www.wakeup.fun/",
+  "text": "WakeUp课程表",
+  "description": "免费无广告的课表软件（曾经），现被作业帮收购，不确定未来，故不再推荐"
  }
 ]
     let urlList9: UrlBlock = [
