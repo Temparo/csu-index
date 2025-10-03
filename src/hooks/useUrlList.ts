@@ -15,11 +15,6 @@ export default function () {
  },
  {
   "id": nanoid(),
-  "url": "https://portal.csu.edu.cn/",
-  "text": "上网认证"
- },
- {
-  "id": nanoid(),
   "url": "https://54sh.csu.edu.cn/tntz/tntz.htm",
   "text": "升华网通知"
  },
@@ -63,6 +58,11 @@ export default function () {
   "id": nanoid(),
   "url": "https://ygfw.csu.edu.cn/",
   "text": "阳光服务大厅"
+ },
+ {
+  "id": nanoid(),
+  "url": "https://www.csu.edu.cn/info/1050/9903.htm",
+  "text": "校历"
  }
 ]
     let urlList2: UrlBlock = [
@@ -85,11 +85,6 @@ export default function () {
   "id": nanoid(),
   "url": "https://www.csu.edu.cn/info/1050/5129.htm",
   "text": "常用电话"
- },
- {
-  "id": nanoid(),
-  "url": "https://www.csu.edu.cn/info/1050/9234.htm",
-  "text": "校历"
  },
  {
   "id": nanoid(),

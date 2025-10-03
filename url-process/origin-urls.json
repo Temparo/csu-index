@@ -9,10 +9,6 @@
       "text": "教学可视化"
     },
     {
-      "url": "https://portal.csu.edu.cn/",
-      "text": "上网认证"
-    },
-    {
       "url": "https://54sh.csu.edu.cn/tntz/tntz.htm",
       "text": "升华网通知"
     },
@@ -48,6 +44,10 @@
     {
       "url": "https://ygfw.csu.edu.cn/",
       "text": "阳光服务大厅"
+    },
+    {
+      "url": "https://www.csu.edu.cn/info/1050/9903.htm",
+      "text": "校历"
     }
   ],
   "中南其他": [
@@ -67,10 +67,7 @@
       "url": "https://www.csu.edu.cn/info/1050/5129.htm",
       "text": "常用电话"
     },
-    {
-      "url": "https://www.csu.edu.cn/info/1050/9234.htm",
-      "text": "校历"
-    },
+
     {
       "url": "https://pan.csu.edu.cn/#/",
       "text": "中南云盘"
@@ -107,7 +104,6 @@
       "text": "CSU-Awesome",
       "description": "有趣的中南开源项目和学习资料"
     }
-
   ],
   "文献搜索": [
     {
